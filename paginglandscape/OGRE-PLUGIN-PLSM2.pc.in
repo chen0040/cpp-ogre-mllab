@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+plugindir=@OGRE_PLUGINDIR@
+
+Name: OGRE-PLUGIN-PLSM2
+Description: Ogre Paging LandScape Scene Manager
+Version: @VERSION@
+Libs: -rpath ${plugindir} ${plugindir}/Plugin_PagingLandScape2.so
+Cflags: -I${includedir}/@PACKAGE@ @OGRE_CFLAGS@

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<sound_engine>
+<sound name="laser_pulse" src="..\audio\lasercannon-8.wav" />
+<sound name="explosion" src="..\audio\cannon2-8.wav" />
+<sound name="replycmd" src="..\audio\wv3youcommand.wav" />
+<music name="themeMusic" src="..\audio\song2.mp3" />
+<sound name="msgbox" src="..\audio\notify.wav" />
+<sound name="chimes" src="..\audio\chimes.wav" />
+</sound_engine>

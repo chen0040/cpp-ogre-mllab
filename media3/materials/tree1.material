@@ -1,0 +1,38 @@
+material Jetstream/t1_1
+{
+	technique
+	{
+		pass
+		{
+			
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture t1_1.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/t1_2
+{
+	technique
+	{
+		pass
+		{
+			
+			scene_blend alpha_blend
+			alpha_rejection greater 127 
+
+			texture_unit
+			{
+				texture t1_2.dds
+			}
+		}
+
+	}
+
+}

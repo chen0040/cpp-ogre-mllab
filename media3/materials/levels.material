@@ -1,0 +1,437 @@
+material Jetstream/Level1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture level1tex.dds		
+			}
+			
+			texture_unit
+			{
+				scale 0.05 0.05
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level2
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture level2tex.dds				
+			}
+			
+			texture_unit
+			{
+				scale 0.05 0.05
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level3
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture level3tex.dds				
+			}
+			
+			texture_unit
+			{
+				scale 0.05 0.05
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level4
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture level4tex.dds				
+			}
+			
+			texture_unit
+			{
+				scale 0.05 0.05
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level5
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture level5tex.dds				
+			}
+			
+			texture_unit
+			{
+				scale 0.05 0.05
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level6
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture level6tex.dds			
+			}
+			
+			texture_unit
+			{
+				scale 0.05 0.05
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level7
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture level7tex.dds			
+			}
+			
+			texture_unit
+			{
+				scale 0.05 0.05
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level8
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture level8tex.dds		
+			}
+			
+			texture_unit
+			{
+				scale 0.05 0.05
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level9
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture level9tex.dds		
+			}
+			
+			texture_unit
+			{
+				scale 0.05 0.05
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level10
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture level10tex.dds		
+			}
+			
+			texture_unit
+			{
+				scale 0.05 0.05
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level11
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture level11tex.dds		
+			}
+			
+			texture_unit
+			{
+				scale 0.05 0.05
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level12
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture level12tex.dds		
+			}
+			
+			texture_unit
+			{
+				scale 0.05 0.05
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level13
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture level13tex.dds		
+			}
+			
+			texture_unit
+			{
+				scale 0.05 0.05
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level14
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture level14tex.dds		
+			}
+			
+			texture_unit
+			{
+				scale 0.05 0.05
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level15
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture level15tex.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level16
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture level16tex.dds		
+			}
+			
+			texture_unit
+			{
+				scale 0.05 0.05
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level17
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture level17tex.dds		
+			}
+			
+			texture_unit
+			{
+				scale 0.1 0.1
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level18
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture level18tex.dds		
+			}
+			
+			texture_unit
+			{
+				scale 0.1 0.1
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level19
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture level19tex.dds		
+			}
+			
+			texture_unit
+			{
+				scale 0.1 0.1
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/Level20
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture level20tex.dds		
+			}
+			
+			texture_unit
+			{
+				scale 0.1 0.1
+				texture terrain_detail.dds		
+			}
+		}
+	}
+}
+
+material Jetstream/SpaceLevel
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			texture_unit
+			{
+				texture stars1.dds
+				scroll_anim 0 0.010
+				scale 1 1
+			}
+		}
+		
+		pass
+		{
+			scene_blend add
+			lighting off
+			texture_unit
+			{
+				texture stars2.dds
+				scroll_anim 0 0.025
+				scale 1 1
+			}
+		}
+	}
+}

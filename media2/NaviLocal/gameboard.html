@@ -1,0 +1,42 @@
+<html>
+<head>
+<script type="text/javascript" src="Navi.js"></script>
+<!--
+<script type="text/javascript">
+	window.addEvent('domready', function(){
+		var myData = new NaviData('InvokeAgent');
+		myData.add({command: "Load Score"});
+		myData.send();
+	});
+	window.addEvent('domready', function(){
+	
+		$('btnCloseBrowser').addEvent('click', function(){
+			var myData=new NaviData('InvokeAgent');
+			myData.add({command: "Close Browser"});
+			myData.send();
+		});
+	});
+	window.addEvent("domready", function(){
+		
+		$('btnUploadScore').addEvent('click', function(){
+			var myData=new NaviData('InvokeAgent');
+			myData.add({command: "Upload Score"});
+			myData.send();
+		});
+	});
+</script>
+-->
+</head>
+
+<body style="color:#00FF00; background-color: #000000;" >
+	<form id="frmScoreBoard" method="post" action=""/>
+	<div id="divScoreBoard" name="divScoreBoard"></div>
+	<!--<input id="hiddenScoreBoard" name="hiddenScoreBoard" type="hidden" />-->
+	<hr />
+	<!--<input type="submit" id="btnUploadScore" name="btnUploadScore" value="Upload Score" />-->
+	<!--<input type="button" id="btnRefresh" name="btnRefresh" value="Refresh" onclick="javascript:location.reload(true); " />-->
+	<!--<input type="button" id="btnCloseBrowser" name="btnCloseBrowser" value="Close Browser" />-->
+	<!--<hr />-->
+	</form>
+</body>
+</html>

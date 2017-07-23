@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package name="ml">
+<file type="java" src="..\ML\src\ml\lang\BinaryDataPoint.java" name="ml\lang\BinaryDataPoint.java" config="false" />
+<file type="java" src="..\ML\src\ml\lang\BinaryFeatureVector.java" name="ml\lang\BinaryFeatureVector.java" config="false" />
+<file type="java" src="..\ML\src\ml\lang\DataPoint.java" name="ml\lang\DataPoint.java" config="false" />
+<file type="java" src="..\ML\src\ml\lang\DiscreteRecord.java" name="ml\lang\DiscreteRecord.java" config="false" />
+<file type="java" src="..\ML\src\ml\lang\FeatureVector.java" name="ml\lang\FeatureVector.java" config="false" />
+<file type="java" src="..\ML\src\ml\lang\NotImplementedException.java" name="ml\lang\NotImplementedException.java" config="false" />
+<file type="java" src="..\ML\src\ml\lang\RandGen.java" name="ml\lang\RandGen.java" config="false" />
+<file type="java" src="..\ML\src\ml\lang\Record.java" name="ml\lang\Record.java" config="false" />
+<file type="java" src="..\ML\src\ml\lang\SampleSet.java" name="ml\lang\SampleSet.java" config="false" />
+</package>

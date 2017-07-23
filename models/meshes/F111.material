@@ -1,0 +1,562 @@
+
+material F111crcl_OgreMax
+{
+	technique Map#29
+	{
+		pass Map#30
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.27 0.27 0.27 1 40
+
+			texture_unit Map#31
+			{
+				texture_alias Map#31
+				texture F111cir.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material F111rUH_OgreMax
+{
+	technique Map#20
+	{
+		pass Map#21
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+
+			texture_unit Map#22
+			{
+				texture_alias Map#22
+				texture F111rUH1.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material F111star_OgreMax
+{
+	technique Map#23
+	{
+		pass Map#24
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+
+			texture_unit Map#25
+			{
+				texture_alias Map#25
+				texture F111str.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material F111bird_OgreMax
+{
+	technique Map#26
+	{
+		pass Map#27
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+
+			texture_unit Map#28
+			{
+				texture_alias Map#28
+				texture F111bird.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material F111top_OgreMax
+{
+	technique Map#32
+	{
+		pass Map#33
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.225 0.225 0.225 1 35
+
+			texture_unit Map#34
+			{
+				texture_alias Map#34
+				texture F111top.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material F111piz_OgreMax
+{
+	technique Map#35
+	{
+		pass Map#36
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.27 0.27 0.27 1 40
+
+			texture_unit Map#37
+			{
+				texture_alias Map#37
+				texture F111piz.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material F111tail_OgreMax
+{
+	technique Map#41
+	{
+		pass Map#42
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.225 0.225 0.225 1 35
+
+			texture_unit Map#43
+			{
+				texture_alias Map#43
+				texture F111tail.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material F111slic_OgreMax
+{
+	technique Map#53
+	{
+		pass Map#54
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.45 0.45 0.45 1 11
+		}
+
+	}
+
+}
+
+
+
+material F111down_OgreMax
+{
+	technique Map#58
+	{
+		pass Map#59
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.225 0.225 0.225 1 35
+
+			texture_unit Map#60
+			{
+				texture_alias Map#60
+				texture F111down.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material F111red_OgreMax
+{
+	technique Map#44
+	{
+		pass Map#45
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.564706 0.258824 0.258824 1
+			specular 0.225 0.225 0.225 1 35
+		}
+
+	}
+
+}
+
+
+
+material F111iron_OgreMax
+{
+	technique Map#38
+	{
+		pass Map#39
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.784314 0.784314 0.784314 1
+			specular 0.45 0.45 0.45 1 11
+
+			texture_unit Map#40
+			{
+				texture_alias Map#40
+				texture F111iron.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material F111blck_OgreMax
+{
+	technique Map#46
+	{
+		pass Map#47
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.231373 0.231373 0.231373 1
+			specular 0.45 0.45 0.45 1 50
+		}
+
+	}
+
+}
+
+
+
+material F111gbmp_OgreMax
+{
+	technique Map#48
+	{
+		pass Map#49
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.784314 0.784314 0.784314 1
+			specular 0.45 0.45 0.45 1 11
+
+			texture_unit Map#50
+			{
+				texture_alias Map#50
+				texture F111iron.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material F111gear_OgreMax
+{
+	technique Map#51
+	{
+		pass Map#52
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.368627 0.368627 0.368627 1
+			specular 0.27 0.27 0.27 1 0
+		}
+
+	}
+
+}
+
+
+
+material F111/078_OgreMax
+{
+	technique Map#55
+	{
+		pass Map#56
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+
+			texture_unit Map#57
+			{
+				texture_alias Map#57
+				texture F111door.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material F111pnl1_OgreMax
+{
+	technique Map#3
+	{
+		pass Map#4
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.27 0.27 0.27 1 40
+
+			texture_unit Map#5
+			{
+				texture_alias Map#5
+				texture F111pnl1.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material F111lthr_OgreMax
+{
+	technique Map#9
+	{
+		pass Map#10
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.603922 0.0980392 0 1
+			specular 0.333 0.333 0.333 1 3
+
+			texture_unit Map#11
+			{
+				texture_alias Map#11
+				texture F111seat.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material F111pnl2_OgreMax
+{
+	technique Map#6
+	{
+		pass Map#7
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.27 0.27 0.27 1 40
+
+			texture_unit Map#8
+			{
+				texture_alias Map#8
+				texture F111pnl2.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material F111burn_OgreMax
+{
+	technique Map#0
+	{
+		pass Map#1
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.27 0.27 0.27 1 40
+
+			texture_unit Map#2
+			{
+				texture_alias Map#2
+				texture F111burn.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material F111lUH_OgreMax
+{
+	technique Map#17
+	{
+		pass Map#18
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.203922 0.203922 0.203922 1
+
+			texture_unit Map#19
+			{
+				texture_alias Map#19
+				texture F111lUH1.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material F111deth_OgreMax
+{
+	technique Map#14
+	{
+		pass Map#15
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+
+			texture_unit Map#16
+			{
+				texture_alias Map#16
+				texture F111deth.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material F111grey_OgreMax
+{
+	technique Map#12
+	{
+		pass Map#13
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.239216 0.305882 0.313726 1
+			specular 0.405 0.405 0.405 1 17
+		}
+
+	}
+
+}
+
+
+
+material F111fram_OgreMax
+{
+	technique Map#65
+	{
+		pass Map#66
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.380392 0.72549 0.67451 1
+			specular 0.225 0.225 0.225 1 20
+		}
+
+	}
+
+}
+
+
+
+material F111dark_OgreMax
+{
+	technique Map#61
+	{
+		pass Map#62
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.113725 0.207843 0.196078 1
+			specular 0.225 0.225 0.225 1 35
+		}
+
+	}
+
+}
+
+
+
+material F111glss_OgreMax
+{
+	technique Map#63
+	{
+		pass Map#64
+		{
+			ambient 0 0 0 1
+			diffuse 0.0509804 0.196078 0.00392157 1
+			specular 1 1 1 1 100
+		}
+
+	}
+
+}
+
+
+
+material F111cnpy_OgreMax
+{
+	technique Map#67
+	{
+		pass Map#68
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.27 0.27 0.27 1 40
+
+			texture_unit Map#69
+			{
+				texture_alias Map#69
+				texture F111dark.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+

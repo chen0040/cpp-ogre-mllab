@@ -1,0 +1,77 @@
+
+=== Paging landscape2 Map-editor readme file ===
+
+
+1) What is this project?
+------------------------
+Plain and simple: a fully featured map/terrain-editor for the marvellous paging landscape2 plugin.
+
+While the project is still in an early stage of development the current features on the TODO-list (tm) are:
+
+	- Real-time terrain deformation via different brush-sizes and brush-strengths (already implemented)
+	- A modular GUI.  Meaning: I tried to keep the GUI as flexible and independent as possible.  Adding new functionality to the editor should be very easy.  Different people can work on different parts of the map-editor independently and they can "plug" their "module" into the main-GUI later when they are finished. (already implemented)
+	- Real-time texture-painting in the terrain via different brush-sizes and brush-formats 
+	- Placing objects and items on the terrain via a drag-and-drop interface
+	- A fog editor (partially implemented)
+	- A water editor
+	- A skyplane/skybox/skydome editor
+	- Exporting the terrain as a .mesh object for easy importing in another Ogre application
+	- Loading/saving maps
+	- Undo/redo functionality
+	- Dynamically add new pages to an existing terrain (so final terrain size doesn't need to be known from the beginning) (Should already work, though I don't have a GUI for it though)
+	- ...
+
+Any other suggestions are welcome.
+
+
+2) How do I install it?
+-----------------------
+
+I made sure that if you use Visual Studio 7.1 the plugin should compile out-of-the-box.  Though, we know things can come in mysterious ways, so if you encounter problems please don't hesitate to post a message on the Ogre-forums.
+
+- Unzip the files into the "$OGRE_DIR$\ogrenew\samples" directory.  Don't mess with the directory structure.
+- Open the .sln file
+- Do a complete batch build of the solution (the executables will be placed in "$OGRE_DIR$\ogrenew\samples\common\bin\Debug" and "$OGRE_DIR$\ogrenew\samples\common\bin\Release" directories.) 
+
+Compiling the project in other versions of Visual Studio shouldn't give much troubles if you managed to compile the Ogre project.  
+
+Linux and Mac users: sorry but you are on your own :/  I don't have a Mac- or Linux-machine at my disposal so I can't help you...
+
+3)  How do I use it?
+--------------------
+
+I think the GUI is fairly intuitive but here are the main-functionalities, anyway:
+- Use the arrow-keys or WASD -keys to move the camera around
+- Holding CTRL will enhance the movement speed of the camera by 30units, holding the spacebar will enhance it by 300units.  Holding them both is also possible.
+- Pressing ESC (or pressing the "Q" button on top of the screen) will close the editor
+- Pressing "T" will render the world in wireframe
+- Dragging the mouse while holding the right mouse-button will move the camera around
+
+- To deform the terrain select an option in the drop-down menu in the "Morph"-tab.  Only "Raise" and "Lower" work at the moment.  You can set your brush-size and brush-strength by changing the appropriate scrollbars.  Press and hold the left mouse-button while moving the mouse to deform the terrain.
+- To stop deforming the terrain just select something other then "Raise" or "Lower" in the drop-down menu.  There is a little bug: the "cursor-circle" doesn't dissapear...
+- To use the fog-editor press the Fog-editor button (a new window will open).  You can choose which type of fog you want by selecting it in the drop-down menu.  Change fog-color by changing the three scrollbars.  Check the "Enable fog" checkbox and press ok.
+
+WARNING: there is a major crash-bug:  trying to re-open the fog-editor will crash the map-editor (this is an issue with CEGUI I have to look into.  Perhaps anyone knows a solution?) 
+
+
+4) Known bugs?
+--------------
+
+This is a alpha 0.1 version, so you should expect a lot of them. Also, a lot of funcionality isn't implemented yet...
+
+These are the major-bugs though I know off: 
+- Trying to re-open the fog-editor will crash the application
+- When stopping terrain-deformation the "cursor-circle" will not dissapear
+- Texture-tab and Item-tab are empty
+- the "N" and "L" buttons on top of the screen don't do anything.
+
+5) Can I aid you in adding features?
+------------------------------------
+
+Sure, that's why I decided to release the sourcecode.  I tried to keep the GUI as flexible as possible so adding new functionality to it shouldn't be too difficult if you know how to work with CEGUI.
+If you want to help, be sure to drop by at the Ogre-forums and let us know which features you want to implement (so no two people will work on the same things)
+
+The faster the editor is finished the better it is for everyone, so every help is more then welcome and, of course, much appreciated!
+
+Thanks for listening!
+

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<node value="nil" attribute="outlook" isLeave="false" record_count="14">
+<node value="Sunny" attribute="humidity" isLeave="false" record_count="5">
+<node value="smaller than 80" attribute="" isLeave="false" record_count="2">
+<node value="Play" attribute="class" isLeave="true" record_count="2">
+</node>
+</node>
+<node value="greater than or equal to 80" attribute="" isLeave="false" record_count="3">
+<node value="Dont" attribute="class" isLeave="true" record_count="3">
+</node>
+</node>
+</node>
+<node value="Rain" attribute="windy" isLeave="false" record_count="5">
+<node value="true" attribute="" isLeave="false" record_count="2">
+<node value="Dont" attribute="class" isLeave="true" record_count="2">
+</node>
+</node>
+<node value="false" attribute="" isLeave="false" record_count="3">
+<node value="Play" attribute="class" isLeave="true" record_count="3">
+</node>
+</node>
+</node>
+<node value="Overcast" attribute="" isLeave="false" record_count="4">
+<node value="Play" attribute="class" isLeave="true" record_count="4">
+</node>
+</node>
+</node>

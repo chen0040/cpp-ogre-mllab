@@ -1,0 +1,102 @@
+
+material Jetstream/b1_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture Material.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b1_2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture Materi01.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b1_3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture Materi02.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b1_4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture Materi03.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b1_5
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture Corrogat.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b1_6
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture Metal_Pa.dds
+			}
+		}
+
+	}
+
+}

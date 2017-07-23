@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<method name="C45">
+
+	<class name="java">
+		<file type="java" src="..\ML\src\decisiontree\c45\DecisionTree.java" name="decisiontree\c45\DecisionTree.java" config="false" />
+		<file type="java" src="..\ML\src\decisiontree\c45\DecisionTreeNode.java" name="decisiontree\c45\DecisionTreeNode.java" config="false" />
+		<file type="java" src="..\ML\src\decisiontree\c45\application\Console.java" name="decisiontree\c45\application\Console.java" config="false" />
+	</class>
+	
+	<class name="lua">
+		<file type="lua" src="..\ML\lua\decisiontree\C45\DecisionTree.lua" name="DecisionTree.lua" config="false" />
+		<file type="lua" src="..\ML\lua\decisiontree\C45\Bot.lua" name="Bot.lua" config="false" />
+		<file type="lua" src="..\ML\lua\decisiontree\C45\config.xml" name="config.xml" config="false" />
+		<!--<file type="lua" src="..\ML\lua\decisiontree\C45\Saved.xml" name="Saved.xml" config="false" />-->
+		<file type="lua" src="..\ML\lua\decisiontree\C45\About.txt" name="About.txt" config="false" />
+		<file type="lua" src="..\ML\lua\decisiontree\C45\lua5.1.exe" name="lua5.1.exe" config="false" />
+		<file type="lua" src="..\ML\lua\decisiontree\C45\lua5.1.dll" name="lua5.1.dll" config="false" />
+		<file type="lua" src="..\ML\lua\decisiontree\C45\msvcr80.dll" name="msvcr80.dll" config="false" />
+		<file type="lua" src="..\ML\lua\decisiontree\C45\Microsoft.VC80.CRT.manifest" name="Microsoft.VC80.CRT.manifest" config="false" />
+		<file type="lua" src="..\ML\lua\decisiontree\C45\example.lua" name="example.lua" config="false" />
+		<file type="lua" src="..\ML\lua\decisiontree\C45\UnitTest.bat" name="UnitTest.bat" config="false" />
+		<file type="lua" src="..\ML\lua\decisiontree\C45\Attribute.lua" name="Attribute.lua" config="false" />
+		<file type="lua" src="..\ML\lua\decisiontree\C45\Record.lua" name="Record.lua" config="false" />
+		<file type="lua" src="..\ML\lua\decisiontree\C45\TreeNode.lua" name="TreeNode.lua" config="false" />
+	</class>
+	
+	<packages>
+		<package name="ml" />
+		<package name="imagex" />
+	</packages>
+	
+</method>

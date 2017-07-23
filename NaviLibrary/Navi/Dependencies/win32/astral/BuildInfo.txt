@@ -1,0 +1,12 @@
+Astral build: May 27th, 2008
+
+Steps taken to create SDK
+- Build Astral in Debug & Release
+- In SDK directory, create 3 folders: include, lib, and runtime
+- Copy Astral.h and BrowserWindow.h from Astral\Astral\include to include folder
+- Copy Astral.lib, Astral_d.lib, and astral_d.pdb from Astral\Astral\lib to lib folder
+- In runtime directory, create 2 folders: debug and release
+- Copy everything from Astral\xulrunner-1.8-win32\runtime_debug to the debug folder
+- Copy everything from Astral\xulrunner-1.8-win32\runtime_release to the release folder
+- For both the debug and release folders, create a new folder called "GeckoRuntime" within each
+- Then, again for each, move the following folders into the GeckoRuntime folder: chrome, components, greprefs, plugins, res

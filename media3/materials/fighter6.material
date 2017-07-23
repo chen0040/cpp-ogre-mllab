@@ -1,0 +1,43 @@
+material fighter61
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture fighter6.dds
+			}
+		}
+	}
+}
+
+material fighter61-Blue
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture fighter6-blue.dds
+			}
+		}
+	}
+}
+
+material fighter61-night
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.0 1.0 0.0
+
+			texture_unit
+			{
+				texture fighter6-night.dds
+			}
+		}
+	}
+}

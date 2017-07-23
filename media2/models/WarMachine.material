@@ -1,0 +1,90 @@
+
+material 76338dc8.dds
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.97 0.97 0.97 29 0
+
+			texture_unit
+			{
+				texture 76338dc8.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 19-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0.279 0.279 0.279 20 0
+
+			texture_unit
+			{
+				texture 0d26b395.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material edca02a3.dds
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.1 0.1 0.1 10 0
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture edca02a3.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ef94e072.dds
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.1 0.1 0.1 10 0
+
+			texture_unit
+			{
+				texture eacf232b.dds
+			}
+		}
+
+	}
+
+}
+
+

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PagedGeometryLib", "PagedGeometryLib.vcproj", "{81B75BE3-29D7-40F4-B96D-035BC637B316}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81B75BE3-29D7-40F4-B96D-035BC637B316}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81B75BE3-29D7-40F4-B96D-035BC637B316}.Debug|Win32.Build.0 = Debug|Win32
+		{81B75BE3-29D7-40F4-B96D-035BC637B316}.Release|Win32.ActiveCfg = Release|Win32
+		{81B75BE3-29D7-40F4-B96D-035BC637B316}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

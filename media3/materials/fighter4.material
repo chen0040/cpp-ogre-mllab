@@ -1,0 +1,46 @@
+
+material NavyInterceptorGlow_Glass
+{
+	technique
+	{
+		pass
+		{
+			specular 1 1 1 6
+
+			texture_unit
+			{
+				texture NavyInterceptor_Paint.dds
+			}
+		}
+	}
+}
+material NavyInterceptor_Glass
+{
+	technique
+	{
+		pass
+		{
+			specular 1 1 1 6
+	
+			texture_unit
+			{
+				texture NavyInterceptor_Paint.dds
+			}
+		}
+	}
+}
+material NavyInterceptor_Paint
+{
+	technique
+	{
+		pass
+		{
+			specular 1 1 1 6
+
+			texture_unit
+			{
+				texture NavyInterceptor_Paint.dds
+			}
+		}
+	}
+}

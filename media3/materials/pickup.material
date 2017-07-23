@@ -1,0 +1,14 @@
+material Jetstream/Pickup
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture toyotatexture.dds
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package name="imagex">
+<file type="java" src="..\ML\src\imagex\ImageX.java" name="imagex\ImageX.java" config="false" />
+<file type="java" src="..\ML\src\imagex\PixelFactory.java" name="imagex\PixelFactory.java" config="false" />
+<file type="java" src="..\ML\src\imagex\PixelRGB.java" name="imagex\PixelRGB.java" config="false" />
+<file type="java" src="..\ML\src\imagex\PixelRGBL.java" name="imagex\PixelRGBL.java" config="false" />
+<file type="java" src="..\ML\src\imagex\PixelRGBLXY.java" name="imagex\PixelRGBLXY.java" config="false" />
+<file type="java" src="..\ML\src\imagex\PixelRGBXY.java" name="imagex\PixelRGBXY.java" config="false" />
+<file type="java" src="..\ML\src\imagex\PixelType.java" name="imagex\PixelType.java" config="false" />
+</package>

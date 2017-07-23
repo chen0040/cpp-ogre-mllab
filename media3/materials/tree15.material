@@ -1,0 +1,35 @@
+
+material Jetstrem/t15_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture t15_1.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/t15_2
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 127
+
+			texture_unit
+			{
+				texture t15_2.dds
+			}
+		}
+
+	}
+
+}

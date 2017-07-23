@@ -1,0 +1,4935 @@
+# depslib dependency file v1.0
+1113553772 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\drgnurbssurface.cpp
+	"DRGNURBSSurface.h"
+	<stdlib.h>
+	<math.h>
+	<string.h>
+
+1113553770 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\drgnurbssurface.h
+
+1113553772 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapecamera.cpp
+	"OgreCamera.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeSceneManager.h"
+
+1119878502 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrecamera.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgreMatrix4.h"
+	"OgreVector3.h"
+	"OgrePlane.h"
+	"OgreQuaternion.h"
+	"OgreCommon.h"
+	"OgreFrustum.h"
+	"OgreRay.h"
+
+1122485942 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreprerequisites.h
+	"OgrePlatform.h"
+	"OgreStdHeaders.h"
+	"OgreMemoryManager.h"
+
+1119714944 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreplatform.h
+	"OgreConfig.h"
+	"config.h"
+	<SDL/SDL_main.h>
+
+1123946166 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreconfig.h
+	"config.h"
+
+1118277370 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrestdheaders.h
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<cstring>
+	<cstdarg>
+	<cmath>
+	<vector>
+	<map>
+	<string>
+	<set>
+	<list>
+	<deque>
+	<queue>
+	<ext/hash_map>
+	<ext/hash_set>
+	<hash_set>
+	<hash_map>
+	<algorithm>
+	<functional>
+	<limits>
+	<fstream>
+	<iostream>
+	<iomanip>
+	<sstream>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<dlfcn.h>
+	<unistd.h>
+	<sys/param.h>
+	<CoreFoundation/CoreFoundation.h>
+	<boost/thread/recursive_mutex.hpp>
+
+1113168350 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrememorymanager.h
+	"OgrePlatform.h"
+	"OgreStdHeaders.h"
+	"OgreMemoryMacros.h"
+
+1110927058 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrememorymacros.h
+
+1119714944 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrestring.h
+	"OgrePrerequisites.h"
+	<ext/hash_map>
+
+1123946166 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogremovableobject.h
+	"OgrePrerequisites.h"
+	"OgreRenderQueue.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreShadowCaster.h"
+	"OgreFactoryObj.h"
+	"OgreAnimable.h"
+	"OgreAny.h"
+	"OgreUserDefinedObject.h"
+
+1107539312 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerenderqueue.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+
+1107539292 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreiteratorwrappers.h
+	"OgrePrerequisites.h"
+
+1107539274 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreaxisalignedbox.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreMatrix4.h"
+
+1123535072 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrevector3.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+	"OgreQuaternion.h"
+
+1107539304 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogremath.h
+	"OgrePrerequisites.h"
+
+1123535070 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrequaternion.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+
+1120254134 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrematrix4.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreMatrix3.h"
+	"OgreVector4.h"
+	"OgrePlane.h"
+
+1107539304 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrematrix3.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1107539342 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrevector4.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1107539310 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreplane.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1107539330 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogresphere.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1123535072 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreshadowcaster.h
+	"OgrePrerequisites.h"
+	"OgreRenderable.h"
+
+1114808888 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerenderable.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreRenderOperation.h"
+	"OgreMatrix4.h"
+	"OgreMaterial.h"
+	"OgrePlane.h"
+	"OgreGpuProgram.h"
+	"OgreVector4.h"
+	"OgreException.h"
+
+1115757018 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrecommon.h
+	<utility>
+
+1118055916 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerenderoperation.h
+	"OgrePrerequisites.h"
+	"OgreVertexIndexData.h"
+
+1120254134 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrevertexindexdata.h
+	"OgrePrerequisites.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwareIndexBuffer.h"
+
+1118270938 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrehardwarevertexbuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+	"OgreColourValue.h"
+
+1107539278 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrehardwarebuffer.h
+	"OgrePrerequisites.h"
+
+1118055916 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogresharedptr.h
+	"OgrePrerequisites.h"
+
+1123686948 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrecolourvalue.h
+	"OgrePrerequisites.h"
+
+1107539280 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrehardwareindexbuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+
+1123535060 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrematerial.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreIteratorWrappers.h"
+	"OgreCommon.h"
+	"OgreColourValue.h"
+	"OgreBlendMode.h"
+
+1107539312 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreresource.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+	"OgreStringInterface.h"
+
+1119201602 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrestringinterface.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreCommon.h"
+
+1123098838 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreblendmode.h
+	"OgrePrerequisites.h"
+	"OgreColourValue.h"
+
+1123708522 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogregpuprogram.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreSharedPtr.h"
+	"OgreIteratorWrappers.h"
+
+1116699710 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreexception.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+
+1107539278 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrefactoryobj.h
+	"OgrePrerequisites.h"
+
+1117578032 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreanimable.h
+	"OgrePrerequisites.h"
+	"OgreVector2.h"
+	"OgreVector3.h"
+	"OgreVector4.h"
+	"OgreQuaternion.h"
+	"OgreColourValue.h"
+	"OgreSharedPtr.h"
+	"OgreStringVector.h"
+	"OgreException.h"
+	"OgreAny.h"
+
+1123535072 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrevector2.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+
+1107539340 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrestringvector.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+
+1122811668 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreany.h
+	"OgrePrerequisites.h"
+	"OgreException.h"
+	"OgreString.h"
+	<algorithm>
+	<typeinfo>
+
+1120254134 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreuserdefinedobject.h
+	"OgrePrerequisites.h"
+
+1120345158 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrefrustum.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreAxisAlignedBox.h"
+	"OgreVertexIndexData.h"
+	"OgreMovablePlane.h"
+
+1116111760 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogremovableplane.h
+	"OgrePrerequisites.h"
+	"OgrePlane.h"
+	"OgreMovableObject.h"
+
+1107539310 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreray.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgrePlaneBoundedVolume.h"
+
+1107539310 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreplaneboundedvolume.h
+	"OgrePrerequisites.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreMath.h"
+	"OgrePlane.h"
+
+1113553770 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapecamera.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctreeCamera.h"
+
+1118925974 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapeprerequisites.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBufferManager.h"
+	"OgreTextureManager.h"
+	"OgreHardwarePixelBuffer.h"
+	<vector>
+	<map>
+	<queue>
+	<list>
+
+1118055916 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrehardwarebuffermanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwareIndexBuffer.h"
+
+1107539330 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogresingleton.h
+	"OgrePrerequisites.h"
+
+1107539342 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogretexturemanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreTexture.h"
+	"OgreSingleton.h"
+
+1112018718 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreresourcemanager.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreResourceGroupManager.h"
+	"OgreIteratorWrappers.h"
+	"OgreCommon.h"
+	"OgreDataStream.h"
+	"OgreStringVector.h"
+	"OgreScriptLoader.h"
+
+1123535070 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreresourcegroupmanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreCommon.h"
+	"OgreDataStream.h"
+	"OgreResource.h"
+	"OgreArchive.h"
+
+1107539276 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogredatastream.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+	<istream>
+
+1107539272 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrearchive.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreDataStream.h"
+	"OgreSharedPtr.h"
+	"OgreStringVector.h"
+
+1107602528 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrescriptloader.h
+	"OgrePrerequisites.h"
+	"OgreDataStream.h"
+	"OgreStringVector.h"
+
+1123801808 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogretexture.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreResource.h"
+	"OgreImage.h"
+
+1113168350 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreimage.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgrePixelFormat.h"
+	"OgreDataStream.h"
+
+1119714944 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrepixelformat.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+
+1122247186 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrehardwarepixelbuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+	"OgrePixelFormat.h"
+	"OgreImage.h"
+
+1113553772 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapeoctreecamera.h
+	<OgreCamera.h>
+	<OgreHardwareBufferManager.h>
+	<OgreSimpleRenderable.h>
+
+1116111760 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogresimplerenderable.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreAxisAlignedBox.h"
+	"OgreMaterial.h"
+
+1120925118 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapeoptions.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreStringVector.h"
+	"OgreConfigFile.h"
+
+1111862666 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreconfigfile.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreStringVector.h"
+	"OgreIteratorWrappers.h"
+	"OgreDataStream.h"
+
+1120925118 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapescenemanager.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctreeSceneManager.h"
+	"OgreStringVector.h"
+	"OgreSingleton.h"
+
+1113553772 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapeoctreescenemanager.h
+	"OgreSceneManager.h"
+	"OgreRenderOperation.h"
+	"OgreSphere.h"
+	<list>
+	<algorithm>
+	"OgrePagingLandScapeOctree.h"
+
+1124874430 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrescenemanager.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSceneNode.h"
+	"OgrePlane.h"
+	"OgreQuaternion.h"
+	"OgreColourValue.h"
+	"OgreCommon.h"
+	"OgreRenderQueue.h"
+	"OgreAnimationState.h"
+	"OgreSceneQuery.h"
+	"OgreAutoParamDataSource.h"
+	"OgreAnimationState.h"
+	"OgreRenderQueue.h"
+	"OgreRenderQueueSortingGrouping.h"
+	"OgreRectangle2D.h"
+
+1107539328 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrescenenode.h
+	"OgrePrerequisites.h"
+	"OgreNode.h"
+	"OgreIteratorWrappers.h"
+	"OgreAxisAlignedBox.h"
+
+1107539306 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrenode.h
+	"OgrePrerequisites.h"
+	"OgreMatrix3.h"
+	"OgreMatrix4.h"
+	"OgreQuaternion.h"
+	"OgreString.h"
+	"OgreRenderable.h"
+	"OgreIteratorWrappers.h"
+
+1119049500 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreanimationstate.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreController.h"
+	"OgreIteratorWrappers.h"
+
+1107539276 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrecontroller.h
+	"OgrePrerequisites.h"
+	"OgreSharedPtr.h"
+
+1123535072 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrescenequery.h
+	"OgrePrerequisites.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreRay.h"
+	"OgreRenderOperation.h"
+	"OgrePlaneBoundedVolume.h"
+
+1117282188 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreautoparamdatasource.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreMatrix4.h"
+	"OgreVector4.h"
+	"OgreLight.h"
+	"OgreColourValue.h"
+
+1120345158 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrelight.h
+	"OgrePrerequisites.h"
+	"OgreColourValue.h"
+	"OgreVector3.h"
+	"OgreVector4.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgrePlaneBoundedVolume.h"
+
+1118055916 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerenderqueuesortinggrouping.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+	"OgreMaterial.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgreMaterialManager.h"
+	"OgreRadixSort.h"
+
+1117282188 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogretechnique.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+	"OgreBlendMode.h"
+	"OgreCommon.h"
+	"OgrePass.h"
+
+1123099020 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrepass.h
+	"OgrePrerequisites.h"
+	"OgreGpuProgram.h"
+	"OgreColourValue.h"
+	"OgreBlendMode.h"
+	"OgreCommon.h"
+	"OgreLight.h"
+
+1107539304 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrematerialmanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreResourceManager.h"
+	"OgreMaterial.h"
+	"OgreStringVector.h"
+	"OgreMaterialSerializer.h"
+
+1118614814 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrematerialserializer.h
+	"OgrePrerequisites.h"
+	"OgreMaterial.h"
+	"OgreBlendMode.h"
+	"OgreTextureUnitState.h"
+	"OgreGpuProgram.h"
+	"OgreStringVector.h"
+
+1123099176 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogretextureunitstate.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreBlendMode.h"
+	"OgreMatrix4.h"
+	"OgreIteratorWrappers.h"
+	"OgreString.h"
+	"OgreTexture.h"
+
+1115587812 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreradixsort.h
+	"OgrePrerequisites.h"
+
+1107539312 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerectangle2d.h
+	"OgrePrerequisites.h"
+	"OgreSimpleRenderable.h"
+
+1113553772 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapeoctree.h
+	<OgreAxisAlignedBox.h>
+	<OgreWireBoundingBox.h>
+	<list>
+
+1107539342 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrewireboundingbox.h
+	"OgrePrerequisites.h"
+	"OgreSimpleRenderable.h"
+
+1120925118 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapedata2d.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreSphere.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgreAxisAlignedBox.h"
+	"OgreMovableObject.h"
+	"OgreSimpleRenderable.h"
+	"OgrePagingLandScapePageManager.h"
+	"OgrePagingLandScapeTile.h"
+	"OgrePagingLandScapeRenderable.h"
+
+1120925118 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapedata2dmanager.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgreSingleton.h"
+
+1114619836 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapedata2d.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1118925974 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapepagemanager.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreFrameListener.h"
+	"OgrePagingLandScapeQueue.h"
+	"OgrePagingLandScapePage.h"
+
+1107539278 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreframelistener.h
+	"OgrePrerequisites.h"
+
+1102845136 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapequeue.h
+	<queue>
+	<list>
+
+1120925118 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapepage.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1118925974 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetile.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeTileInfo.h"
+
+1107720698 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetileinfo.h
+
+1121642874 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscaperenderable.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1120925120 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapedata2dmanager.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgreCamera.h"
+	"OgreSimpleRenderable.h"
+	"OgreException.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeData2D_HeightField.h"
+	"OgrePagingLandScapeData2D_HeightFieldTC.h"
+	"OgrePagingLandScapeData2D_HeightFieldN.h"
+	"OgrePagingLandScapeData2D_HeightFieldNTC.h"
+	"OgrePagingLandScapeData2D_HeightFieldRaw.h"
+	"OgrePagingLandScapeData2D_HeightFieldRawTC.h"
+	"OgrePagingLandScapeData2D_Spline.h"
+	"OgrePagingLandScapeData2D_HeightFieldBlendNeighbor.h"
+	"OgrePagingLandScapeRenderable.h"
+	"OgrePagingLandScapeTile.h"
+	"OgrePagingLandScapeTileInfo.h"
+	"OgrePagingLandScapePage.h"
+	"OgrePagingLandScapePageManager.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapedata2d_heightfield.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapedata2d_heightfieldtc.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapedata2d_heightfieldn.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapedata2d_heightfieldntc.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapedata2d_heightfieldraw.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapedata2d_heightfieldrawtc.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapedata2d_spline.h
+	"OgrePagingLandScapePrerequisites.h"
+	"DRGNURBSSurface.h"
+
+1121156990 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapedata2d_heightfieldblendneighbor.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1114619840 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapedata2d_heightfield.cpp
+	"OgreLogManager.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreImage.h"
+	"OgreImageCodec.h"
+	"OgreArchiveManager.h"
+	"OgreStringConverter.h"
+	"OgreException.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D_HeightField.h"
+	"fileutils.h"
+
+1107606828 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrelogmanager.h
+	"OgrePrerequisites.h"
+	"OgreLog.h"
+	"OgreSingleton.h"
+	"OgreString.h"
+
+1107606828 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrelog.h
+	"OgrePrerequisites.h"
+
+1118055916 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreimagecodec.h
+	"OgreCodec.h"
+	"OgrePixelFormat.h"
+
+1118055916 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrecodec.h
+	"OgrePrerequisites.h"
+	"OgreSharedPtr.h"
+	"OgreDataStream.h"
+
+1107539274 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrearchivemanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+
+1113168352 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrestringconverter.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+	"OgreString.h"
+	"OgreStringVector.h"
+
+1110632878 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\fileutils.h
+
+1121156990 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapedata2d_heightfieldblendneighbor.cpp
+	"OgreLogManager.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreImage.h"
+	"OgreStringConverter.h"
+	"OgreResourceManager.h"
+	"OgreException.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeData2D_HeightFieldBlendNeighbor.h"
+	"fileutils.h"
+
+1114619840 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapedata2d_heightfieldn.cpp
+	"OgreLogManager.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreImage.h"
+	"OgreImageCodec.h"
+	"OgreArchiveManager.h"
+	"OgreStringConverter.h"
+	"OgreException.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D_HeightFieldN.h"
+	"fileutils.h"
+
+1114619840 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapedata2d_heightfieldntc.cpp
+	"OgreLogManager.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreImage.h"
+	"OgreStringConverter.h"
+	"OgreException.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeData2D_HeightFieldNTC.h"
+	"fileutils.h"
+
+1115028228 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapedata2d_heightfieldraw.cpp
+	"OgreLogManager.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreImage.h"
+	"OgreStringConverter.h"
+	"OgreResourceManager.h"
+	"OgreException.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeData2D_HeightFieldRaw.h"
+	"fileutils.h"
+
+1115028228 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapedata2d_heightfieldrawtc.cpp
+	"OgreLogManager.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreImage.h"
+	"OgreStringConverter.h"
+	"OgreResourceManager.h"
+	"OgreException.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeData2D_HeightFieldRawTC.h"
+	"fileutils.h"
+
+1114619840 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapedata2d_heightfieldtc.cpp
+	"OgreLogManager.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreImage.h"
+	"OgreStringConverter.h"
+	"OgreException.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeData2D_HeightFieldTC.h"
+	"fileutils.h"
+
+1114619840 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapedata2d_spline.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeData2D_Spline.h"
+
+1113583780 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapehorizon.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgreCamera.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgreTextureUnitState.h"
+	"OgrePagingLandScapeTileInfo.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeHorizon.h"
+	"OgrePagingLandScapeCamera.h"
+
+1110632880 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapehorizon.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1118925974 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapeindexbuffer.cpp
+	"OgreHardwareBufferManager.h"
+	"OgreVertexIndexData.h"
+	"OgreVector3.h"
+	"OgreSimpleRenderable.h"
+	"OgrePagingLandScapeRenderable.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeIndexBuffer.h"
+
+1115121028 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapeindexbuffer.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgreSingleton.h"
+
+1114619840 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapelistenermanager.cpp
+	"OgrePagingLandScapeListenerManager.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapelistenermanager.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeListener.h"
+	"OgreSingleton.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapelistener.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1113553776 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapeoctreeaxisalignedboxscenequery.cpp
+	<OgrePagingLandScapeOctreeAxisAlignedBoxSceneQuery.h>
+	<OgrePagingLandScapeOctreeSceneManager.h>
+	<OgreEntity.h>
+
+1113553772 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapeoctreeaxisalignedboxscenequery.h
+	"OgrePagingLandScapePrerequisites.h"
+	<OgreSceneManager.h>
+
+1124874234 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreentity.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgreAnimationState.h"
+	"OgreQuaternion.h"
+	"OgreVector3.h"
+	"OgreHardwareBufferManager.h"
+	"OgreMesh.h"
+
+1119544764 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogremesh.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreVertexIndexData.h"
+	"OgreAxisAlignedBox.h"
+	"OgreVertexBoneAssignment.h"
+	"OgreAnimationState.h"
+	"OgreIteratorWrappers.h"
+	"OgreProgressiveMesh.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreSkeleton.h"
+
+1107539342 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrevertexboneassignment.h
+	"OgrePrerequisites.h"
+
+1118055916 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreprogressivemesh.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwareIndexBuffer.h"
+	"OgreRenderOperation.h"
+
+1118270938 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreskeleton.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreAnimationState.h"
+	"OgreQuaternion.h"
+	"OgreVector3.h"
+
+1113553776 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapeoctreecamera.cpp
+	<OgreMath.h>
+	<OgreAxisAlignedBox.h>
+	<OgreRoot.h>
+	<OgrePagingLandScapeOctreeCamera.h>
+
+1123535072 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreroot.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreString.h"
+	"OgreSceneManagerEnumerator.h"
+	"OgreResourceGroupManager.h"
+	<exception>
+
+1107539328 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrescenemanagerenumerator.h
+	"OgrePrerequisites.h"
+	"OgreSceneManager.h"
+	"OgreSingleton.h"
+
+1118931710 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapeoctreeintersectionscenequery.cpp
+	<OgrePagingLandScapeOctreeIntersectionSceneQuery.h>
+	<OgrePagingLandScapeOctreeSceneManager.h>
+	<OgreEntity.h>
+	<OgreRoot.h>
+
+1113553772 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapeoctreeintersectionscenequery.h
+	"OgrePagingLandScapePrerequisites.h"
+	<OgreSceneManager.h>
+
+1113553776 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapeoctreenode.cpp
+	<OgreRoot.h>
+	"OgrePagingLandScapeOctreeNode.h"
+
+1113553772 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapeoctreenode.h
+	<OgreSceneNode.h>
+	<OgrePagingLandScapeOctreeSceneManager.h>
+
+1113553776 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapeoctreeplaneboundedvolumelistscenequery.cpp
+	<OgrePagingLandScapeOctreePlaneBoundedVolumeListSceneQuery.h>
+	<OgrePagingLandScapeOctreeSceneManager.h>
+	<OgreEntity.h>
+
+1113553772 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapeoctreeplaneboundedvolumelistscenequery.h
+	"OgrePagingLandScapePrerequisites.h"
+	<OgreSceneManager.h>
+
+1113553776 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapeoctreerayscenequery.cpp
+	<OgrePagingLandScapeOctreeRaySceneQuery.h>
+	<OgrePagingLandScapeOctreeSceneManager.h>
+	<OgreEntity.h>
+
+1113553772 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapeoctreerayscenequery.h
+	"OgrePagingLandScapePrerequisites.h"
+	<OgreSceneManager.h>
+
+1113578158 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapeoctreescenemanager.cpp
+	<OgrePagingLandScapeOctreeSceneManager.h>
+	<OgrePagingLandScapeOctreeAxisAlignedBoxSceneQuery.h>
+	<OgrePagingLandScapeOctreeIntersectionSceneQuery.h>
+	<OgrePagingLandScapeOctreePlaneBoundedVolumeListSceneQuery.h>
+	<OgrePagingLandScapeOctreeRaySceneQuery.h>
+	<OgrePagingLandScapeOctreeSphereSceneQuery.h>
+	<OgrePagingLandScapeOctreeNode.h>
+	<OgrePagingLandScapeOctreeCamera.h>
+	<OgreRenderSystem.h>
+
+1113553772 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapeoctreespherescenequery.h
+	"OgrePagingLandScapePrerequisites.h"
+	<OgreSceneManager.h>
+
+1123535070 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerendersystem.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreTextureUnitState.h"
+	"OgreCommon.h"
+	"OgreRenderOperation.h"
+	"OgreRenderSystemCapabilities.h"
+	"OgreRenderTarget.h"
+	"OgreRenderTexture.h"
+	"OgreFrameListener.h"
+	"OgreConfigOptionMap.h"
+	"OgreGpuProgram.h"
+	"OgrePlane.h"
+	"OgreIteratorWrappers.h"
+
+1122485942 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerendersystemcapabilities.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+
+1111862666 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerendertarget.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreTextureManager.h"
+	"OgreViewport.h"
+	"OgreTimer.h"
+
+1107539342 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreviewport.h
+	"OgrePrerequisites.h"
+	"OgreColourValue.h"
+
+1120254134 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogretimer.h
+	"OgrePrerequisites.h"
+
+1122485942 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerendertexture.h
+	"OgrePrerequisites.h"
+	"OgreRenderTarget.h"
+
+1107539276 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreconfigoptionmap.h
+	"OgrePrerequisites.h"
+	"OgreStringVector.h"
+	"OgreString.h"
+
+1113553776 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapeoctreespherescenequery.cpp
+	<OgrePagingLandScapeOctreeSphereSceneQuery.h>
+	<OgrePagingLandScapeOctreeSceneManager.h>
+	<OgreEntity.h>
+
+1113553776 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapeogreoctree.cpp
+	"OgrePagingLandScapeOctree.h"
+	"OgrePagingLandScapeOctreeNode.h"
+
+1121642786 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapeoptions.cpp
+	"OgreRoot.h"
+	"OgreSceneManager.h"
+	"OgreRenderSystem.h"
+	"OgreGpuProgramManager.h"
+	"OgreStringConverter.h"
+	"OgreVector2.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreConfigFile.h"
+	"OgreImage.h"
+	"OgreMaterialManager.h"
+	"OgreMaterial.h"
+	"OgreTechnique.h"
+	"OgreCamera.h"
+	"OgreViewport.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeCamera.h"
+
+1107539278 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogregpuprogrammanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreException.h"
+	"OgreGpuProgram.h"
+	"OgreSingleton.h"
+
+1120925120 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapepage.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgreCamera.h"
+	"OgreStringConverter.h"
+	"OgreSceneNode.h"
+	"OgreException.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapePageManager.h"
+	"OgrePagingLandScapeRenderableManager.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeTileInfo.h"
+	"OgrePagingLandScapeTile.h"
+	"OgrePagingLandScapeTileManager.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapePage.h"
+	"OgrePagingLandScapePageRenderable.h"
+	"OgrePagingLandScapeListenerManager.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeHorizon.h"
+
+1113553770 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscaperenderablemanager.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgreSingleton.h"
+	"OgrePagingLandScapeQueue.h"
+	"OgrePagingLandScapeIndexBuffer.h"
+
+1110632880 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetilemanager.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgreSingleton.h"
+	"OgrePagingLandScapeQueue.h"
+
+1120925118 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexturemanager.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgreSingleton.h"
+
+1121642874 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapepagerenderable.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1118925974 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapepagemanager.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgreCamera.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapePage.h"
+	"OgrePagingLandScapePageManager.h"
+	"OgrePagingLandScapeRenderableManager.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTileInfo.h"
+	"OgrePagingLandScapeTile.h"
+	"OgrePagingLandScapeRenderable.h"
+	"OgrePagingLandScapeListenerManager.h"
+	"OgrePagingLandScapePageRenderable.h"
+	"OgrePagingLandScapeHorizon.h"
+
+1118925974 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexture.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1121642874 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapepagerenderable.cpp
+	"OgreRoot.h"
+	"OgreHardwareBufferManager.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgreCamera.h"
+	"OgreViewport.h"
+	"OgreSceneNode.h"
+	"OgreSimpleRenderable.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapePageRenderable.h"
+	"OgrePagingLandScapeTile.h"
+	"OgrePagingLandScapeTileInfo.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapePageManager.h"
+
+1120925120 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscaperayscenequery.cpp
+	"OgreEntity.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreSceneManager.h"
+	"OgrePagingLandScapeOctreeSceneManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeRaySceneQuery.h"
+
+1119361078 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscaperayscenequery.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctreeRaySceneQuery.h"
+
+1118925974 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscaperenderable.cpp
+	"OgreRoot.h"
+	"OgreHardwareBufferManager.h"
+	"OgreLogManager.h"
+	"OgreStringConverter.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSceneNode.h"
+	"OgreSimpleRenderable.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapeRenderable.h"
+	"OgrePagingLandScapeRenderableManager.h"
+	"OgrePagingLandScapeIndexBuffer.h"
+	"OgrePagingLandScapeTile.h"
+	"OgrePagingLandScapeTileInfo.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeListenerManager.h"
+	"OgrePagingLandScapePageManager.h"
+	"OgrePagingLandScapeHorizon.h"
+
+1115121028 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscaperenderablemanager.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreCamera.h"
+	"OgreSceneNode.h"
+	"OgreSimpleRenderable.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapeRenderable.h"
+	"OgrePagingLandScapeIndexBuffer.h"
+	"OgrePagingLandScapeRenderableManager.h"
+	"OgrePagingLandScapeTile.h"
+
+1120925120 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapescenemanager.cpp
+	"OgreRoot.h"
+	"OgreSceneManager.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgreCamera.h"
+	"OgreStringConverter.h"
+	"OgreSceneNode.h"
+	"OgreSimpleRenderable.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeRenderableManager.h"
+	"OgrePagingLandScapeRenderable.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapePageManager.h"
+	"OgrePagingLandScapeTile.h"
+	"OgrePagingLandScapeTileInfo.h"
+	"OgrePagingLandScapeTileManager.h"
+	"OgrePagingLandScapeRenderable.h"
+	"OgrePagingLandScapeRenderableManager.h"
+	"OgrePagingLandScapeIntersectionSceneQuery.h"
+	"OgrePagingLandScapeRaySceneQuery.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapeListenerManager.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeHorizon.h"
+
+1110632880 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapeintersectionscenequery.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1107720700 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapescenemanagerdll.cpp
+	"OgreRoot.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeSceneManager.h"
+
+1113559600 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexture.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeTexture.h"
+
+1120925120 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexturemanager.cpp
+	"OgreRoot.h"
+	"OgreRenderSystem.h"
+	"OgreGpuProgramManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTexture_Image.h"
+	"OgrePagingLandScapeTexture_InstantBaseTexture.h"
+	"OgrePagingLandScapeTexture_InstantBaseTextureShadowed.h"
+	"OgrePagingLandScapeTexture_InstantBaseTextureEdit.h"
+	"OgrePagingLandScapeTexture_BaseTexture.h"
+	"OgrePagingLandScapeTexture_BaseTexture2.h"
+	"OgrePagingLandScapeTexture_Splatting.h"
+	"OgrePagingLandScapeTexture_Splatting2.h"
+	"OgrePagingLandScapeTexture_Splatting2Edit.h"
+	"OgrePagingLandScapeTexture_Splatting3.h"
+	"OgrePagingLandScapeTexture_Splatting4.h"
+	"OgrePagingLandScapeTexture_Splatting5.h"
+	"OgrePagingLandScapeTexture_SplattingShader.h"
+	"OgrePagingLandScapeTexture_Splatting6.h"
+	"OgrePagingLandScapeTexture_Splatting7.h"
+	"OgrePagingLandScapeTexture_Splatting7Edit.h"
+	"OgrePagingLandScapeTileInfo.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexture_image.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1118925974 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexture_instantbasetexture.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1119185306 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexture_instantbasetextureshadowed.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1115028228 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexture_instantbasetextureedit.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexture_basetexture.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexture_basetexture2.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting2.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting2edit.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting3.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting4.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting5.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeTexture.h"
+
+1119185414 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splattingshader.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeTexture.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting6.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting7.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting7edit.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1115028228 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexture_basetexture.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTexture_BaseTexture.h"
+	"OgrePagingLandScapeData2DManager.h"
+
+1114799670 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexture_basetexture2.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTexture_BaseTexture2.h"
+	"OgrePagingLandScapeData2DManager.h"
+
+1114619842 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexture_image.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTexture_Image.h"
+
+1120925120 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexture_instantbasetexture.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTexture_InstantBaseTexture.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"fileutils.h"
+
+1120925120 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexture_instantbasetextureedit.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTexture_InstantBaseTextureEdit.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"fileutils.h"
+
+1119281384 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexture_instantbasetextureshadowed.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTexture_InstantBaseTextureShadowed.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"fileutils.h"
+
+1115028228 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTexture_Splatting.h"
+	"OgrePagingLandScapeData2DManager.h"
+
+1118925974 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting2.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTexture_Splatting2.h"
+
+1120925120 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting2edit.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTexture_Splatting2Edit.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"fileutils.h"
+
+1118925974 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting3.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTexture_Splatting3.h"
+
+1118925974 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting4.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTexture_Splatting4.h"
+
+1118925974 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting5.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture_Splatting5.h"
+
+1118925974 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting6.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTexture_Splatting6.h"
+
+1118925974 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting7.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTexture_Splatting7.h"
+
+1120925120 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting7edit.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTexture_Splatting7Edit.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"fileutils.h"
+
+1119185414 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splattingshader.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture_SplattingShader.h"
+
+1114619842 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetile.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgreCamera.h"
+	"OgreStringConverter.h"
+	"OgreSceneNode.h"
+	"OgreSimpleRenderable.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapeTileManager.h"
+	"OgrePagingLandScapeTile.h"
+	"OgrePagingLandScapeTileInfo.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapePageManager.h"
+	"OgrePagingLandScapeRenderableManager.h"
+	"OgrePagingLandScapeRenderable.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeListener.h"
+
+1113581948 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\ogrepaginglandscapetilemanager.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgreCamera.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapeTileManager.h"
+	"OgrePagingLandScapeTile.h"
+
+1107720702 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\src\filetutils.cpp
+	<sys/types.h>
+	<sys/stat.h>
+	<windows.h>
+	<direct.h>
+	<io.h>
+	<malloc.h>
+	<unistd.h>
+	<sys/param.h>
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapepagerenderable.cpp
+	"OgreRoot.h"
+	"OgreHardwareBufferManager.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgreCamera.h"
+	"OgreViewport.h"
+	"OgreSceneNode.h"
+	"OgreSimpleRenderable.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapePageRenderable.h"
+	"OgrePagingLandScapeTile.h"
+	"OgrePagingLandScapeTileInfo.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapePageManager.h"
+
+1140295482 c:\ogresdk\include\ogreroot.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreString.h"
+	"OgreSceneManagerEnumerator.h"
+	"OgreResourceGroupManager.h"
+	<exception>
+
+1144558530 c:\ogresdk\include\ogreprerequisites.h
+	"OgrePlatform.h"
+	"OgreStdHeaders.h"
+	"OgreMemoryManager.h"
+
+1142168155 c:\ogresdk\include\ogreplatform.h
+	"OgreConfig.h"
+	"config.h"
+	<SDL/SDL_main.h>
+
+1123946165 c:\ogresdk\include\ogreconfig.h
+	"config.h"
+
+1146526090 c:\ogresdk\include\ogrestdheaders.h
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<cstring>
+	<cstdarg>
+	<cmath>
+	<vector>
+	<map>
+	<string>
+	<set>
+	<list>
+	<deque>
+	<queue>
+	<bitset>
+	<ext/hash_map>
+	<ext/hash_set>
+	<hash_set>
+	<hash_map>
+	<algorithm>
+	<functional>
+	<limits>
+	<fstream>
+	<iostream>
+	<iomanip>
+	<sstream>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<unistd.h>
+	<dlfcn.h>
+	<unistd.h>
+	<sys/param.h>
+	<CoreFoundation/CoreFoundation.h>
+	<boost/thread/recursive_mutex.hpp>
+
+1146776716 c:\ogresdk\include\ogrememorymanager.h
+	"OgrePlatform.h"
+	"OgreStdHeaders.h"
+	"OgreMemoryMacros.h"
+
+1133557683 c:\ogresdk\include\ogrememorymacros.h
+
+1107542930 c:\ogresdk\include\ogresingleton.h
+	"OgrePrerequisites.h"
+
+1144279986 c:\ogresdk\include\ogrestring.h
+	"OgrePrerequisites.h"
+	<ext/hash_map>
+
+1140295482 c:\ogresdk\include\ogrescenemanagerenumerator.h
+	"OgrePrerequisites.h"
+	"OgreSceneManager.h"
+	"OgreSingleton.h"
+	"OgreIteratorWrappers.h"
+
+1146776716 c:\ogresdk\include\ogrescenemanager.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSceneNode.h"
+	"OgrePlane.h"
+	"OgreQuaternion.h"
+	"OgreColourValue.h"
+	"OgreCommon.h"
+	"OgreSceneQuery.h"
+	"OgreAutoParamDataSource.h"
+	"OgreAnimationState.h"
+	"OgreRenderQueue.h"
+	"OgreRenderQueueSortingGrouping.h"
+	"OgreRectangle2D.h"
+	"OgrePixelFormat.h"
+	"OgreResourceGroupManager.h"
+	"OgreTexture.h"
+
+1139110617 c:\ogresdk\include\ogrescenenode.h
+	"OgrePrerequisites.h"
+	"OgreNode.h"
+	"OgreIteratorWrappers.h"
+	"OgreAxisAlignedBox.h"
+
+1142999275 c:\ogresdk\include\ogrenode.h
+	"OgrePrerequisites.h"
+	"OgreMatrix3.h"
+	"OgreMatrix4.h"
+	"OgreQuaternion.h"
+	"OgreString.h"
+	"OgreRenderable.h"
+	"OgreIteratorWrappers.h"
+
+1138677596 c:\ogresdk\include\ogrematrix3.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1140969263 c:\ogresdk\include\ogrevector3.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+	"OgreQuaternion.h"
+
+1144558530 c:\ogresdk\include\ogremath.h
+	"OgrePrerequisites.h"
+
+1138677596 c:\ogresdk\include\ogrequaternion.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+
+1140295482 c:\ogresdk\include\ogrematrix4.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreMatrix3.h"
+	"OgreVector4.h"
+	"OgrePlane.h"
+
+1140966074 c:\ogresdk\include\ogrevector4.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1138677596 c:\ogresdk\include\ogreplane.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1139706608 c:\ogresdk\include\ogrerenderable.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreRenderOperation.h"
+	"OgreMatrix4.h"
+	"OgreMaterial.h"
+	"OgrePlane.h"
+	"OgreGpuProgram.h"
+	"OgreVector4.h"
+	"OgreException.h"
+
+1141613340 c:\ogresdk\include\ogrecommon.h
+	<utility>
+
+1133478809 c:\ogresdk\include\ogrerenderoperation.h
+	"OgrePrerequisites.h"
+	"OgreVertexIndexData.h"
+
+1139608118 c:\ogresdk\include\ogrevertexindexdata.h
+	"OgrePrerequisites.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwareIndexBuffer.h"
+
+1139608117 c:\ogresdk\include\ogrehardwarevertexbuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+	"OgreColourValue.h"
+
+1107542878 c:\ogresdk\include\ogrehardwarebuffer.h
+	"OgrePrerequisites.h"
+
+1144558530 c:\ogresdk\include\ogresharedptr.h
+	"OgrePrerequisites.h"
+
+1140295481 c:\ogresdk\include\ogrecolourvalue.h
+	"OgrePrerequisites.h"
+
+1107542879 c:\ogresdk\include\ogrehardwareindexbuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+
+1144558530 c:\ogresdk\include\ogrematerial.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreIteratorWrappers.h"
+	"OgreCommon.h"
+	"OgreColourValue.h"
+	"OgreBlendMode.h"
+
+1137965893 c:\ogresdk\include\ogreresource.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+	"OgreStringInterface.h"
+
+1119201602 c:\ogresdk\include\ogrestringinterface.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreCommon.h"
+
+1126592008 c:\ogresdk\include\ogreiteratorwrappers.h
+	"OgrePrerequisites.h"
+
+1133722951 c:\ogresdk\include\ogreblendmode.h
+	"OgrePrerequisites.h"
+	"OgreColourValue.h"
+
+1144558530 c:\ogresdk\include\ogregpuprogram.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreSharedPtr.h"
+	"OgreIteratorWrappers.h"
+
+1116699709 c:\ogresdk\include\ogreexception.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+
+1107542873 c:\ogresdk\include\ogreaxisalignedbox.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreMatrix4.h"
+
+1123535071 c:\ogresdk\include\ogrescenequery.h
+	"OgrePrerequisites.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreRay.h"
+	"OgreRenderOperation.h"
+	"OgrePlaneBoundedVolume.h"
+
+1107542930 c:\ogresdk\include\ogresphere.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1141613340 c:\ogresdk\include\ogreray.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgrePlaneBoundedVolume.h"
+
+1107542909 c:\ogresdk\include\ogreplaneboundedvolume.h
+	"OgrePrerequisites.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreMath.h"
+	"OgrePlane.h"
+
+1142107638 c:\ogresdk\include\ogreautoparamdatasource.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreMatrix4.h"
+	"OgreVector4.h"
+	"OgreLight.h"
+	"OgreColourValue.h"
+
+1139452483 c:\ogresdk\include\ogrelight.h
+	"OgrePrerequisites.h"
+	"OgreColourValue.h"
+	"OgreVector3.h"
+	"OgreVector4.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgrePlaneBoundedVolume.h"
+
+1144558530 c:\ogresdk\include\ogremovableobject.h
+	"OgrePrerequisites.h"
+	"OgreRenderQueue.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreShadowCaster.h"
+	"OgreFactoryObj.h"
+	"OgreAnimable.h"
+	"OgreAny.h"
+	"OgreUserDefinedObject.h"
+
+1141613340 c:\ogresdk\include\ogrerenderqueue.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+
+1123535071 c:\ogresdk\include\ogreshadowcaster.h
+	"OgrePrerequisites.h"
+	"OgreRenderable.h"
+
+1107542877 c:\ogresdk\include\ogrefactoryobj.h
+	"OgrePrerequisites.h"
+
+1144277761 c:\ogresdk\include\ogreanimable.h
+	"OgrePrerequisites.h"
+	"OgreVector2.h"
+	"OgreVector3.h"
+	"OgreVector4.h"
+	"OgreQuaternion.h"
+	"OgreColourValue.h"
+	"OgreSharedPtr.h"
+	"OgreStringVector.h"
+	"OgreException.h"
+	"OgreAny.h"
+
+1140968925 c:\ogresdk\include\ogrevector2.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+
+1107542940 c:\ogresdk\include\ogrestringvector.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+
+1141613340 c:\ogresdk\include\ogreany.h
+	"OgrePrerequisites.h"
+	"OgreException.h"
+	"OgreString.h"
+	<algorithm>
+	<typeinfo>
+
+1120254133 c:\ogresdk\include\ogreuserdefinedobject.h
+	"OgrePrerequisites.h"
+
+1141613340 c:\ogresdk\include\ogreanimationstate.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreController.h"
+	"OgreIteratorWrappers.h"
+
+1137259930 c:\ogresdk\include\ogrecontroller.h
+	"OgrePrerequisites.h"
+	"OgreSharedPtr.h"
+
+1142168155 c:\ogresdk\include\ogrerenderqueuesortinggrouping.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+	"OgreMaterial.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgreRadixSort.h"
+
+1142107638 c:\ogresdk\include\ogretechnique.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+	"OgreBlendMode.h"
+	"OgreCommon.h"
+	"OgrePass.h"
+
+1139706608 c:\ogresdk\include\ogrepass.h
+	"OgrePrerequisites.h"
+	"OgreGpuProgram.h"
+	"OgreColourValue.h"
+	"OgreBlendMode.h"
+	"OgreCommon.h"
+	"OgreLight.h"
+
+1133287651 c:\ogresdk\include\ogreradixsort.h
+	"OgrePrerequisites.h"
+
+1107542911 c:\ogresdk\include\ogrerectangle2d.h
+	"OgrePrerequisites.h"
+	"OgreSimpleRenderable.h"
+
+1116111759 c:\ogresdk\include\ogresimplerenderable.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreAxisAlignedBox.h"
+	"OgreMaterial.h"
+
+1125405914 c:\ogresdk\include\ogrepixelformat.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+
+1140295482 c:\ogresdk\include\ogreresourcegroupmanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreCommon.h"
+	"OgreDataStream.h"
+	"OgreResource.h"
+	"OgreArchive.h"
+
+1145664915 c:\ogresdk\include\ogredatastream.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+	<istream>
+
+1107542872 c:\ogresdk\include\ogrearchive.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreDataStream.h"
+	"OgreSharedPtr.h"
+	"OgreStringVector.h"
+
+1144558530 c:\ogresdk\include\ogretexture.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreResource.h"
+	"OgreImage.h"
+
+1141613340 c:\ogresdk\include\ogreimage.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgrePixelFormat.h"
+	"OgreDataStream.h"
+
+1141613340 c:\ogresdk\include\ogrehardwarebuffermanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwareIndexBuffer.h"
+
+1140295481 c:\ogresdk\include\ogrecamera.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgreMatrix4.h"
+	"OgreVector3.h"
+	"OgrePlane.h"
+	"OgreQuaternion.h"
+	"OgreCommon.h"
+	"OgreFrustum.h"
+	"OgreRay.h"
+
+1140295482 c:\ogresdk\include\ogrefrustum.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreAxisAlignedBox.h"
+	"OgreVertexIndexData.h"
+	"OgreMovablePlane.h"
+
+1138677596 c:\ogresdk\include\ogremovableplane.h
+	"OgrePrerequisites.h"
+	"OgrePlane.h"
+	"OgreMovableObject.h"
+
+1141613340 c:\ogresdk\include\ogreviewport.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreColourValue.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapescenemanager.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctreeSceneManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgreStringVector.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeprerequisites.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBufferManager.h"
+	"OgreTextureManager.h"
+	"OgreHardwarePixelBuffer.h"
+	"OgreAxisAlignedBox.h"
+	<vector>
+	<map>
+	<queue>
+	<list>
+	<stack>
+	<limits>
+
+1142107638 c:\ogresdk\include\ogretexturemanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreTexture.h"
+	"OgreSingleton.h"
+
+1140295482 c:\ogresdk\include\ogreresourcemanager.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreResourceGroupManager.h"
+	"OgreIteratorWrappers.h"
+	"OgreCommon.h"
+	"OgreDataStream.h"
+	"OgreStringVector.h"
+	"OgreScriptLoader.h"
+
+1107606127 c:\ogresdk\include\ogrescriptloader.h
+	"OgrePrerequisites.h"
+	"OgreDataStream.h"
+	"OgreStringVector.h"
+
+1125416373 c:\ogresdk\include\ogrehardwarepixelbuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+	"OgrePixelFormat.h"
+	"OgreImage.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeoctreescenemanager.h
+	"OgreSceneManager.h"
+	"OgreRenderOperation.h"
+	"OgreSphere.h"
+	<list>
+	<algorithm>
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctree.h"
+	"OgrePagingLandScapeOcclusion.h"
+	"OgreRenderable.h"
+	"OgrePagingLandScapePoolSet.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeoctree.h
+	"OgreAxisAlignedBox.h"
+	"OgrePagingLandScapeOcclusionElement.h"
+	"OgrePagingLandScapeOcclusionTraversal.h"
+	<list>
+
+1137579504 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeocclusionelement.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1129207694 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeocclusiontraversal.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctreeCamera.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeoctreecamera.h
+	"OgreCamera.h"
+	"OgreHardwareBufferManager.h"
+	"OgreSimpleRenderable.h"
+	"OgrePagingLandScapePrerequisites.h"
+
+1142450782 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeocclusion.h
+	"OgrePagingLandScapePrerequisites.h"
+	<stack>
+	<list>
+	"OgrePagingLandScapeOcclusionQuerySet.h"
+	"OgrePagingLandScapeOcclusionElement.h"
+	"OgrePagingLandScapeOctree.h"
+	"OgrePagingLandScapeOctreeNode.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeocclusionqueryset.h
+	"OgrePrerequisites.h"
+	"OgreRenderSystem.h"
+	"OgreRoot.h"
+	"OgrePagingLandScapePoolSet.h"
+
+1141613340 c:\ogresdk\include\ogrerendersystem.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreTextureUnitState.h"
+	"OgreCommon.h"
+	"OgreRenderOperation.h"
+	"OgreRenderSystemCapabilities.h"
+	"OgreRenderTarget.h"
+	"OgreRenderTexture.h"
+	"OgreFrameListener.h"
+	"OgreConfigOptionMap.h"
+	"OgreGpuProgram.h"
+	"OgrePlane.h"
+	"OgreIteratorWrappers.h"
+
+1142107638 c:\ogresdk\include\ogretextureunitstate.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreBlendMode.h"
+	"OgreMatrix4.h"
+	"OgreIteratorWrappers.h"
+	"OgreString.h"
+	"OgreTexture.h"
+
+1142999276 c:\ogresdk\include\ogrerendersystemcapabilities.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+
+1138677596 c:\ogresdk\include\ogrerendertarget.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreTextureManager.h"
+	"OgreViewport.h"
+	"OgreTimer.h"
+
+1120254133 c:\ogresdk\include\ogretimer.h
+	"OgrePrerequisites.h"
+
+1122485941 c:\ogresdk\include\ogrerendertexture.h
+	"OgrePrerequisites.h"
+	"OgreRenderTarget.h"
+
+1107542877 c:\ogresdk\include\ogreframelistener.h
+	"OgrePrerequisites.h"
+
+1107542875 c:\ogresdk\include\ogreconfigoptionmap.h
+	"OgrePrerequisites.h"
+	"OgreStringVector.h"
+	"OgreString.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapepoolset.h
+	<list>
+	<vector>
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeoctreenode.h
+	"OgreSceneNode.h"
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctreeSceneManager.h"
+	"OgrePagingLandScapeOctree.h"
+	"OgrePagingLandScapeOcclusionElement.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeoptions.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgreStringVector.h"
+	"OgreConfigFile.h"
+	"OgreMaterial.h"
+
+1111866265 c:\ogresdk\include\ogreconfigfile.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreStringVector.h"
+	"OgreIteratorWrappers.h"
+	"OgreDataStream.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapecamera.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctreeCamera.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapepagerenderable.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetile.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeTileInfo.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetileinfo.h
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapedata2d.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapedata2dmanager.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexturemanager.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapepagemanager.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreFrameListener.h"
+	"OgrePagingLandScapeQueue.h"
+	"OgrePagingLandScapePage.h"
+
+1149084018 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapequeue.h
+	<queue>
+	<list>
+	"Ogre.h"
+	"OgreSceneNode.h"
+	"OgreVector3.h"
+
+1141613340 c:\ogresdk\include\ogre.h
+	"OgrePrerequisites.h"
+	"OgreAnimation.h"
+	"OgreAnimationState.h"
+	"OgreAnimationTrack.h"
+	"OgreAny.h"
+	"OgreArchive.h"
+	"OgreArchiveManager.h"
+	"OgreAxisAlignedBox.h"
+	"OgreBillboardChain.h"
+	"OgreBillboardSet.h"
+	"OgreBone.h"
+	"OgreCamera.h"
+	"OgreConfigFile.h"
+	"OgreControllerManager.h"
+	"OgreDataStream.h"
+	"OgreEntity.h"
+	"OgreEventProcessor.h"
+	"OgreException.h"
+	"OgreFrustum.h"
+	"OgreGpuProgram.h"
+	"OgreGpuProgramManager.h"
+	"OgreHardwareBufferManager.h"
+	"OgreHardwareIndexBuffer.h"
+	"OgreHardwarePixelBuffer.h"
+	"OgreHardwareOcclusionQuery.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwarePixelBuffer.h"
+	"OgreHighLevelGpuProgram.h"
+	"OgreHighLevelGpuProgramManager.h"
+	"OgreInput.h"
+	"OgreKeyFrame.h"
+	"OgreLight.h"
+	"OgreLogManager.h"
+	"OgreManualObject.h"
+	"OgreMaterial.h"
+	"OgreMaterialManager.h"
+	"OgreMaterialSerializer.h"
+	"OgreMath.h"
+	"OgreMatrix3.h"
+	"OgreMatrix4.h"
+	"OgreMesh.h"
+	"OgreMeshManager.h"
+	"OgreMeshSerializer.h"
+	"OgreOverlay.h"
+	"OgreOverlayContainer.h"
+	"OgreOverlayElement.h"
+	"OgreOverlayManager.h"
+	"OgreParticleAffector.h"
+	"OgreParticleEmitter.h"
+	"OgreParticleSystemManager.h"
+	"OgrePass.h"
+	"OgrePatchMesh.h"
+	"OgrePatchSurface.h"
+	"OgrePlatformManager.h"
+	"OgreProfiler.h"
+	"OgreRadixSort.h"
+	"OgreRenderQueueInvocation.h"
+	"OgreRenderQueueListener.h"
+	"OgreRenderSystem.h"
+	"OgreRenderTargetListener.h"
+	"OgreRenderTexture.h"
+	"OgreRenderWindow.h"
+	"OgreResourceGroupManager.h"
+	"OgreRibbonTrail.h"
+	"OgreRoot.h"
+	"OgreSceneManager.h"
+	"OgreSceneManagerEnumerator.h"
+	"OgreSceneNode.h"
+	"OgreSimpleRenderable.h"
+	"OgreSkeleton.h"
+	"OgreSkeletonInstance.h"
+	"OgreSkeletonManager.h"
+	"OgreSkeletonSerializer.h"
+	"OgreStaticGeometry.h"
+	"OgreString.h"
+	"OgreStringConverter.h"
+	"OgreStringVector.h"
+	"OgreSubEntity.h"
+	"OgreSubMesh.h"
+	"OgreTechnique.h"
+	"OgreTextureManager.h"
+	"OgreTextureManager.h"
+	"OgreTextureUnitState.h"
+	"OgreUserDefinedObject.h"
+	"OgreVector2.h"
+	"OgreViewport.h"
+	"OgreCompositor.h"
+	"OgreCompositorManager.h"
+	"OgreCompositorChain.h"
+	"OgreCompositorInstance.h"
+	"OgreCompositionTechnique.h"
+	"OgreCompositionPass.h"
+	"OgreCompositionTargetPass.h"
+
+1140966073 c:\ogresdk\include\ogreanimation.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreIteratorWrappers.h"
+	"OgreAnimable.h"
+	"OgreAnimationTrack.h"
+
+1144277761 c:\ogresdk\include\ogreanimationtrack.h
+	"OgrePrerequisites.h"
+	"OgreSimpleSpline.h"
+	"OgreRotationalSpline.h"
+	"OgreKeyFrame.h"
+	"OgreAnimable.h"
+	"OgrePose.h"
+
+1107542930 c:\ogresdk\include\ogresimplespline.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreMatrix4.h"
+
+1107542924 c:\ogresdk\include\ogrerotationalspline.h
+	"OgrePrerequisites.h"
+	"OgreQuaternion.h"
+
+1144277761 c:\ogresdk\include\ogrekeyframe.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreQuaternion.h"
+	"OgreAny.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreIteratorWrappers.h"
+
+1135348373 c:\ogresdk\include\ogrepose.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreVector3.h"
+	"OgreIteratorWrappers.h"
+
+1130363816 c:\ogresdk\include\ogrearchivemanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+
+1139110616 c:\ogresdk\include\ogrebillboardchain.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+
+1140295481 c:\ogresdk\include\ogrebillboardset.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreRadixSort.h"
+	"OgreCommon.h"
+
+1146776712 c:\ogresdk\include\ogrebone.h
+	"OgrePrerequisites.h"
+	"OgreNode.h"
+
+1140966073 c:\ogresdk\include\ogrecontrollermanager.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreSingleton.h"
+	"OgreController.h"
+	"OgrePredefinedControllers.h"
+	"OgreTextureUnitState.h"
+	"OgreSharedPtr.h"
+
+1139110616 c:\ogresdk\include\ogrepredefinedcontrollers.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreController.h"
+	"OgreFrameListener.h"
+	"OgreGpuProgram.h"
+
+1142107638 c:\ogresdk\include\ogreentity.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgreQuaternion.h"
+	"OgreVector3.h"
+	"OgreHardwareBufferManager.h"
+	"OgreMesh.h"
+
+1141613340 c:\ogresdk\include\ogremesh.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreVertexIndexData.h"
+	"OgreAxisAlignedBox.h"
+	"OgreVertexBoneAssignment.h"
+	"OgreIteratorWrappers.h"
+	"OgreProgressiveMesh.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreSkeleton.h"
+	"OgreAnimationTrack.h"
+	"OgrePose.h"
+
+1107542942 c:\ogresdk\include\ogrevertexboneassignment.h
+	"OgrePrerequisites.h"
+
+1118055916 c:\ogresdk\include\ogreprogressivemesh.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwareIndexBuffer.h"
+	"OgreRenderOperation.h"
+
+1145664915 c:\ogresdk\include\ogreskeleton.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreQuaternion.h"
+	"OgreVector3.h"
+	"OgreIteratorWrappers.h"
+
+1107542876 c:\ogresdk\include\ogreeventprocessor.h
+	<list>
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreFrameListener.h"
+	"OgreMouseTarget.h"
+	"OgreKeyTarget.h"
+	"OgreMouseMotionTarget.h"
+
+1111866265 c:\ogresdk\include\ogremousetarget.h
+	"OgrePrerequisites.h"
+	"OgrePositionTarget.h"
+
+1137259930 c:\ogresdk\include\ogrepositiontarget.h
+	"OgrePrerequisites.h"
+	"OgreEventTarget.h"
+
+1137259930 c:\ogresdk\include\ogreeventtarget.h
+	"OgrePrerequisites.h"
+
+1111866265 c:\ogresdk\include\ogrekeytarget.h
+	"OgrePrerequisites.h"
+	"OgreEventTarget.h"
+
+1111866265 c:\ogresdk\include\ogremousemotiontarget.h
+	"OgrePrerequisites.h"
+	"OgrePositionTarget.h"
+
+1107542878 c:\ogresdk\include\ogregpuprogrammanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreException.h"
+	"OgreGpuProgram.h"
+	"OgreSingleton.h"
+
+1144410011 c:\ogresdk\include\ogrehardwareocclusionquery.h
+	"OgrePrerequisites.h"
+
+1144558530 c:\ogresdk\include\ogrehighlevelgpuprogram.h
+	"OgrePrerequisites.h"
+	"OgreGpuProgram.h"
+
+1144277761 c:\ogresdk\include\ogrehighlevelgpuprogrammanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+	"OgreException.h"
+	"OgreHighLevelGpuProgram.h"
+
+1130777880 c:\ogresdk\include\ogreinput.h
+	"OgrePrerequisites.h"
+
+1137259930 c:\ogresdk\include\ogrelogmanager.h
+	"OgrePrerequisites.h"
+	"OgreLog.h"
+	"OgreSingleton.h"
+	"OgreString.h"
+
+1128880798 c:\ogresdk\include\ogrelog.h
+	"OgrePrerequisites.h"
+
+1131286965 c:\ogresdk\include\ogremanualobject.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreResourceGroupManager.h"
+
+1141613340 c:\ogresdk\include\ogrematerialmanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreResourceManager.h"
+	"OgreMaterial.h"
+	"OgreStringVector.h"
+	"OgreMaterialSerializer.h"
+
+1137259930 c:\ogresdk\include\ogrematerialserializer.h
+	"OgrePrerequisites.h"
+	"OgreMaterial.h"
+	"OgreBlendMode.h"
+	"OgreTextureUnitState.h"
+	"OgreGpuProgram.h"
+	"OgreStringVector.h"
+
+1137965893 c:\ogresdk\include\ogremeshmanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+	"OgreVector3.h"
+	"OgreHardwareBuffer.h"
+	"OgreMesh.h"
+	"OgrePatchMesh.h"
+
+1144558530 c:\ogresdk\include\ogrepatchmesh.h
+	"OgrePrerequisites.h"
+	"OgreMesh.h"
+	"OgrePatchSurface.h"
+
+1107542909 c:\ogresdk\include\ogrepatchsurface.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreString.h"
+	"OgreRenderOperation.h"
+	"OgreAxisAlignedBox.h"
+
+1139608117 c:\ogresdk\include\ogremeshserializer.h
+	"OgrePrerequisites.h"
+	"OgreMeshSerializerImpl.h"
+	"OgreSerializer.h"
+
+1139608117 c:\ogresdk\include\ogremeshserializerimpl.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSerializer.h"
+	"OgreMaterial.h"
+	"OgreMesh.h"
+	"OgreEdgeListBuilder.h"
+
+1139608118 c:\ogresdk\include\ogreserializer.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreDataStream.h"
+
+1107542875 c:\ogresdk\include\ogreedgelistbuilder.h
+	"OgrePrerequisites.h"
+	"OgreVector4.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreRenderOperation.h"
+
+1143393248 c:\ogresdk\include\ogreoverlay.h
+	"OgrePrerequisites.h"
+	"OgreSceneNode.h"
+	"OgreIteratorWrappers.h"
+	"OgreMatrix4.h"
+
+1121034200 c:\ogresdk\include\ogreoverlaycontainer.h
+	"OgrePrerequisites.h"
+	"OgreOverlayElement.h"
+	"OgreIteratorWrappers.h"
+
+1107542905 c:\ogresdk\include\ogreoverlayelement.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreRenderable.h"
+	"OgreStringInterface.h"
+	"OgreOverlayElementCommands.h"
+	"OgreColourValue.h"
+	"OgreRectangle.h"
+
+1107542905 c:\ogresdk\include\ogreoverlayelementcommands.h
+	"OgrePrerequisites.h"
+	"OgreStringInterface.h"
+
+1107542910 c:\ogresdk\include\ogrerectangle.h
+	"OgrePrerequisites.h"
+
+1140295482 c:\ogresdk\include\ogreoverlaymanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreStringVector.h"
+	"OgreOverlay.h"
+	"OgreScriptLoader.h"
+
+1114808887 c:\ogresdk\include\ogreparticleaffector.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreStringInterface.h"
+
+1114808887 c:\ogresdk\include\ogreparticleemitter.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringInterface.h"
+	"OgreParticleEmitterCommands.h"
+	"OgreParticle.h"
+
+1107542905 c:\ogresdk\include\ogreparticleemittercommands.h
+	"OgrePrerequisites.h"
+	"OgreStringInterface.h"
+
+1107542905 c:\ogresdk\include\ogreparticle.h
+	"OgrePrerequisites.h"
+	"OgreBillboard.h"
+
+1139706607 c:\ogresdk\include\ogrebillboard.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreCommon.h"
+
+1140295482 c:\ogresdk\include\ogreparticlesystemmanager.h
+	"OgrePrerequisites.h"
+	"OgreParticleSystem.h"
+	"OgreFrameListener.h"
+	"OgreSingleton.h"
+	"OgreIteratorWrappers.h"
+	"OgreScriptLoader.h"
+	"OgreResourceGroupManager.h"
+
+1140295482 c:\ogresdk\include\ogreparticlesystem.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreString.h"
+	"OgreParticleIterator.h"
+	"OgreStringInterface.h"
+	"OgreMovableObject.h"
+	"OgreRadixSort.h"
+	"OgreController.h"
+
+1107542906 c:\ogresdk\include\ogreparticleiterator.h
+	"OgrePrerequisites.h"
+
+1137259930 c:\ogresdk\include\ogreplatformmanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+
+1107542910 c:\ogresdk\include\ogreprofiler.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreString.h"
+	"OgreOverlay.h"
+
+1138677596 c:\ogresdk\include\ogrerenderqueueinvocation.h
+	"OgrePrerequisites.h"
+	"OgreRenderQueueSortingGrouping.h"
+	"OgreIteratorWrappers.h"
+
+1137259930 c:\ogresdk\include\ogrerenderqueuelistener.h
+	"OgrePrerequisites.h"
+	"OgreRenderQueue.h"
+
+1138677596 c:\ogresdk\include\ogrerendertargetlistener.h
+	"OgrePrerequisites.h"
+
+1119388393 c:\ogresdk\include\ogrerenderwindow.h
+	"OgrePrerequisites.h"
+	"OgreRenderTarget.h"
+
+1139206504 c:\ogresdk\include\ogreribbontrail.h
+	"OgrePrerequisites.h"
+	"OgreBillboardChain.h"
+	"OgreNode.h"
+	"OgreIteratorWrappers.h"
+	"OgreFrameListener.h"
+	"OgreControllerManager.h"
+
+1145664915 c:\ogresdk\include\ogreskeletoninstance.h
+	"OgrePrerequisites.h"
+	"OgreSkeleton.h"
+
+1107542930 c:\ogresdk\include\ogreskeletonmanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+
+1139608118 c:\ogresdk\include\ogreskeletonserializer.h
+	"OgrePrerequisites.h"
+	"OgreSkeleton.h"
+	"OgreSerializer.h"
+
+1141613340 c:\ogresdk\include\ogrestaticgeometry.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+
+1143393248 c:\ogresdk\include\ogrestringconverter.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+	"OgreString.h"
+	"OgreStringVector.h"
+
+1141854455 c:\ogresdk\include\ogresubentity.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreRenderable.h"
+	"OgreHardwareBufferManager.h"
+
+1132177949 c:\ogresdk\include\ogresubmesh.h
+	"OgrePrerequisites.h"
+	"OgreVertexIndexData.h"
+	"OgreMaterial.h"
+	"OgreRenderOperation.h"
+	"OgreVertexBoneAssignment.h"
+	"OgreProgressiveMesh.h"
+	"OgreAnimationTrack.h"
+
+1144558530 c:\ogresdk\include\ogrecompositor.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+	"OgreResource.h"
+
+1142167879 c:\ogresdk\include\ogrecompositormanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreCompositor.h"
+	"OgreRectangle2D.h"
+	"OgreCompositorSerializer.h"
+
+1144345647 c:\ogresdk\include\ogrecompositorserializer.h
+	"OgrePrerequisites.h"
+	"OgreDataStream.h"
+
+1146776712 c:\ogresdk\include\ogrecompositorchain.h
+	"OgrePrerequisites.h"
+	"OgreRenderTargetListener.h"
+	"OgreRenderQueueListener.h"
+	"OgreCompositorInstance.h"
+	"OgreCompositor.h"
+
+1144456270 c:\ogresdk\include\ogrecompositorinstance.h
+	"OgrePrerequisites.h"
+	"OgreMaterial.h"
+	"OgreTexture.h"
+	"OgreRenderQueue.h"
+
+1142107638 c:\ogresdk\include\ogrecompositiontechnique.h
+	"OgrePrerequisites.h"
+	"OgrePixelFormat.h"
+	"OgreIteratorWrappers.h"
+
+1133628748 c:\ogresdk\include\ogrecompositionpass.h
+	"OgrePrerequisites.h"
+	"OgreMaterial.h"
+	"OgreRenderSystem.h"
+	"OgreRenderQueue.h"
+
+1141695833 c:\ogresdk\include\ogrecompositiontargetpass.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapepage.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapecamera.cpp
+	"OgreCamera.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeSceneManager.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapedata2d.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreSphere.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgreAxisAlignedBox.h"
+	"OgreMovableObject.h"
+	"OgreSimpleRenderable.h"
+	"OgrePagingLandScapePageManager.h"
+	"OgrePagingLandScapeTile.h"
+	"OgrePagingLandScapeRenderable.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscaperenderable.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapedata2dmanager.cpp
+	"OgreMath.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgrePlane.h"
+	"OgreCamera.h"
+	"OgreSimpleRenderable.h"
+	"OgreException.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeData2D_HeightField.h"
+	"OgrePagingLandScapeData2D_HeightFieldTC.h"
+	"OgrePagingLandScapeData2D_HeightFieldN.h"
+	"OgrePagingLandScapeData2D_HeightFieldNTC.h"
+	"OgrePagingLandScapeData2D_HeightFieldRaw.h"
+	"OgrePagingLandScapeData2D_HeightFieldRawTC.h"
+	"OgrePagingLandScapeData2D_Spline.h"
+	"OgrePagingLandScapeData2D_HeightFieldBlendNeighbor.h"
+	"OgrePagingLandScapeRenderable.h"
+	"OgrePagingLandScapeTile.h"
+	"OgrePagingLandScapeTileInfo.h"
+	"OgrePagingLandScapePage.h"
+	"OgrePagingLandScapePageManager.h"
+	"OgrePagingLandScapeSceneManager.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapedata2d_heightfield.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapedata2d_heightfieldtc.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapedata2d_heightfieldn.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapedata2d_heightfieldntc.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapedata2d_heightfieldraw.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapedata2d_heightfieldrawtc.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapedata2d_spline.h
+	"OgrePagingLandScapePrerequisites.h"
+	"DRGNURBSSurface.h"
+
+1127550596 c:\ogresdk\plugins\paginglandscape2\include\drgnurbssurface.h
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapedata2d_heightfieldblendneighbor.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapedata2d_heightfield.cpp
+	"OgreLogManager.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreImage.h"
+	"OgreImageCodec.h"
+	"OgreArchiveManager.h"
+	"OgreStringConverter.h"
+	"OgreException.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D_HeightField.h"
+	"fileutils.h"
+
+1137259930 c:\ogresdk\include\ogreimagecodec.h
+	"OgreCodec.h"
+	"OgrePixelFormat.h"
+
+1137259929 c:\ogresdk\include\ogrecodec.h
+	"OgrePrerequisites.h"
+	"OgreSharedPtr.h"
+	"OgreDataStream.h"
+	"OgreIteratorWrappers.h"
+	"OgreStringVector.h"
+
+1137602350 c:\ogresdk\plugins\paginglandscape2\include\fileutils.h
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapedata2d_heightfieldblendneighbor.cpp
+	"OgreLogManager.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreImage.h"
+	"OgreStringConverter.h"
+	"OgreResourceManager.h"
+	"OgreException.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeData2D_HeightFieldBlendNeighbor.h"
+	"fileutils.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapedata2d_heightfieldn.cpp
+	"OgreLogManager.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreImage.h"
+	"OgreImageCodec.h"
+	"OgreArchiveManager.h"
+	"OgreStringConverter.h"
+	"OgreException.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D_HeightFieldN.h"
+	"fileutils.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapedata2d_heightfieldntc.cpp
+	"OgreLogManager.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreImage.h"
+	"OgreStringConverter.h"
+	"OgreException.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeData2D_HeightFieldNTC.h"
+	"fileutils.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapedata2d_heightfieldraw.cpp
+	"OgreLogManager.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreImage.h"
+	"OgreStringConverter.h"
+	"OgreResourceManager.h"
+	"OgreException.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeData2D_HeightFieldRaw.h"
+	"fileutils.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapedata2d_heightfieldrawtc.cpp
+	"OgreLogManager.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreImage.h"
+	"OgreStringConverter.h"
+	"OgreResourceManager.h"
+	"OgreException.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeData2D_HeightFieldRawTC.h"
+	"fileutils.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapedata2d_heightfieldtc.cpp
+	"OgreLogManager.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreImage.h"
+	"OgreStringConverter.h"
+	"OgreException.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeData2D_HeightFieldTC.h"
+	"fileutils.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapedata2d_spline.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeData2D_Spline.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapehorizon.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgreCamera.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgreTextureUnitState.h"
+	"OgrePagingLandScapeTileInfo.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeHorizon.h"
+	"OgrePagingLandScapeCamera.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapehorizon.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeindexbuffer.cpp
+	"OgreHardwareBufferManager.h"
+	"OgreVertexIndexData.h"
+	"OgreVector3.h"
+	"OgreSimpleRenderable.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeRenderable.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeIndexBuffer.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeindexbuffer.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1142263296 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapelistenermanager.cpp
+	"OgrePagingLandScapeListenerManager.h"
+	"OgrePagingLandScapeSceneManager.h"
+
+1142416118 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapelistenermanager.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeListener.h"
+	"OgreSingleton.h"
+	"OgrePagingLandScapeCallBackEvent.h"
+
+1129207694 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapelistener.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1133878822 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapecallbackevent.h
+	"Ogre.h"
+	"OgrePagingLandScapeCallback.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapecallback.h
+	<memory.h>
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeoctreeaxisalignedboxscenequery.cpp
+	"OgrePagingLandScapeOctreeAxisAlignedBoxSceneQuery.h"
+	"OgrePagingLandScapeOctreeSceneManager.h"
+	"OgreEntity.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeoctreeaxisalignedboxscenequery.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgreSceneManager.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeoctreecamera.cpp
+	"OgreMath.h"
+	"OgreAxisAlignedBox.h"
+	"OgreRoot.h"
+	"OgreViewport.h"
+	"OgreRenderSystem.h"
+	"OgrePagingLandScapeOctreeCamera.h"
+	"OgrePagingLandScapeOctreeSceneManager.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeoctreeintersectionscenequery.cpp
+	"OgrePagingLandScapeOctreeIntersectionSceneQuery.h"
+	"OgrePagingLandScapeOctreeSceneManager.h"
+	"OgreEntity.h"
+	"OgreRoot.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeoctreeintersectionscenequery.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgreSceneManager.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeoctreenode.cpp
+	"OgreRoot.h"
+	"OgrePagingLandScapeOctreeNode.h"
+	"OgreOcclusionBoundingBox.h"
+	"OgreWireBoundingBox.h"
+	"OgreRenderQueue.h"
+	"OgreDebugRectangle2D.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogreocclusionboundingbox.h
+	"OgrePrerequisites.h"
+	"OgreSimpleRenderable.h"
+
+1107542942 c:\ogresdk\include\ogrewireboundingbox.h
+	"OgrePrerequisites.h"
+	"OgreSimpleRenderable.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogredebugrectangle2d.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgreSimpleRenderable.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeoctreeplaneboundedvolumelistscenequery.cpp
+	"OgrePagingLandScapeOctreePlaneBoundedVolumeListSceneQuery.h"
+	"OgrePagingLandScapeOctreeSceneManager.h"
+	"OgreEntity.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeoctreeplaneboundedvolumelistscenequery.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgreSceneManager.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeoctreerayscenequery.cpp
+	"OgrePagingLandScapeOctreeRaySceneQuery.h"
+	"OgrePagingLandScapeOctreeSceneManager.h"
+	"OgreEntity.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeoctreerayscenequery.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgreSceneManager.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeoctreescenemanager.cpp
+	"OgrePagingLandScapeOctreeSceneManager.h"
+	"OgrePagingLandScapeOctreeAxisAlignedBoxSceneQuery.h"
+	"OgrePagingLandScapeOctreeIntersectionSceneQuery.h"
+	"OgrePagingLandScapeOctreePlaneBoundedVolumeListSceneQuery.h"
+	"OgrePagingLandScapeOctreeRaySceneQuery.h"
+	"OgrePagingLandScapeOctreeSphereSceneQuery.h"
+	"OgreRenderSystem.h"
+	"OgreWireBoundingBox.h"
+	"OgreRenderOperation.h"
+	"OgreStringConverter.h"
+	"OgreOverlayManager.h"
+	"OgreOverlayElement.h"
+	"OgrePagingLandScapeOctreeCamera.h"
+	"OgrePagingLandScapeOctree.h"
+	"OgrePagingLandScapeOctreeNode.h"
+	"OgreOcclusionBoundingBox.h"
+	"OgrePagingLandScapeOcclusionSorter.h"
+	"OgrePagingLandScapeOcclusionVisibilityData.h"
+	"OgrePagingLandScapeOcclusionTraversal.h"
+	"OgrePagingLandScapeOcclusionCameraTraversal.h"
+	"OgrePagingLandScapeOcclusionVFTraversal.h"
+	"OgrePagingLandScapeOcclusionSWTraversal.h"
+	"OgrePagingLandScapeOcclusionDebugTraversal.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeoctreespherescenequery.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgreSceneManager.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeocclusionsorter.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOcclusionElement.h"
+
+1129207694 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeocclusionvisibilitydata.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1129207694 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeocclusioncameratraversal.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctreeCamera.h"
+
+1129207694 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeocclusionvftraversal.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctreeCamera.h"
+	"OgrePagingLandScapeOcclusionTraversal.h"
+
+1129207694 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeocclusionswtraversal.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctreeCamera.h"
+	"OgrePagingLandScapeOcclusionTraversal.h"
+
+1129216980 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeocclusiondebugtraversal.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctreeCamera.h"
+	"OgrePagingLandScapeOcclusionTraversal.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeoctreespherescenequery.cpp
+	"OgrePagingLandScapeOctreeSphereSceneQuery.h"
+	"OgrePagingLandScapeOctreeSceneManager.h"
+	"OgreEntity.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeoptions.cpp
+	"OgreRoot.h"
+	"OgreSceneManager.h"
+	"OgreRenderSystem.h"
+	"OgreGpuProgramManager.h"
+	"OgreStringConverter.h"
+	"OgreVector2.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreConfigFile.h"
+	"OgreImage.h"
+	"OgreMaterialManager.h"
+	"OgreMaterial.h"
+	"OgreTechnique.h"
+	"OgreCamera.h"
+	"OgreViewport.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeCamera.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapepage.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgreCamera.h"
+	"OgreStringConverter.h"
+	"OgreSceneNode.h"
+	"OgreException.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapePageManager.h"
+	"OgrePagingLandScapeRenderableManager.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeTileInfo.h"
+	"OgrePagingLandScapeTile.h"
+	"OgrePagingLandScapeTileManager.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapePage.h"
+	"OgrePagingLandScapePageRenderable.h"
+	"OgrePagingLandScapeListenerManager.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeHorizon.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscaperenderablemanager.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeQueue.h"
+	"OgrePagingLandScapeIndexBuffer.h"
+	"OgrePagingLandScapeTileInfo.h"
+	"OgrePagingLandScapePoolSet.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetilemanager.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeQueue.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapepagemanager.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgreCamera.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapePage.h"
+	"OgrePagingLandScapePageManager.h"
+	"OgrePagingLandScapeTileManager.h"
+	"OgrePagingLandScapeRenderableManager.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTileInfo.h"
+	"OgrePagingLandScapeTile.h"
+	"OgrePagingLandScapeRenderable.h"
+	"OgrePagingLandScapeListenerManager.h"
+	"OgrePagingLandScapePageRenderable.h"
+	"OgrePagingLandScapeHorizon.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1138701638 c:\ogresdk\plugins\paginglandscape2\src\drgnurbssurface.cpp
+	"DRGNURBSSurface.h"
+	<stdlib.h>
+	<math.h>
+	<string.h>
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscaperayscenequery.cpp
+	"OgreEntity.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreSceneManager.h"
+	"OgrePagingLandScapeOctreeSceneManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeRaySceneQuery.h"
+
+1147699888 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscaperayscenequery.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctreeRaySceneQuery.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscaperenderable.cpp
+	"OgreRoot.h"
+	"OgreHardwareBufferManager.h"
+	"OgreLogManager.h"
+	"OgreStringConverter.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSceneNode.h"
+	"OgreSimpleRenderable.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapeRenderable.h"
+	"OgrePagingLandScapeRenderableManager.h"
+	"OgrePagingLandScapeIndexBuffer.h"
+	"OgrePagingLandScapeTextureCoordinatesManager.h"
+	"OgrePagingLandScapeTile.h"
+	"OgrePagingLandScapeTileInfo.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeListenerManager.h"
+	"OgrePagingLandScapePageManager.h"
+	"OgrePagingLandScapeHorizon.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexturecoordinatesmanager.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscaperenderablemanager.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreCamera.h"
+	"OgreSceneNode.h"
+	"OgreSimpleRenderable.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapeRenderable.h"
+	"OgrePagingLandScapeIndexBuffer.h"
+	"OgrePagingLandScapeRenderableManager.h"
+	"OgrePagingLandScapeTile.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapescenemanager.cpp
+	"OgreRoot.h"
+	"OgreSceneManager.h"
+	"OgreVector2.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgreCamera.h"
+	"OgreStringConverter.h"
+	"OgreSceneNode.h"
+	"OgreSimpleRenderable.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeRenderableManager.h"
+	"OgrePagingLandScapeTextureCoordinatesManager.h"
+	"OgrePagingLandScapeRenderable.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapePageManager.h"
+	"OgrePagingLandScapeTile.h"
+	"OgrePagingLandScapeTileInfo.h"
+	"OgrePagingLandScapeTileManager.h"
+	"OgrePagingLandScapeRenderable.h"
+	"OgrePagingLandScapeRenderableManager.h"
+	"OgrePagingLandScapeRaySceneQuery.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapeListenerManager.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeHorizon.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapescenemanagerdll.cpp
+	"OgreRoot.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeSceneManager.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexturemanager.cpp
+	"OgreRoot.h"
+	"OgreRenderSystem.h"
+	"OgreMaterialManager.h"
+	"OgreGpuProgramManager.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTexture_Image.h"
+	"OgrePagingLandScapeTexture_InstantBaseTexture.h"
+	"OgrePagingLandScapeTexture_InstantBaseTextureShadowed.h"
+	"OgrePagingLandScapeTexture_InstantBaseTextureEdit.h"
+	"OgrePagingLandScapeTexture_BaseTexture.h"
+	"OgrePagingLandScapeTexture_BaseTexture2.h"
+	"OgrePagingLandScapeTexture_None.h"
+	"OgrePagingLandScapeTexture_Splatting.h"
+	"OgrePagingLandScapeTexture_Splatting2.h"
+	"OgrePagingLandScapeTexture_Splatting2Edit.h"
+	"OgrePagingLandScapeTexture_Splatting3.h"
+	"OgrePagingLandScapeTexture_Splatting4.h"
+	"OgrePagingLandScapeTexture_Splatting5.h"
+	"OgrePagingLandScapeTexture_SplattingShader.h"
+	"OgrePagingLandScapeTexture_SplattingShaderEdit.h"
+	"OgrePagingLandScapeTexture_Splatting6.h"
+	"OgrePagingLandScapeTexture_Splatting7.h"
+	"OgrePagingLandScapeTexture_Splatting7Edit.h"
+	"OgrePagingLandScapeTileInfo.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_image.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_instantbasetexture.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_instantbasetextureshadowed.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_instantbasetextureedit.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_basetexture.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_basetexture2.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1142263294 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_none.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeTexture.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting2.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting2edit.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting3.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting4.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting5.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeTexture.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splattingshader.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeTexture.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splattingshaderedit.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeTexture.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting6.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting7.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapetexture_splatting7edit.h
+	"OgrePagingLandScapePrerequisites.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture_basetexture.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture_BaseTexture.h"
+	"OgrePagingLandScapeData2DManager.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture_basetexture2.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture_BaseTexture2.h"
+	"OgrePagingLandScapeData2DManager.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture_image.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture_Image.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture_instantbasetexture.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture_InstantBaseTexture.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"fileutils.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture_instantbasetextureedit.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture_InstantBaseTextureEdit.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"fileutils.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture_instantbasetextureshadowed.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture_InstantBaseTextureShadowed.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"fileutils.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture_Splatting.h"
+	"OgrePagingLandScapeData2DManager.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting2.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture_Splatting2.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting2edit.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture_Splatting2Edit.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"fileutils.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting3.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture_Splatting3.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting4.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture_Splatting4.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting5.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture_Splatting5.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting6.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture_Splatting6.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting7.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture_Splatting7.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splatting7edit.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture_Splatting7Edit.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"fileutils.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splattingshader.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture_SplattingShader.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetexture_splattingshaderedit.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringConverter.h"
+	"OgreMaterialManager.h"
+	"OgreTextureManager.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapeTexture_SplattingShaderEdit.h"
+	"fileutils.h"
+
+1147699894 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetile.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgreCamera.h"
+	"OgreStringConverter.h"
+	"OgreSceneNode.h"
+	"OgreSimpleRenderable.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapeTileManager.h"
+	"OgrePagingLandScapeTile.h"
+	"OgrePagingLandScapeTileInfo.h"
+	"OgrePagingLandScapeData2DManager.h"
+	"OgrePagingLandScapeData2D.h"
+	"OgrePagingLandScapePageManager.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeRenderableManager.h"
+	"OgrePagingLandScapeRenderable.h"
+	"OgrePagingLandScapeTextureManager.h"
+	"OgrePagingLandScapeTexture.h"
+	"OgrePagingLandScapeListener.h"
+
+1147699894 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapetilemanager.cpp
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreMovableObject.h"
+	"OgreAxisAlignedBox.h"
+	"OgreCamera.h"
+	"OgrePagingLandScapeSceneManager.h"
+	"OgrePagingLandScapeOptions.h"
+	"OgrePagingLandScapeCamera.h"
+	"OgrePagingLandScapeTileManager.h"
+	"OgrePagingLandScapeTile.h"
+
+1137602352 c:\ogresdk\plugins\paginglandscape2\src\filetutils.cpp
+	<sys/types.h>
+	<sys/stat.h>
+	<windows.h>
+	<direct.h>
+	<io.h>
+	<malloc/malloc.h>
+	<malloc.h>
+	<unistd.h>
+	<sys/param.h>
+
+1102622004 c:\ogresdk\stlport\stlport\cassert
+	<stl/_prolog.h>
+	<assert.h>
+	<stl/_epilog.h>
+
+1088972108 c:\ogresdk\stlport\stlport\stl\_prolog.h
+	<stl/_config.h>
+	<config/_prolog.h>
+
+1139311906 c:\ogresdk\stlport\stlport\stl\_config.h
+	<features.h>
+	<stl/_stlport_version.h>
+	<stl_user_config.h>
+	<stl/_config_compat.h>
+	<stl/_site_config.h>
+	<config/stlcomp.h>
+	<config/stl_confix.h>
+	<afx.h>
+	<windows.h>
+	<isynonym.hpp>
+	<yvals.h>
+	<stl/_abbrevs.h>
+
+1133521350 c:\ogresdk\stlport\stlport\stl\_stlport_version.h
+
+1138108974 c:\ogresdk\stlport\stlport\stl_user_config.h
+
+1124825764 c:\ogresdk\stlport\stlport\stl\_config_compat.h
+
+1144098876 c:\ogresdk\stlport\stlport\stl\_site_config.h
+
+1127885364 c:\ogresdk\stlport\stlport\config\stlcomp.h
+	<config/stl_ibm.h>
+	<config/stl_icc.h>
+	<config/stl_gcc.h>
+	<config/stl_kai.h>
+	<config/stl_sgi.h>
+	<config/stl_as400.h>
+	<config/stl_evc.h>
+	<config/stl_msvc.h>
+	<config/stl_bc.h>
+	<config/stl_sunpro.h>
+	<config/stl_watcom.h>
+	<config/stl_como.h>
+	<config/stl_dm.h>
+	<config/stl_symantec.h>
+	<config/stl_apple.h>
+	<config/stl_mwerks.h>
+	<config/stl_hpacc.h>
+	<config/stl_intel.h>
+	<config/stl_sco.h>
+	<config/stl_apcc.h>
+	<config/stl_dec_vms.h>
+	<config/stl_dec.h>
+	<config/stl_is.h>
+	<config/stl_fujitsu.h>
+	<config/stl_cray.h>
+	<config/stl_mycomp.h>
+
+1096369664 c:\ogresdk\stlport\stlport\config\stl_ibm.h
+
+1094239846 c:\ogresdk\stlport\stlport\config\stl_icc.h
+
+1135371798 c:\ogresdk\stlport\stlport\config\stl_gcc.h
+	<config/stl_sco.h>
+	<config/stl_solaris.h>
+
+1000231708 c:\ogresdk\stlport\stlport\config\stl_sco.h
+
+1134596260 c:\ogresdk\stlport\stlport\config\stl_solaris.h
+	<sys/feature_tests.h>
+
+1001825936 c:\ogresdk\stlport\stlport\config\stl_kai.h
+	<config/stl_solaris.h>
+	<standards.h>
+
+1096369664 c:\ogresdk\stlport\stlport\config\stl_sgi.h
+	<standards.h>
+
+1096369662 c:\ogresdk\stlport\stlport\config\stl_as400.h
+
+1139311906 c:\ogresdk\stlport\stlport\config\stl_evc.h
+	<config/stl_msvc.h>
+
+1139311906 c:\ogresdk\stlport\stlport\config\stl_msvc.h
+	<config/stl_wince.h>
+
+1096369666 c:\ogresdk\stlport\stlport\config\stl_wince.h
+	<windows.h>
+	<windows.h>
+
+1111004370 c:\ogresdk\stlport\stlport\config\stl_bc.h
+
+1132261042 c:\ogresdk\stlport\stlport\config\stl_sunpro.h
+	<config/stl_solaris.h>
+
+1096369666 c:\ogresdk\stlport\stlport\config\stl_watcom.h
+
+1110105976 c:\ogresdk\stlport\stlport\config\stl_como.h
+	<math.h>
+	<math.h>
+	<sys/cdefs.h>
+	<sys/cdefs.h>
+	<stddef.h>
+	<math.h>
+	<stdexcept.stdh>
+
+1132382152 c:\ogresdk\stlport\stlport\math.h
+	<stl/_prolog.h>
+	<stl/_epilog.h>
+
+1124999366 c:\ogresdk\stlport\stlport\stl\_epilog.h
+	<config/_epilog.h>
+	<stl/_config_compat_post.h>
+
+1115151058 c:\ogresdk\stlport\stlport\config\_epilog.h
+
+1116061352 c:\ogresdk\stlport\stlport\stl\_config_compat_post.h
+
+1115151004 c:\ogresdk\stlport\stlport\stddef.h
+	<stl/_prolog.h>
+	"errno.h"
+	<stl/_epilog.h>
+
+1117474506 c:\ogresdk\stlport\stlport\errno.h
+	<stl/_prolog.h>
+	<stl/_epilog.h>
+
+1100722900 c:\ogresdk\stlport\stlport\config\stl_dm.h
+
+1096369666 c:\ogresdk\stlport\stlport\config\stl_symantec.h
+
+1135373772 c:\ogresdk\stlport\stlport\config\stl_apple.h
+	<CoreSwitches_AC.h>
+	<ConditionalMacros_AC.h>
+	<Types_AC.h>
+	<ConditionalMacros.h>
+	<Types.h>
+	<ConditionalMacros.h>
+	<Types.h>
+
+1115445374 c:\ogresdk\stlport\stlport\config\stl_mwerks.h
+	<mslGlobals.h>
+	<ansi_parms.h>
+
+1111004532 c:\ogresdk\stlport\stlport\config\stl_hpacc.h
+
+1128871294 c:\ogresdk\stlport\stlport\config\stl_intel.h
+	<config/stl_msvc.h>
+
+1096369662 c:\ogresdk\stlport\stlport\config\stl_apcc.h
+
+1096369662 c:\ogresdk\stlport\stlport\config\stl_dec_vms.h
+
+1096369662 c:\ogresdk\stlport\stlport\config\stl_dec.h
+
+980559612 c:\ogresdk\stlport\stlport\config\stl_fujitsu.h
+
+1096369662 c:\ogresdk\stlport\stlport\config\stl_cray.h
+
+1111004698 c:\ogresdk\stlport\stlport\config\stl_mycomp.h
+
+1110106002 c:\ogresdk\stlport\stlport\config\stl_confix.h
+	<mcompile.h>
+
+1094155458 c:\ogresdk\stlport\stlport\stl\_abbrevs.h
+
+1128577766 c:\ogresdk\stlport\stlport\config\_prolog.h
+	<config/_msvc_warnings_off.h>
+
+1114241716 c:\ogresdk\stlport\stlport\config\_msvc_warnings_off.h
+
+1116963288 c:\ogresdk\stlport\stlport\assert.h
+	<stl/_prolog.h>
+	<stl/_epilog.h>
+
+1124134082 c:\ogresdk\stlport\stlport\cstdio
+	<stl/_prolog.h>
+	<stl/_epilog.h>
+
+1132261042 c:\ogresdk\stlport\stlport\cstdlib
+	<stl/_prolog.h>
+	<stl/_epilog.h>
+
+1084303272 c:\ogresdk\stlport\stlport\ctime
+	<stl/_prolog.h>
+	<stl/_epilog.h>
+
+980559580 c:\ogresdk\stlport\stlport\cstring
+	<stl/_prolog.h>
+	<using/cstring>
+	<stl/_epilog.h>
+
+1101155928 c:\ogresdk\stlport\stlport\using\cstring
+
+980559578 c:\ogresdk\stlport\stlport\cstdarg
+	<stl/_prolog.h>
+	<stl/_epilog.h>
+
+1117049984 c:\ogresdk\stlport\stlport\cmath
+	<cstdlib>
+	<stl/_prolog.h>
+	<math.h>
+	<stl/_cmath.h>
+	<stl/_epilog.h>
+
+1134595586 c:\ogresdk\stlport\stlport\stl\_cmath.h
+
+1042996818 c:\ogresdk\stlport\stlport\vector
+	<stl/_prolog.h>
+	<stl/_algobase.h>
+	<stl/_vector.h>
+	<stl/_epilog.h>
+
+1109514448 c:\ogresdk\stlport\stlport\stl\_algobase.h
+	<cstddef>
+	<cstring>
+	<climits>
+	<cstdlib>
+	<stl/_pair.h>
+	<stl/_iterator_base.h>
+	<stl/type_traits.h>
+	<stl/_algobase.c>
+
+1042996810 c:\ogresdk\stlport\stlport\cstddef
+	<stl/_prolog.h>
+	<stl/_epilog.h>
+
+1117049984 c:\ogresdk\stlport\stlport\climits
+	<stl/_prolog.h>
+	</usr/include/limits.h>
+	<limits.h>
+	<stl/_epilog.h>
+
+1134056014 c:\ogresdk\stlport\stlport\limits.h
+	<stl/_prolog.h>
+	<stl/_epilog.h>
+
+1082578362 c:\ogresdk\stlport\stlport\stl\_pair.h
+
+1108757738 c:\ogresdk\stlport\stlport\stl\_iterator_base.h
+	<cstddef>
+	<stl/type_traits.h>
+	<stl/_ptrs_specialize.h>
+	<stl/debug/_debug.h>
+
+1138104498 c:\ogresdk\stlport\stlport\stl\type_traits.h
+	<stl/_cwchar.h>
+	<stl/type_manips.h>
+	<stl/boost_type_traits.h>
+	<boost/type_traits/add_reference.hpp>
+	<boost/type_traits/add_const.hpp>
+
+1116061354 c:\ogresdk\stlport\stlport\stl\_cwchar.h
+	<cwchar>
+	<wchar.h>
+
+1126935254 c:\ogresdk\stlport\stlport\cwchar
+	<stl/_prolog.h>
+	<cstddef>
+	<iosfwd>
+	<wchar.h>
+	<stl/_cwchar.h>
+	<stl/_epilog.h>
+
+1110105600 c:\ogresdk\stlport\stlport\iosfwd
+	<stl/_prolog.h>
+	<cwchar>
+	<stl/_iosfwd.h>
+	<stl/char_traits.h>
+	<stl/_epilog.h>
+
+1108412264 c:\ogresdk\stlport\stlport\stl\_iosfwd.h
+	<stl/char_traits.h>
+
+1119986676 c:\ogresdk\stlport\stlport\stl\char_traits.h
+	<cstddef>
+	<cstring>
+	<sys/types.h>
+	<mem.h>
+	<string.h>
+	<_stddef.h>
+	<stl/_construct.h>
+	<stl/_cwchar.h>
+
+1077480416 c:\ogresdk\stlport\stlport\mem.h
+	<stl/_prolog.h>
+	<rw/stddefs.h>
+	<stl/_epilog.h>
+
+1134056506 c:\ogresdk\stlport\stlport\string.h
+	<stl/_prolog.h>
+	<using/cstring>
+	<stl/_epilog.h>
+
+1111179476 c:\ogresdk\stlport\stlport\stl\_construct.h
+	<cstring>
+	<new>
+	<stl/_iterator_base.h>
+	<stl/_move_construct_fwk.h>
+
+1107608870 c:\ogresdk\stlport\stlport\new
+	<stl/_prolog.h>
+	<cstddef>
+	<cstdlib>
+	<new.h>
+	<stl/_new.h>
+	<stl/_epilog.h>
+
+1137481790 c:\ogresdk\stlport\stlport\new.h
+	<stl/_prolog.h>
+	<new.>
+	<stl/_epilog.h>
+
+1112200928 c:\ogresdk\stlport\stlport\stl\_new.h
+	<exception>
+
+1123445874 c:\ogresdk\stlport\stlport\exception
+	<stl/_prolog.h>
+	<config/_msvc_warnings_off.h>
+	<stl/_epilog.h>
+
+1127159056 c:\ogresdk\stlport\stlport\stl\_move_construct_fwk.h
+	<stl/type_traits.h>
+
+1120200368 c:\ogresdk\stlport\stlport\wchar.h
+	<stl/_prolog.h>
+	<cstring>
+	<unicode.h>
+	<stl/_epilog.h>
+
+1124737718 c:\ogresdk\stlport\stlport\stl\type_manips.h
+
+1105734586 c:\ogresdk\stlport\stlport\stl\boost_type_traits.h
+	<boost/type_traits/is_integral.hpp>
+	<boost/type_traits/is_float.hpp>
+	<boost/type_traits/has_trivial_constructor.hpp>
+	<boost/type_traits/has_trivial_copy.hpp>
+	<boost/type_traits/has_trivial_assign.hpp>
+	<boost/type_traits/has_trivial_destructor.hpp>
+	<boost/type_traits/is_pod.hpp>
+	<boost/type_traits/is_pointer.hpp>
+	<boost/type_traits/is_reference.hpp>
+	<boost/type_traits/remove_cv.hpp>
+	<boost/type_traits/is_same.hpp>
+
+1105648618 c:\ogresdk\stlport\stlport\stl\_ptrs_specialize.h
+	<stl/type_traits.h>
+
+1112906410 c:\ogresdk\stlport\stlport\stl\debug\_debug.h
+	<stl/type_traits.h>
+	<stl/_threads.h>
+	<stl/_iterator_base.h>
+	<stl/debug/_debug.c>
+
+1129449004 c:\ogresdk\stlport\stlport\stl\_threads.h
+	<cstddef>
+	<cstdlib>
+	<mutex.h>
+	<pthread.h>
+	<spinlock.h>
+	<stl/_windows.h>
+	<machine/builtins.h>
+	<stl/_sparc_atomic.h>
+	<ctime>
+	<synch.h>
+	<cstdio>
+	<stl/_cwchar.h>
+	<OS.h>
+	<cassert>
+	<stdio.h>
+	<nwthread.h>
+	<nwsemaph.h>
+	<os2.h>
+	<stl/_threads.c>
+
+1123829034 c:\ogresdk\stlport\stlport\pthread.h
+	<stl/_prolog.h>
+	"/usr/include/pthread.h"
+	<stl/_epilog.h>
+
+1117473386 c:\ogresdk\stlport\stlport\stl\_windows.h
+	<afx.h>
+	<windows.h>
+	<windef.h>
+	<winbase.h>
+
+985131684 c:\ogresdk\stlport\stlport\stl\_sparc_atomic.h
+
+1134072216 c:\ogresdk\stlport\stlport\stdio.h
+	<stl/_prolog.h>
+	<stl/_epilog.h>
+
+1129449004 c:\ogresdk\stlport\stlport\stl\_threads.c
+	<stl/_threads.h>
+	<time.h>
+	<ctime>
+	<sys/time.h>
+
+1117474506 c:\ogresdk\stlport\stlport\time.h
+	<stl/_prolog.h>
+	<stl/_epilog.h>
+
+1114027010 c:\ogresdk\stlport\stlport\stl\debug\_debug.c
+	<cstdlib>
+	<stdlib.h>
+	<stl/_windows.h>
+	<cstdlib>
+	<cstdarg>
+	<cstdio>
+
+1132383550 c:\ogresdk\stlport\stlport\stdlib.h
+	<stl/_prolog.h>
+	"errno.h"
+	<stl/_epilog.h>
+
+1113663036 c:\ogresdk\stlport\stlport\stl\_algobase.c
+	<stl/_algobase.h>
+	<stl/_iterator.h>
+
+1099600796 c:\ogresdk\stlport\stlport\stl\_iterator.h
+	<stl/_iterator_base.h>
+	<stl/_iterator_old.h>
+
+1124829614 c:\ogresdk\stlport\stlport\stl\_iterator_old.h
+	<stl/_iterator_base.h>
+
+1124524522 c:\ogresdk\stlport\stlport\stl\_vector.h
+	<stl/_algobase.h>
+	<stl/_alloc.h>
+	<stl/_iterator.h>
+	<stl/_uninitialized.h>
+	<stl/pointers/_vector.h>
+	<stl/_relops_cont.h>
+	<stl/_vector.c>
+	<stl/_bvector.h>
+	<stl/debug/_vector.h>
+	<stl/wrappers/_vector.h>
+
+1127196366 c:\ogresdk\stlport\stlport\stl\_alloc.h
+	<cstddef>
+	<stl/debug/_debug.h>
+	<cstdlib>
+	<cstring>
+	<cstdio>
+	<cstdlib>
+	<new>
+	<stl/_threads.h>
+	<stl/_construct.h>
+	<stl/_pthread_alloc.h>
+	<stl/_alloc_old.h>
+	<stl/_alloc.c>
+
+1094760036 c:\ogresdk\stlport\stlport\stl\_pthread_alloc.h
+	<pthread.h>
+	<stl/_alloc.h>
+	<stl/_pthread_alloc.c>
+
+1122491584 c:\ogresdk\stlport\stlport\stl\_pthread_alloc.c
+	<stl/_pthread_alloc.h>
+	<cerrno>
+
+1102622042 c:\ogresdk\stlport\stlport\cerrno
+	<stl/_prolog.h>
+	<errno.h>
+	<stl/_epilog.h>
+
+1110034338 c:\ogresdk\stlport\stlport\stl\_alloc_old.h
+
+1119038878 c:\ogresdk\stlport\stlport\stl\_alloc.c
+	<stl/_alloc.h>
+	<crtdbg.h>
+	<cstdlib>
+
+1110034340 c:\ogresdk\stlport\stlport\stl\_uninitialized.h
+	<cstring>
+	<stl/_algobase.h>
+	<stl/_construct.h>
+
+1103232954 c:\ogresdk\stlport\stlport\stl\pointers\_vector.h
+	<stl/pointers/_void_ptr_traits.h>
+
+1081703542 c:\ogresdk\stlport\stlport\stl\pointers\_void_ptr_traits.h
+
+1096056210 c:\ogresdk\stlport\stlport\stl\_relops_cont.h
+
+1107202912 c:\ogresdk\stlport\stlport\stl\_vector.c
+	<stl/_vector.h>
+	<stl/_range_errors.h>
+
+1111523362 c:\ogresdk\stlport\stlport\stl\_range_errors.h
+	<stdexcept>
+	<string>
+	<cstdlib>
+	<cstdio>
+
+1112729536 c:\ogresdk\stlport\stlport\stdexcept
+	<stl/_prolog.h>
+	<exception>
+	<cstring>
+	<stl/_alloc.h>
+	<stl/_string_fwd.h>
+	<stl/_epilog.h>
+
+1111179478 c:\ogresdk\stlport\stlport\stl\_string_fwd.h
+	<iosfwd>
+
+1108412252 c:\ogresdk\stlport\stlport\string
+	<stl/_prolog.h>
+	<stl/_string.h>
+	<stl/_string_hash.h>
+	<stl/_string_io.h>
+	<stl/_epilog.h>
+
+1141134886 c:\ogresdk\stlport\stlport\stl\_string.h
+	<memory>
+	<stl/_string_fwd.h>
+	<stl/_function.h>
+	<stl/_algobase.h>
+	<stl/_iterator.h>
+	<stl/_string_sum.h>
+	<stl/msl_string.h>
+	<stl/_string_base.h>
+	<stl/_string_sum_methods.h>
+	<stl/debug/_string.h>
+	<stl/_string_workaround.h>
+	<stl/_string_operators.h>
+	<stl/_string.c>
+
+1042996814 c:\ogresdk\stlport\stlport\memory
+	<stl/_prolog.h>
+	<stl/_alloc.h>
+	<stl/_tempbuf.h>
+	<stl/_raw_storage_iter.h>
+	<stl/_auto_ptr.h>
+	<new_mem.h>
+	<stl/_epilog.h>
+
+1103232928 c:\ogresdk\stlport\stlport\stl\_tempbuf.h
+	<climits>
+	<cstdlib>
+	<stl/_uninitialized.h>
+	<stl/_tempbuf.c>
+
+1012625948 c:\ogresdk\stlport\stlport\stl\_tempbuf.c
+	<stl/_tempbuf.h>
+
+1110034340 c:\ogresdk\stlport\stlport\stl\_raw_storage_iter.h
+	<stl/_iterator_base.h>
+
+1110107368 c:\ogresdk\stlport\stlport\stl\_auto_ptr.h
+
+1110106904 c:\ogresdk\stlport\stlport\stl\_function.h
+	<stl/type_traits.h>
+	<stl/_function_base.h>
+	<stl/_function_adaptors.h>
+
+1124737716 c:\ogresdk\stlport\stlport\stl\_function_base.h
+	<stl/type_traits.h>
+
+1068846182 c:\ogresdk\stlport\stlport\stl\_function_adaptors.h
+
+1122104538 c:\ogresdk\stlport\stlport\stl\_string_sum.h
+
+1110106362 c:\ogresdk\stlport\stlport\stl\msl_string.h
+
+1124737718 c:\ogresdk\stlport\stlport\stl\_string_base.h
+
+1105648618 c:\ogresdk\stlport\stlport\stl\_string_sum_methods.h
+
+1137188132 c:\ogresdk\stlport\stlport\stl\debug\_string.h
+	<stl/debug/_iterator.h>
+	<stl/_string_sum_methods.h>
+
+1109364024 c:\ogresdk\stlport\stlport\stl\debug\_iterator.h
+	<stl/_pair.h>
+	<stl/_alloc.h>
+
+1127247378 c:\ogresdk\stlport\stlport\stl\_string_workaround.h
+	<stl/_string_sum_methods.h>
+	<stl/debug/_string_workaround.h>
+
+1106397818 c:\ogresdk\stlport\stlport\stl\debug\_string_workaround.h
+	<stl/_string_sum_methods.h>
+
+1110107330 c:\ogresdk\stlport\stlport\stl\_string_operators.h
+
+1122194292 c:\ogresdk\stlport\stlport\stl\_string.c
+	<stl/_string.h>
+	<stl/_ctraits_fns.h>
+	<stl/_range_errors.h>
+
+1122491584 c:\ogresdk\stlport\stlport\stl\_ctraits_fns.h
+	<stl/_function_base.h>
+
+1108412264 c:\ogresdk\stlport\stlport\stl\_string_hash.h
+	<stl/_hash_fun.h>
+	<stl/_string.h>
+
+1127049194 c:\ogresdk\stlport\stlport\stl\_hash_fun.h
+	<cstddef>
+
+1108412264 c:\ogresdk\stlport\stlport\stl\_string_io.h
+	<stl/_ostream.h>
+	<stl/_istream.h>
+	<stl/_string_io.c>
+
+1128490130 c:\ogresdk\stlport\stlport\stl\_ostream.h
+	<stl/_ios.h>
+	<stl/_ostreambuf_iterator.h>
+	<stl/_ostream.c>
+
+1119470528 c:\ogresdk\stlport\stlport\stl\_ios.h
+	<stl/_ios_base.h>
+	<stl/_ctype.h>
+	<stl/_numpunct.h>
+	<stl/_ios.c>
+	<stl/_num_put.h>
+	<stl/_num_get.h>
+	<stl/_monetary.h>
+	<stl/_time_facets.h>
+
+1099600796 c:\ogresdk\stlport\stlport\stl\_ios_base.h
+	<stdexcept>
+	<utility>
+	<stl/_locale.h>
+	<stl/_string.h>
+
+1042996818 c:\ogresdk\stlport\stlport\utility
+	<stl/_prolog.h>
+	<stl/type_traits.h>
+	<stl/debug/_debug.h>
+	<stl/_pair.h>
+	<stl/_iterator.h>
+	<stl/_epilog.h>
+
+1117826726 c:\ogresdk\stlport\stlport\stl\_locale.h
+	<cstdlib>
+	<stl/_cwchar.h>
+	<stl/_threads.h>
+	<stl/_string_fwd.h>
+
+1115666874 c:\ogresdk\stlport\stlport\stl\_ctype.h
+	<stl/c_locale.h>
+	<stl/_locale.h>
+	<stl/_algobase.h>
+
+1118862668 c:\ogresdk\stlport\stlport\stl\c_locale.h
+	<sgidefs.h>
+	<standards.h>
+	<wchar.h>
+	<ctype.h>
+	<sgidefs.h>
+	<standards.h>
+	<cstddef>
+	<stl/_cwchar.h>
+	<cctype>
+	<stddef.h>
+	<wchar.h>
+	<ctype.h>
+
+1134056062 c:\ogresdk\stlport\stlport\ctype.h
+	<stl/_prolog.h>
+	<stl/_epilog.h>
+
+1108133508 c:\ogresdk\stlport\stlport\cctype
+	<stl/_prolog.h>
+	<ctype.h>
+	<stl/_epilog.h>
+
+1108897102 c:\ogresdk\stlport\stlport\stl\_numpunct.h
+	<stl/_ios_base.h>
+	<stl/c_locale.h>
+	<stl/_string.h>
+
+1119900990 c:\ogresdk\stlport\stlport\stl\_ios.c
+	<stl/_ios.h>
+	<stl/_streambuf.h>
+	<stl/_numpunct.h>
+
+1110102636 c:\ogresdk\stlport\stlport\stl\_streambuf.h
+	<stl/_ios_base.h>
+	<stl/_streambuf.c>
+
+1110102636 c:\ogresdk\stlport\stlport\stl\_streambuf.c
+	<stl/_streambuf.h>
+
+1101919718 c:\ogresdk\stlport\stlport\stl\_num_put.h
+	<stl/_numpunct.h>
+	<stl/_ctype.h>
+	<stl/_ostreambuf_iterator.h>
+	<stl/_iostream_string.h>
+	<stl/_num_put.c>
+
+1068755700 c:\ogresdk\stlport\stlport\stl\_ostreambuf_iterator.h
+	<stl/_streambuf.h>
+
+1098386662 c:\ogresdk\stlport\stlport\stl\_iostream_string.h
+	<stl/_alloc.h>
+	<stl/_string.h>
+
+1119470530 c:\ogresdk\stlport\stlport\stl\_num_put.c
+	<stl/_num_put.h>
+	<stl/_limits.h>
+
+1114715270 c:\ogresdk\stlport\stlport\stl\_limits.h
+	<climits>
+	<cfloat>
+	<stl/_cwchar.h>
+	<stl/_limits.c>
+
+980559576 c:\ogresdk\stlport\stlport\cfloat
+	<stl/_prolog.h>
+	<stl/_epilog.h>
+
+1139311906 c:\ogresdk\stlport\stlport\stl\_limits.c
+	<stl/_limits.h>
+
+1112763394 c:\ogresdk\stlport\stlport\stl\_num_get.h
+	<stl/_istreambuf_iterator.h>
+	<stl/c_locale.h>
+	<stl/_numpunct.h>
+	<stl/_ctype.h>
+	<stl/_iostream_string.h>
+	<stl/_num_get.c>
+
+1067027824 c:\ogresdk\stlport\stlport\stl\_istreambuf_iterator.h
+	<stl/_iterator_base.h>
+	<stl/_streambuf.h>
+
+1119470530 c:\ogresdk\stlport\stlport\stl\_num_get.c
+	<stl/_num_get.h>
+	<stl/_limits.h>
+
+1108897102 c:\ogresdk\stlport\stlport\stl\_monetary.h
+	<stl/_ctype.h>
+	<stl/_ostreambuf_iterator.h>
+	<stl/_istreambuf_iterator.h>
+	<stl/_monetary.c>
+
+1132485064 c:\ogresdk\stlport\stlport\stl\_monetary.c
+	<stl/_monetary.h>
+	<stl/_ios.h>
+	<stl/_num_put.h>
+	<stl/_num_get.h>
+
+1117050266 c:\ogresdk\stlport\stlport\stl\_time_facets.h
+	<ctime>
+	<stl/c_locale.h>
+	<stl/_ios_base.h>
+	<stl/_time_facets.c>
+
+1124223166 c:\ogresdk\stlport\stlport\stl\_time_facets.c
+	<stl/_time_facets.h>
+	<stl/_num_put.h>
+	<stl/_num_get.h>
+
+1128490130 c:\ogresdk\stlport\stlport\stl\_ostream.c
+	<stl/_ostream.h>
+	<stl/_num_put.h>
+
+1117050116 c:\ogresdk\stlport\stlport\stl\_istream.h
+	<stl/_cwchar.h>
+	<stl/_ios.h>
+	<stl/_ostream.h>
+	<stl/_istreambuf_iterator.h>
+	<stl/_ctraits_fns.h>
+	<stl/_istream.c>
+
+1119470528 c:\ogresdk\stlport\stlport\stl\_istream.c
+	<stl/_istream.h>
+	<stl/_limits.h>
+	<stl/_num_get.h>
+
+1115061654 c:\ogresdk\stlport\stlport\stl\_string_io.c
+	<stl/_string_io.h>
+	<stl/_ctype.h>
+
+1139311906 c:\ogresdk\stlport\stlport\stl\_bvector.h
+	<stl/_vector.h>
+	<stl/_range_errors.h>
+	<stl/_relops_cont.h>
+
+1112906414 c:\ogresdk\stlport\stlport\stl\debug\_vector.h
+	<stl/debug/_iterator.h>
+	<stl/debug/_relops_cont.h>
+
+1096056224 c:\ogresdk\stlport\stlport\stl\debug\_relops_cont.h
+
+1101241090 c:\ogresdk\stlport\stlport\stl\wrappers\_vector.h
+	<stl/_vector.h>
+
+1106858098 c:\ogresdk\stlport\stlport\map
+	<stl/_prolog.h>
+	<stl/_map.h>
+	<stl/_epilog.h>
+
+1107630322 c:\ogresdk\stlport\stlport\stl\_map.h
+	<stl/_tree.h>
+	<stl/_relops_cont.h>
+	<stl/_relops_cont.h>
+	<stl/wrappers/_map.h>
+
+1132036344 c:\ogresdk\stlport\stlport\stl\_tree.h
+	<stl/_algobase.h>
+	<stl/_alloc.h>
+	<stl/_iterator.h>
+	<stl/_construct.h>
+	<stl/_function_base.h>
+	<stl/_relops_cont.h>
+	<stl/_tree.c>
+	<stl/debug/_tree.h>
+
+1119794590 c:\ogresdk\stlport\stlport\stl\_tree.c
+	<stl/_tree.h>
+
+1112906414 c:\ogresdk\stlport\stlport\stl\debug\_tree.h
+	<stl/debug/_iterator.h>
+	<stl/_function.h>
+	<stl/_alloc.h>
+	<stl/debug/_relops_cont.h>
+
+1101241088 c:\ogresdk\stlport\stlport\stl\wrappers\_map.h
+	<stl/_map.h>
+
+1106858100 c:\ogresdk\stlport\stlport\set
+	<stl/_prolog.h>
+	<stl/_set.h>
+	<stl/_epilog.h>
+
+1107630324 c:\ogresdk\stlport\stlport\stl\_set.h
+	<stl/_tree.h>
+	<stl/_relops_cont.h>
+	<stl/_relops_cont.h>
+	<stl/wrappers/_set.h>
+
+1101241088 c:\ogresdk\stlport\stlport\stl\wrappers\_set.h
+	<stl/_set.h>
+
+1106858098 c:\ogresdk\stlport\stlport\list
+	<stl/_prolog.h>
+	<stl/_list.h>
+	<stl/_epilog.h>
+
+1124524424 c:\ogresdk\stlport\stlport\stl\_list.h
+	<stl/_algobase.h>
+	<stl/_alloc.h>
+	<stl/_iterator.h>
+	<stl/_construct.h>
+	<stl/_function_base.h>
+	<stl/pointers/_list.h>
+	<stl/_relops_cont.h>
+	<stl/_list.c>
+	<stl/debug/_list.h>
+	<stl/wrappers/_list.h>
+
+1106124272 c:\ogresdk\stlport\stlport\stl\pointers\_list.h
+	<stl/pointers/_void_ptr_traits.h>
+
+1095276226 c:\ogresdk\stlport\stlport\stl\_list.c
+	<stl/_list.h>
+	<vector>
+
+1128490130 c:\ogresdk\stlport\stlport\stl\debug\_list.h
+	<stl/_algo.h>
+	<stl/debug/_iterator.h>
+	<stl/debug/_relops_cont.h>
+
+1122491584 c:\ogresdk\stlport\stlport\stl\_algo.h
+	<stl/_algobase.h>
+	<stl/_heap.h>
+	<stl/_iterator.h>
+	<stl/_function_base.h>
+	<cstdio>
+	<stl/_algo.c>
+
+1110106722 c:\ogresdk\stlport\stlport\stl\_heap.h
+	<stl/_heap.c>
+
+1110106766 c:\ogresdk\stlport\stlport\stl\_heap.c
+	<stl/_heap.h>
+	<stl/_iterator_base.h>
+
+1122042662 c:\ogresdk\stlport\stlport\stl\_algo.c
+	<stl/_algo.h>
+	<stl/_tempbuf.h>
+
+1101241088 c:\ogresdk\stlport\stlport\stl\wrappers\_list.h
+	<stl/_list.h>
+
+1106858098 c:\ogresdk\stlport\stlport\deque
+	<stl/_prolog.h>
+	<stl/_deque.h>
+	<stl/_epilog.h>
+
+1139311906 c:\ogresdk\stlport\stlport\stl\_deque.h
+	<stl/_algobase.h>
+	<stl/_alloc.h>
+	<stl/_iterator.h>
+	<stl/_uninitialized.h>
+	<stl/_range_errors.h>
+	<stl/pointers/_deque.h>
+	<stl/_relops_cont.h>
+	<stl/_deque.c>
+	<stl/debug/_deque.h>
+	<stl/wrappers/_deque.h>
+
+1106124272 c:\ogresdk\stlport\stlport\stl\pointers\_deque.h
+	<stl/pointers/_void_ptr_traits.h>
+
+1124386490 c:\ogresdk\stlport\stlport\stl\_deque.c
+	<stl/_deque.h>
+
+1112906410 c:\ogresdk\stlport\stlport\stl\debug\_deque.h
+	<stl/debug/_iterator.h>
+	<stl/debug/_relops_cont.h>
+
+1060521510 c:\ogresdk\stlport\stlport\stl\wrappers\_deque.h
+	<stl/_deque.h>
+
+1122491610 c:\ogresdk\stlport\stlport\queue
+	<stl/_prolog.h>
+	<stl/_queue.h>
+	<functional>
+	<stl/_epilog.h>
+
+1124524022 c:\ogresdk\stlport\stlport\stl\_queue.h
+	<stl/_deque.h>
+	<stl/_vector.h>
+	<stl/_heap.h>
+	<stl/_function.h>
+
+1042996812 c:\ogresdk\stlport\stlport\functional
+	<stl/_prolog.h>
+	<stl/_function.h>
+	<stl/_epilog.h>
+
+1042996808 c:\ogresdk\stlport\stlport\bitset
+	<stl/_prolog.h>
+	<stl/_bitset.h>
+	<stl/_epilog.h>
+
+1110227680 c:\ogresdk\stlport\stlport\stl\_bitset.h
+	<stl/_algobase.h>
+	<stl/_alloc.h>
+	<stl/_iterator.h>
+	<stl/_uninitialized.h>
+	<stl/_range_errors.h>
+	<stl/_string.h>
+	<stl/_iosfwd.h>
+	<stl/_string_io.h>
+	<stl/_bitset.c>
+
+1110227680 c:\ogresdk\stlport\stlport\stl\_bitset.c
+	<stl/_bitset.h>
+	<stl/_string_io.h>
+
+1042996812 c:\ogresdk\stlport\stlport\hash_set
+	<stl/_prolog.h>
+	<stl/_hash_set.h>
+	<stl/_epilog.h>
+
+1108757738 c:\ogresdk\stlport\stlport\stl\_hash_set.h
+	<stl/_hashtable.h>
+	<stl/_relops_hash_cont.h>
+	<stl/_relops_hash_cont.h>
+	<stl/wrappers/_hash_set.h>
+
+1124829632 c:\ogresdk\stlport\stlport\stl\_hashtable.h
+	<stl/_vector.h>
+	<stl/_slist.h>
+	<stl/_iterator.h>
+	<stl/_function_base.h>
+	<stl/_algobase.h>
+	<stl/_hash_fun.h>
+	<stl/_hashtable.c>
+	<stl/debug/_hashtable.h>
+	<stl/_relops_hash_cont.h>
+
+1124524448 c:\ogresdk\stlport\stlport\stl\_slist.h
+	<stl/_algobase.h>
+	<stl/_alloc.h>
+	<stl/_iterator.h>
+	<stl/_construct.h>
+	<stl/_slist_base.h>
+	<stl/pointers/_slist.h>
+	<stl/_relops_cont.h>
+	<stl/_slist.c>
+	<stl/debug/_slist.h>
+	<stl/wrappers/_slist.h>
+
+1103232928 c:\ogresdk\stlport\stlport\stl\_slist_base.h
+	<cstddef>
+	<stl/_slist_base.c>
+
+1103232928 c:\ogresdk\stlport\stlport\stl\_slist_base.c
+	<stl/_slist_base.h>
+
+1107113848 c:\ogresdk\stlport\stlport\stl\pointers\_slist.h
+	<stl/pointers/_void_ptr_traits.h>
+
+1103232926 c:\ogresdk\stlport\stlport\stl\_slist.c
+	<stl/_slist.h>
+
+1112906412 c:\ogresdk\stlport\stlport\stl\debug\_slist.h
+	<stl/debug/_iterator.h>
+	<stl/debug/_relops_cont.h>
+
+1101241090 c:\ogresdk\stlport\stlport\stl\wrappers\_slist.h
+	<stl/_slist.h>
+
+1123184142 c:\ogresdk\stlport\stlport\stl\_hashtable.c
+	<stl/_hashtable.h>
+
+1123267626 c:\ogresdk\stlport\stlport\stl\debug\_hashtable.h
+	<stl/debug/_iterator.h>
+
+1107811298 c:\ogresdk\stlport\stlport\stl\_relops_hash_cont.h
+
+1101241088 c:\ogresdk\stlport\stlport\stl\wrappers\_hash_set.h
+	<stl/_hash_set.h>
+
+1042996812 c:\ogresdk\stlport\stlport\hash_map
+	<stl/_prolog.h>
+	<stl/_hash_map.h>
+	<stl/_epilog.h>
+
+1127250386 c:\ogresdk\stlport\stlport\stl\_hash_map.h
+	<stl/_hashtable.h>
+	<stl/_relops_hash_cont.h>
+	<stl/_relops_hash_cont.h>
+	<stl/wrappers/_hash_map.h>
+
+1101241086 c:\ogresdk\stlport\stlport\stl\wrappers\_hash_map.h
+	<stl/_hash_map.h>
+
+1042996808 c:\ogresdk\stlport\stlport\algorithm
+	<stl/_prolog.h>
+	<cstdio>
+	<stl/_algo.h>
+	<stl/_epilog.h>
+
+1042996812 c:\ogresdk\stlport\stlport\limits
+	<stl/_prolog.h>
+	<stl/_limits.h>
+	<stl/_epilog.h>
+
+1096369480 c:\ogresdk\stlport\stlport\fstream
+	<stl/_prolog.h>
+	<stl/_ioserr.h>
+	<stl/_fstream.h>
+	<stl/_epilog.h>
+
+1114243654 c:\ogresdk\stlport\stlport\stl\_ioserr.h
+
+1119900676 c:\ogresdk\stlport\stlport\stl\_fstream.h
+	<stl/_streambuf.h>
+	<stl/_istream.h>
+	<stl/_codecvt.h>
+	<stl/_fstream.c>
+
+1119986712 c:\ogresdk\stlport\stlport\stl\_codecvt.h
+	<stl/c_locale.h>
+	<stl/_locale.h>
+	<stl/_algobase.h>
+
+1124315152 c:\ogresdk\stlport\stlport\stl\_fstream.c
+	<stl/_fstream.h>
+	<stl/_limits.h>
+
+1096369482 c:\ogresdk\stlport\stlport\iostream
+	<stl/_prolog.h>
+	<stl/_ioserr.h>
+	<fstream>
+	<stl/_iosfwd.h>
+	<stl/_istream.h>
+	<stl/_epilog.h>
+
+1122491610 c:\ogresdk\stlport\stlport\iomanip
+	<stl/_prolog.h>
+	<stl/_ioserr.h>
+	<stl/_istream.h>
+	<stl/_epilog.h>
+
+1096369484 c:\ogresdk\stlport\stlport\sstream
+	<stl/_prolog.h>
+	<stl/_ioserr.h>
+	<stl/_sstream.h>
+	<stl/_epilog.h>
+
+1109106422 c:\ogresdk\stlport\stlport\stl\_sstream.h
+	<stl/_streambuf.h>
+	<stl/_istream.h>
+	<stl/_string.h>
+	<stl/_sstream.c>
+
+1115445380 c:\ogresdk\stlport\stlport\stl\_sstream.c
+	<stl/_sstream.h>
+
+1137481888 c:\ogresdk\stlport\stlport\typeinfo
+	<stl/_prolog.h>
+	<typeinfo.h>
+	<exception>
+	<stl/_epilog.h>
+
+1087931342 c:\ogresdk\stlport\stlport\typeinfo.h
+	<stl/_prolog.h>
+	<typeinfo>
+	<stl/_epilog.h>
+
+1096369482 c:\ogresdk\stlport\stlport\istream
+	<stl/_prolog.h>
+	<stl/_ioserr.h>
+	<stl/_istream.h>
+	<stl/_epilog.h>
+
+1106858100 c:\ogresdk\stlport\stlport\stack
+	<stl/_prolog.h>
+	<stl/_stack.h>
+	<stl/_epilog.h>
+
+1124524044 c:\ogresdk\stlport\stlport\stl\_stack.h
+	<stl/_deque.h>
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeoctree.cpp
+	"OgreWireBoundingBox.h"
+	"OgreOcclusionBoundingBox.h"
+	"OgrePagingLandScapeOctreeSceneManager.h"
+	"OgrePagingLandScapeOctree.h"
+	"OgrePagingLandScapeOctreeNode.h"
+	"OgreDebugRectangle2D.h"
+
+1147699890 c:\ogresdk\plugins\paginglandscape2\src\ogreocclusionboundingbox.cpp
+	"Ogre.h"
+	"OgreOcclusionBoundingBox.h"
+	"OgreSimpleRenderable.h"
+	"OgreHardwareBufferManager.h"
+	"OgreCamera.h"
+
+1147699892 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeocclusion.cpp
+	"Ogre.h"
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctreeCamera.h"
+	"OgrePagingLandScapeOctree.h"
+	"OgrePagingLandScapeOctreeNode.h"
+	"OgrePagingLandScapeOcclusion.h"
+	"OgrePagingLandScapeOcclusionElement.h"
+	"OgrePagingLandScapeOcclusionSorter.h"
+	"OgrePagingLandScapeOcclusionVisibilityData.h"
+	"OgrePagingLandScapeOcclusionTraversal.h"
+	"OgrePagingLandScapeOcclusionCHCTraversal.h"
+	"OgrePagingLandScapeOcclusionSWTraversal.h"
+	"OgrePagingLandScapeOcclusionVFTraversal.h"
+	"OgrePagingLandScapeOcclusionDebugTraversal.h"
+	"OgrePagingLandScapeOcclusionQuerySet.h"
+	"OgreOcclusionBoundingBox.h"
+
+1129653252 c:\ogresdk\plugins\paginglandscape2\include\ogrepaginglandscapeocclusionchctraversal.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctreeCamera.h"
+	"OgrePagingLandScapeOcclusionTraversal.h"
+
+1129652568 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeocclusionchctraversal.cpp
+	"OgrePagingLandScapeOctreeCamera.h"
+	"OgrePagingLandScapeOctree.h"
+	"OgrePagingLandScapeOctreeNode.h"
+	"OgrePagingLandScapeOcclusionElement.h"
+	"OgrePagingLandScapeOcclusion.h"
+	"OgrePagingLandScapeOcclusionSorter.h"
+	"OgrePagingLandScapeOcclusionTraversal.h"
+	"OgrePagingLandScapeOcclusionCHCTraversal.h"
+	"OgrePagingLandScapeOcclusionVisibilityData.h"
+
+1129207692 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeocclusioncameratraversal.cpp
+	"OgrePagingLandScapeOcclusionTraversal.h"
+	"OgrePagingLandScapeOctreeCamera.h"
+	"OgrePagingLandScapeOctree.h"
+	"OgrePagingLandScapeOctreeNode.h"
+	"OgrePagingLandScapeOcclusionElement.h"
+	"OgrePagingLandScapeOcclusion.h"
+	"OgrePagingLandScapeOcclusionTraversal.h"
+	"OgrePagingLandScapeOcclusionCameraTraversal.h"
+
+1134032678 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeocclusiondebugtraversal.cpp
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctreeCamera.h"
+	"OgrePagingLandScapeOctree.h"
+	"OgrePagingLandScapeOctreeNode.h"
+	"OgrePagingLandScapeOcclusionElement.h"
+	"OgrePagingLandScapeOcclusion.h"
+	"OgrePagingLandScapeOcclusionVisibilityData.h"
+	"OgrePagingLandScapeOcclusionTraversal.h"
+	"OgrePagingLandScapeOcclusionDebugTraversal.h"
+	"OgreDebugRectangle2D.h"
+
+1142416120 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeocclusionelement.cpp
+	<stack>
+	<queue>
+	"OgrePagingLandScapeOcclusionElement.h"
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctreeCamera.h"
+	"OgrePagingLandScapeOcclusionVisibilityData.h"
+	"OgreDebugRectangle2D.h"
+
+1142450786 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeocclusionqueryset.cpp
+	"Ogre.h"
+	"OgrePagingLandScapeOcclusionQuerySet.h"
+	"OgreHardwareOcclusionQuery.h"
+
+1129207692 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeocclusionswtraversal.cpp
+	"OgrePagingLandScapeOcclusionTraversal.h"
+	"OgrePagingLandScapeOcclusionSWTraversal.h"
+	"OgrePagingLandScapeOctreeCamera.h"
+	"OgrePagingLandScapeOctree.h"
+	"OgrePagingLandScapeOctreeNode.h"
+	"OgrePagingLandScapeOcclusionSorter.h"
+	"OgrePagingLandScapeOcclusionElement.h"
+	"OgrePagingLandScapeOcclusion.h"
+	"OgrePagingLandScapeOcclusionVisibilityData.h"
+
+1129207692 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeocclusiontraversal.cpp
+	"OgrePagingLandScapeOcclusionTraversal.h"
+	"OgrePagingLandScapeOctreeCamera.h"
+	"OgrePagingLandScapeOctree.h"
+	"OgrePagingLandScapeOctreeNode.h"
+	"OgrePagingLandScapeOcclusionElement.h"
+	"OgrePagingLandScapeOcclusion.h"
+
+1129207694 c:\ogresdk\plugins\paginglandscape2\src\ogrepaginglandscapeocclusionvftraversal.cpp
+	"OgrePagingLandScapeOcclusionTraversal.h"
+	"OgrePagingLandScapeOcclusionVFTraversal.h"
+	"OgrePagingLandScapeOcclusionVisibilityData.h"
+	"OgrePagingLandScapeOctreeCamera.h"
+	"OgrePagingLandScapeOctree.h"
+	"OgrePagingLandScapeOctreeNode.h"
+	"OgrePagingLandScapeOcclusionElement.h"
+	"OgrePagingLandScapeOcclusion.h"
+

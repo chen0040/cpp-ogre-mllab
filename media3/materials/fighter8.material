@@ -1,0 +1,53 @@
+
+material nave
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture NAVE.dds
+			}
+		}
+	}
+}
+material misil
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture MISIL.dds
+			}
+		}
+	}
+}
+material soporte
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture SOPORTE.dds
+			}
+		}
+	}
+}
+material cañon
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture GUN.dds
+			}
+		}
+	}
+}

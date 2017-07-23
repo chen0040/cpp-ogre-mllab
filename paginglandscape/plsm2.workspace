@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_workspace_file>
+<CodeBlocks_workspace_file>
+	<Workspace title="Default workspace">
+		<Project filename="PlugIns\PagingLandScape2\scripts\Plugin_PagingLandScapeSceneManager2.cbp"/>
+		<Project filename="Tools\MapSplitter\script\MapSplitter.cbp"/>
+		<Project filename="Samples\PagingLandScape2\scripts\Demo_PagingLandScape2.cbp" active="1"/>
+	</Workspace>
+</CodeBlocks_workspace_file>

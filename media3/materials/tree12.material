@@ -1,0 +1,32 @@
+material Jetstream/t12_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture t12_1.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/t12_2
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture t12_2.dds
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,44 @@
+
+material Jetstream/f10_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture fighter10.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/f10_1-night
+{
+	technique
+	{
+		
+		pass
+		{
+			texture_unit
+			{
+				texture fighter10.dds
+			}
+		}
+
+		pass
+		{
+			emissive 0 0 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture fighter10-night.dds
+			}
+		}
+
+	}
+}
+

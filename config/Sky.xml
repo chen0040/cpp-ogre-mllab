@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<sky>
+<skybox>
+<skybox_type uri="Examples/SpaceSkyBox" />
+<skybox_type uri="Examples/SceneSkyBox1" />
+<skybox_type uri="Examples/SceneSkyBox2" />
+<skybox_type uri="Examples/CloudyNoonSkyBox" />
+<skybox_type uri="Examples/StormySkyBox" />
+<skybox_type uri="Examples/MorningSkyBox" />
+<skybox_type uri="Examples/EveningSkyBox" />
+</skybox>
+<skydome>
+<skydome_type uri="Examples/CloudySky" />
+</skydome>
+<skyplane>
+<skyplane_type uri="Examples/SpaceSkyPlane" />
+</skyplane>
+</sky>

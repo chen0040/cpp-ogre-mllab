@@ -1,0 +1,193 @@
+Current Version: NaviLibrary v1.61
+
+API Changes since v1.5:
+- In NaviManager:
+-- NaviManager::setProxy has been added
+-- NaviManager::setBooleanPref, setIntegerPref, and setStringPref have been added
+- In Navi:
+-- Navi::setColorKey has been removed
+-- Navi::setBackgroundColor has been removed
+- In NaviEventListener:
+-- NaviEventListener::onNavigateBegin has been added
+-- NaviEventListener::onLinkClicked has been removed
+
+Core Changes since v1.5:
+- Completely new back-end, Astral-- its support of dirty-rectangling has boosted overall update performance significantly.
+- Masking and programmatic opacity is now accomplished using Ogre's material system instead of blitting the alpha component directly.
+- Color-keying has been removed for now due to performance considerations. This may be implemented in the future using shaders.
+- Custom handling of URL's (whitelisting/blacklisting/redirection) can now be accomplished using NaviEventListener::onNavigateBegin.
+
+Bugfixes since v1.5:
+- As Tepel pointed out, there was a parsing error in Navi::evaluateJS where it failed to quote certain numeric strings. This has been fixed.
+- The fix above didn't take into account the possibility of a negative sign in numbers (lol), this has been fixed.
+
+Extras since v1.5:
+- Demo has been pruned and given a fresh coat of paint.
+
+Current Version: NaviLibrary v1.5
+
+API Changes since v1.4:
+- In NaviManager:
+-- NaviManager::GetPointer has been added
+-- NaviManager::Startup has been merged into the constructor for NaviManager.
+-- NaviManager::Shutdown no longer exists, just delete NaviManager instead.
+-- You must instantiate (new NaviManager(renderWin)) NaviManager before accessing the singleton via NaviManager::Get/NaviManager::GetPointer.
+-- NaviManager's constructor now also lets you specify the directory of your gecko runtime folders, this is by default 'GeckoRuntime'.
+-- Massive refactoring of interface. Manipulation of Navis by name through NaviManager is no longer supported. NaviManager is now purely for the creation/destruction of Navis, global input injection, and methods that affect mass number of Navis. To manipulate individual Navis, you should obtain a direct pointer to a Navi from NaviManager and then manipulate it using the public interface of the Navi itself.
+--- NaviManager::createNavi/createNaviMaterial return pointers to the Navis that are created.
+--- NaviManager::createNavi/createNaviMaterial have lost several parameters
+--- NaviManager::getNavi looks up a Navi by name and returns a pointer to the Navi; if the Navi is not found, returns 0.
+--- NaviManager::StartupMouse and NaviManager::getMouse have been removed. The NaviMouse singleton should now be instantiated separately.
+- In Navi:
+-- Massive refactoring of interface, a plethora of member functions are now public.
+-- Many of the methods for Navi manipulation that were previously only available through NaviManager have been refactored directly into Navi.
+-- Most of the setter methods return a pointer to the Navi that it was invoked on to allow chaining of setters.
+-- Navi::getExtents has been added
+-- Navi::evaluateJS now has an optional second parameter (NaviUtilities::Args, a vector of variants) that lets you evaluate the Javascript as a template (use '?' as the pseudo-character, strings will automatically be quoted).
+- In NaviMouse:
+-- Is now a true singleton. You must instantiate it (new NaviMouse()) before accessing it via NaviMouse::Get/GetPointer.
+-- It's constructor now takes two new, initial arguments: width and height.
+-- It's destructor is now private-- the destructor of NaviManager destroys NaviMouse
+-- NaviCursor::getName has been added
+- In NaviUtilities:
+-- NaviUtilities::limit has been added. It is a simple, templated helper that limits a number between two numbers.
+-- NaviUtilities::MultiValue is a new variant class (formerly NaviDataValue)
+-- NaviUtilities::Args is a new InlineVector, similar to NaviUtilities::Strings, but can take several different types (MultiValue).
+-- NaviUtilities::stringTemplate and logTemplate have been added.
+- In NaviEventListener:
+-- Has been modified considerably, two more events have been added. Parameters have been modified (now each event passes a pointer to the calling Navi instead of the name), onNaviLinkClicked has been renamed to onLinkClicked.
+- In NaviDemo:
+-- Has been greatly modified to use the new interface scheme. Look to it for suggestions on how to implement the new changes.
+- In the VC8 Solution:
+-- Two new configurations: Release DLL and Debug DLL. If you intend to use these configurations, you must link to 'Navi_DLL.lib' (use 'Navi_d_DLL.lib' for debug), and copy 'Navi.dll' (use 'Navi_d.dll' for debug) to your application's working directory.
+- In the dependencies and file-system:
+-- The Gecko runtime folders (components, res, chrome, etc.) have now been wrapped by a 'GeckoRuntime' folder. See the NaviManager constructor to change this runtime directory.
+-- LLMozLib has been modified so that it does not limit the max number of browser windows
+-- There was a bug in LLMozLib with sending update notification events to Navi when the window handle (HWND) a browser window was created with was not the top-level window. This obviously created some problems with embedding NaviLibrary inside of an external GUI (such as wxWidgets). This bug has been squashed thanks to the efforts of Pagghiu (details of the changes can be found on the wiki as LLMozLib_ChildWindow_Patch).
+
+Core Changes since v1.4:
+- New template class 'NaviLibrary::Singleton' has been created to make the NaviManager Singleton safer and more manageable. It is mostly a carbon-copy of Ogre's Singleton except with different accessors (Singleton::Get()/Singleton::GetPointer()) and verbose exceptions.
+- DLL support!
+- Much of the code in Navi, NaviManager, and NaviMouse has been refactored/simplified.
+- NaviMouse now supports arbitrary widths/heights of cursors
+- NaviDemo has been refactored, the debug overlay has been minimized, and the scene has been changed up.
+
+Bugfixes since v1.4:
+- Textures loaded from an image refuse to give up their data via read-only locks in OpenGL-mode in Ogre3D. (Thus, Navis with masks would be invisible in OpenGL). A workaround has been applied.
+- NaviMouse now properly restores its internal texture when it has been lost (usually after a window resize).
+- Several VC7 incompatibilities have been resolved under the guidance of g6r6e6g.
+- A texture corruption bug with NaviMouse has been corrected thanks to g6r6e6g.
+
+Current Version: NaviLibrary v1.4
+
+API Changes since v1.3:
+- In NaviManager:
+-- NaviManager::StartupMouse has a new, optional 'visible' parameter
+-- NaviManager::moveNavi has been added
+-- NaviManager::setNaviPosition has been added
+-- NaviManager::setNaviIgnoreBounds has been added
+-- NaviManager::bindNaviData & unbindNaviData have now been renamed bind & unbind, respectively.
+-- NaviManager::bind has a new optional parameter, a string vector containing keys to validate via NaviData::ensure.
+-- NaviManager::getDerivedUV has been added.
+-- NaviManager::injectNaviMaterialMouseWheel has been renamed injectNaviMouseWheel because it may now be used on both regular Navis and NaviMaterials.
+-- NaviManager::setNaviBackgroundColor has a new overload (takes a hex color string).
+-- NaviManager::focusNavi has a new public overload (a private func by the same name exists) to focus a Navi by name.
+- In NaviData:
+-- Completely rewritten with an std::map as a base with heavy use of a generic type, 'NaviDataValue'.
+-- Primary mode of interface is via the subscript operator (naviData["myKey"]) for assignment/value retrieval.
+-- NaviData::ensure may be used for validation purposes.
+- In NaviMouse:
+-- NaviMouse::show() has been added
+-- NaviMouse::hide() has been added
+-- NaviManager::injectNaviMaterialMouseMove has been renamed injectNaviMouseMove and now works for both NaviMaterials and regular Navis
+-- NaviManager::injectNaviMaterialMouseWheel has been renamed injectNaviMouseWheel and now works for both NaviMaterials and regular Navis
+-- NaviManager::injectNaviMaterialMouseDown has been renamed injectNaviMouseDown and now works for both NaviMaterials and regular Navis
+-- NaviManager::injectNaviMaterialMouseUp has been renamed injectNaviMouseUp and now works for both NaviMaterials and regular Navis
+- In NaviUtilities:
+-- Is now wrapped in a new nested namespace, NaviUtilities
+-- New functions: split, splitToMap, join, joinFromMap, isPrefixed, isNumeric, numberToString, toNumber
+-- New utility class, InlineVector<T> and specialization, Strings
+-- NaviUtilities::replaceAll has lost a parameter, 'avoidCyclic' (no longer required due to new implementation)
+- In Navi.js:
+-- Completely rewritten from the ground up. Mootools v1.11 is embedded in the first section, scroll to the bottom section for the actual meat of Navi.js.
+-- New combobox implementation has been included as a workaround for the current problems with native comboboxes.
+-- Element.setHTMLBuffered has been included as a workaround for the flicker problem with frequently-updated elements.
+
+Core Changes since v1.3:
+- Navi::update() is now mindful of machine-specific bit depths/rowspans. This contribution/bugfix was made possible by 'madmark'.
+- Before now, if you clicked and dragged on a button and released the mouse outside of the Navi, the mouse-up event would never have been passed. This has been fixed, if a user releases the left mouse button outside of a previously-focused Navi, the mouse-up event will be invoked on the nearest valid point on a Navi (Gecko won't accept extraneous input)
+- If a user wishes, mouse movement can always be injected into a Navi, regardless of boundaries/transparency via 'NaviManager::setNaviIgnoreBounds'. The extra-boundary mouse movement injection will actually occur on the closest valid point of a Navi.
+- Navis can now be set to arbitrary sizes, there is no power-of-two limitation anymore. Certain legacy videocards that do not support NPOT textures will be detected and internally compensated for (using the next highest POT size and adjusting UVs). Those that use NaviMaterials should be aware of this fallback mechanism and adjust their own UV's accordingly.
+- Fading via hideNavi/showNavi has received a quite noticeable performance boost.
+- Much code has been refactored and minified thanks to several new utility functions (split/splitToMap/join/joinFromMap).
+- NaviData and Navi.js has been completely rewritten.
+- Fixed some const-correctness
+
+Bugfixes since v1.3:
+- There was a memory read exception on certain systems due to assumptions about bit depths, this has been resolved.
+- Occasionally there are assertions when exiting an application in debug-mode (Gecko bug 339504). Clearing the cache before shutting down seems to help in certain situations. This was contributed by 'Lord LoriK'.
+- If you hid a Navi with a fade and then tried to show the Navi without a fade, auto-updated Navis will not be visible because the texture wasn't updated (it would still have 0% opacity). This has been resolved.
+- There was a conflict with madmark's contribution, specifically superfluous width offsets being calculated that offset the blitting of non-POT sizes enough to malform them and cause several memory read exceptions. This has been resolved.
+- There was an issue with the use of alpha-masks on Navis smaller than the mask, specifically incorrect pitches being calculated. This has been resolved.
+- NaviUtilities::decodeURIComponent previously failed to properly decode certain sequences, this has been resolved.
+- There was a fairly critical bug with the instantiation and sizing of naviCache (caches the texture data for each Navi), it was using a fairly fixed formula (width*height*pixelSize) which incorrectly predicted the size of the texture data on some video cards. This issue has been resolved.
+- A related issue to the above bug was found in the alpha-picking code (Navi::isPointOpaqueEnough) and has been resolved.
+
+Current Version: NaviLibrary v1.3
+
+API Changes since v1.2:
+- In NaviManager:
+-- NaviManager::bindNaviData has been added
+-- NaviManager::unbindNaviData has been added
+-- NaviManager::hideNavi has been added
+-- NaviManager::showNavi has been added
+-- NaviManager::getNaviVisibility has been added
+-- NaviManager::createNavi and createNaviMaterial have been extended, a new parameter 'isVisible'
+-- NaviManager::createNavi has been refactored to use a unified NaviPosition object
+- In NaviData:
+-- NaviData::add has been extended for wide-string support
+-- NaviData::get has been extended for wide-string support
+- In NaviUtilities:
+-- NaviUtilities::encodeURIComponent has been added
+-- NaviUtilities::decodeURIComponent has been added
+-- NaviUtilities::toWide has been added
+-- NaviUtilities::toMultibyte has been added
+-- NaviUtilities::setLocale has been added
+- In Navi.js:
+-- Navi.js::NaviData::addQS has been added
+-- Navi.js::NaviData add(), addQS(), send() now return a reference to the NaviData object itself, thus you can do chaining (new NaviData('whatever').add('something', 'value').send())
+-- Navi.js::decode()/encode() have been removed because now we use encodeURIComponent()/decodeURIComponent() natively
+
+Core Changes since v1.2:
+- Callbacks via a delegate has been added thanks to freely available 'FastDelegate' code, (see NaviDelegate.h for more info)
+- Fading via hideNavi/showNavi has been implemented. The fading algorithm respects 'maxUpdatesPS' and also does not invoke needless Gecko draw calls. You can set a duration for the fade (in milliseconds) as well.
+- In the case of non-NaviMaterial Navis, when the visibility of a Navi is false, the overlay will be hidden as well and vice-versa. All non-visible Navis will not needlessly update their internal texture.
+- Rewrote much of the overlay/coordinate derivations for use with the new NaviPosition object. Relatively-positioned Navis can now be specified with an optional left/top offset.
+- Revised encoding/decoding in Navi.js and application-side to use the proper method of decoding/encoding data to percent-escaped UTF-8 encoded hexadecimal sequences. The excellent side effect of this is that we now have true unicode support. The two functions 'encodeURIComponent' and 'decodeURIComponent' exist in Javascript but not in C++ and so I wrote a mirror-implementation in C++ for use in our own context. To implement it, I needed a lightweight, cross-platform UTF-8 encoding/decoding library; thus UTF8-CPP is a new dependency.
+
+Bugfixes since v1.2:
+- In OpenGL, the NaviMouse cursors were showing corruption. Apparently because the manual texture of each cursor was loaded from an image, in OpenGL the hardwarepixelbuffer is created in Write-mode only and thus we cannot lock it to read it and instead must copy it.
+- Added some protection against adding a NaviEventListener twice.
+- Fixed destruction of a Navi called within an event spawned by the Navi object itself. Now, NaviManager::destroyNavi only flags the Navi for deletion, the actual destruction is done in NaviManager::update.
+- Fixed small bug with destroying a Navi that was currently focused.
+- Fixed a parsing bug in NaviData.cpp, the problem was only apparent with NaviData objects with multiple parameters.
+
+Extras since v1.2:
+- New NaviDemo! Check it out for ideas/tips on how to implement the NaviLibrary in your own game.
+
+
+Last Version: NaviLibrary v1.2
+Date: June 13th, 2007
+Author: Adam J. Simmons
+
+API Changes since v1.1:
+- In NaviManager:
+-- NaviManager::setNaviColorKey has been extended to use a 'keyFuzziness' parameter.
+-- NaviManager::naviEvaluateJS has been added
+-- NaviManager::getNaviMaterialName has been added
+-- NaviManager::getNaviInternalPanel has been added
+- In NaviData:
+-- NaviData::getDataMap has been added (props to madmark)
+
+Bugfixes since v1.1:
+- There was an issue with the destruction of the Navi object, specifically I didn't destroy the OverlayContainer before the Overlay. This has been resolved thanks to madmark's notification of the issue.

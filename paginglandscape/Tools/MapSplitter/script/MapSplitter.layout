@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_layout_file>
+<CodeBlocks_layout_file>
+	<Expand folder="/Sources/PlugIns/PagingLandScape2/src"/>
+	<Expand folder="/Sources/PlugIns/PagingLandScape2"/>
+	<Expand folder="/Sources/PlugIns"/>
+	<Expand folder="/Sources/Tools/MapSplitter/src"/>
+	<Expand folder="/Sources/Tools/MapSplitter"/>
+	<Expand folder="/Sources/Tools"/>
+	<Expand folder="/Sources"/>
+	<Expand folder="/Headers/PlugIns/PagingLandScape2/include"/>
+	<Expand folder="/Headers/PlugIns/PagingLandScape2"/>
+	<Expand folder="/Headers/PlugIns"/>
+	<Expand folder="/Headers/Tools/MapSplitter/include"/>
+	<Expand folder="/Headers/Tools/MapSplitter"/>
+	<Expand folder="/Headers/Tools"/>
+	<Expand folder="/Headers"/>
+</CodeBlocks_layout_file>

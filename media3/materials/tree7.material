@@ -1,0 +1,102 @@
+material tree7-1
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture t_skin16.dds
+			}
+		}
+	}
+}
+material tree7-2
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture chunk_28.dds
+			}
+		}
+	}
+}
+material tree7-3
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture chunk_28.dds
+			}
+		}
+	}
+}
+material tree7-4
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture chunk_28.dds
+			}
+		}
+	}
+}
+material tree7-5
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture chunk_28.dds
+			}
+		}
+	}
+}
+material tree7-6
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture chunk_28.dds
+			}
+		}
+	}
+}

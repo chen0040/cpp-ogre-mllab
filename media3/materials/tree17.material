@@ -1,0 +1,16 @@
+
+material Jetstream/t17_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture t17_1.dds
+			}
+		}
+
+	}
+
+}

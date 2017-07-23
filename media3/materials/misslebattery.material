@@ -1,0 +1,56 @@
+material Material_#46/flap_bmp
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture ALUMINM4.dds 
+            }
+        }
+    }
+}
+
+material Material_#46/pod_bmp
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture BARREL.dds 
+            }
+        }
+    }
+}
+
+material Material_#46/base_bmp
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture BARREL_T.dds 
+            }
+        }
+    }
+}
+
+material Material_#46/piston_bmp
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture BARREL_T.dds 
+            }
+        }
+    }
+}
+

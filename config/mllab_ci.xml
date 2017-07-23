@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<computational_intelligence methodology="Artificial Neural Network">
+
+<languages>
+<lang name="lua" />
+<lang name="java" />
+</languages>
+
+<methodology name="Artificial Neural Network">
+<method name="Multiple Layer Perceptron" src="..\ML\config\ANN\MLP.xml" />
+<method name="Kohonen SOFM" src="..\ML\config\ANN\SOFM.xml" />
+<method name="ART1" src="..\ML\config\ANN\ART1.xml" />
+<method name="Hopfield Network" src="..\ML\config\ANN\Hopfield.xml" />
+</methodology>
+
+<methodology name="Clustering">
+<method name="K-means" src="..\ML\config\Clustering\KMeans.xml" />
+</methodology>
+
+<methodology name="Bayse">
+<method name="Naive Bayse Classifier" src="..\ML\config\Bayse\NBC.xml" />
+</methodology>
+
+<methodology name="Decision Tree">
+<method name="C45" src="..\ML\config\DecisionTree\C45.xml" />
+</methodology>
+
+<methodology name="Fuzzy Logic">
+<method name="Fuzzy Logic" src="..\ML\config\FuzzyLogic\FuzzyLogic.xml" />
+</methodology>
+
+<methodology name="Expert System" >
+<method name="Expert System" src="..\ML\config\ExpertSystem\ExpertSystem.xml" />
+</methodology>
+
+<package name="imagex" src="..\ML\config\Packages\ImageX.xml" />
+<package name="ml" src="..\ML\config\Packages\ML.xml" />
+
+</computational_intelligence>

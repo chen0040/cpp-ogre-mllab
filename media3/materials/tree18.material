@@ -1,0 +1,34 @@
+material Jetstream\tree18_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture tree18_1.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream\tree18_2
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 127 
+	
+			texture_unit
+			{
+				texture tree18_2.dds
+			}
+		}
+
+	}
+
+}

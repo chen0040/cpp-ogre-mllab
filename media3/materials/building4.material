@@ -1,0 +1,103 @@
+
+material Jetstream/b4_1
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture_alias 0
+				texture b4_1.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b4_2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b4_2.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b4_3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b4_3.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b4_4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b4_4.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b4_5
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b4_5.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b4_6
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b4_6.dds
+			}
+		}
+
+	}
+
+}

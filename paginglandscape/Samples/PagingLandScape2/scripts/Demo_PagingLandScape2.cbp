@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="4" />
+	<Project>
+		<Option title="Demo_PagingLandScape2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="..\bin\Release\Demo_PagingLandScape2.exe" />
+				<Option object_output="..\obj\Release" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option includeInTargetAll="1" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="OgreMain" />
+					<Add library="stlport.5.0" />
+					<Add library="Plugin_PagingLandScapeSceneManager2" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="copy ..\bin\Release\Demo_PagingLandScape2.exe ..\..\Bin\Release" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-W" />
+			<Add option="-mthreads" />
+			<Add option="-fmessage-length=0" />
+			<Add option="-fexceptions" />
+			<Add option="-fident" />
+			<Add option="-D_STLP_NO_CUSTOM_IO" />
+			<Add option="-D_STLP_USE_DYNAMIC_LIB" />
+			<Add directory="$(OGRE_HOME)\stlport\stlport" />
+			<Add directory="$(OGRE_HOME)\include" />
+			<Add directory="..\include" />
+			<Add directory="..\..\..\PlugIns\PagingLandScape2\include" />
+			<Add directory="..\..\include" />
+		</Compiler>
+		<Linker>
+			<Add option="-Wl -enable-runtime-pseudo-reloc" />
+			<Add option="-Wl,--enable-auto-image-base" />
+			<Add option="-Wl,--add-stdcall-alias" />
+			<Add directory="..\..\..\bin\release" />
+		</Linker>
+		<Unit filename="..\include\PagingLandScape.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\PagingLandScape.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

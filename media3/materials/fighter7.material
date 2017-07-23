@@ -1,0 +1,39 @@
+material fighter71
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture fighter7.dds
+			}
+		}
+	}
+}
+
+material Jetstream/fighter71-night
+{
+	technique
+	{
+		pass
+		{
+			specular 1 1 1 6
+
+			texture_unit
+			{
+				texture fighter7.dds
+			}
+		}
+
+		pass
+		{
+			emissive 0.0 1.0 0.0
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture fighter7-nightlight.dds
+			}
+		}
+	}
+}

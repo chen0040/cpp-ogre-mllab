@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<node value="nil" attribute="my target enemy's action" isLeave="false" record_count="226">
+<node value="0" attribute="I see enemy" isLeave="false" record_count="20">
+<node value="true" attribute="my target enemy's health" isLeave="false" record_count="11">
+<node value="good" attribute="" isLeave="false" record_count="4">
+<node value="2" attribute="my action" isLeave="true" record_count="4">
+</node>
+</node>
+<node value="medium" attribute="I see ally" isLeave="false" record_count="2">
+<node value="true" attribute="" isLeave="false" record_count="1">
+<node value="2" attribute="my action" isLeave="true" record_count="1">
+</node>
+</node>
+<node value="false" attribute="" isLeave="false" record_count="1">
+<node value="0" attribute="my action" isLeave="true" record_count="1">
+</node>
+</node>
+</node>
+<node value="bad" attribute="I see ally" isLeave="false" record_count="5">
+<node value="true" attribute="" isLeave="false" record_count="4">
+<node value="0" attribute="my action" isLeave="true" record_count="2">
+</node>
+<node value="2" attribute="my action" isLeave="true" record_count="2">
+</node>
+</node>
+<node value="false" attribute="" isLeave="false" record_count="1">
+<node value="0" attribute="my action" isLeave="true" record_count="1">
+</node>
+</node>
+</node>
+</node>
+<node value="false" attribute="" isLeave="false" record_count="9">
+<node value="0" attribute="my action" isLeave="true" record_count="7">
+</node>
+<node value="2" attribute="my action" isLeave="true" record_count="2">
+</node>
+</node>
+</node>
+<node value="2" attribute="my target enemy's health" isLeave="false" record_count="30">
+<node value="good" attribute="I see ally" isLeave="false" record_count="28">
+<node value="true" attribute="I see enemy" isLeave="false" record_count="21">
+<node value="true" attribute="" isLeave="false" record_count="2">
+<node value="2" attribute="my action" isLeave="true" record_count="2">
+</node>
+</node>
+<node value="false" attribute="my target enemy's weapon is loaded" isLeave="false" record_count="19">
+<node value="true" attribute="I am under attack" isLeave="false" record_count="18">
+<node value="false" attribute="my health" isLeave="false" record_count="18">
+<node value="good" attribute="my eye sight" isLeave="false" record_count="18">
+<node value="good" attribute="my weapon is loaded" isLeave="false" record_count="18">
+<node value="true" attribute="I can fast load weapon" isLeave="false" record_count="18">
+<node value="false" attribute="my target enemy's eye sight" isLeave="false" record_count="18">
+<node value="good" attribute="my target enemy is attacking me" isLeave="false" record_count="18">
+<node value="false" attribute="my target enemy can fast load weapon" isLeave="false" record_count="18">
+<node value="0" attribute="my action" isLeave="true" record_count="8">
+</node>
+<node value="2" attribute="my action" isLeave="true" record_count="10">
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node value="false" attribute="" isLeave="false" record_count="1">
+<node value="2" attribute="my action" isLeave="true" record_count="1">
+</node>
+</node>
+</node>
+</node>
+<node value="false" attribute="my target enemy's weapon is loaded" isLeave="false" record_count="7">
+<node value="true" attribute="I see enemy" isLeave="false" record_count="4">
+<node value="true" attribute="" isLeave="false" record_count="1">
+<node value="2" attribute="my action" isLeave="true" record_count="1">
+</node>
+</node>
+<node value="false" attribute="" isLeave="false" record_count="3">
+<node value="0" attribute="my action" isLeave="true" record_count="2">
+</node>
+<node value="2" attribute="my action" isLeave="true" record_count="1">
+</node>
+</node>
+</node>
+<node value="false" attribute="I see enemy" isLeave="false" record_count="3">
+<node value="true" attribute="" isLeave="false" record_count="2">
+<node value="0" attribute="my action" isLeave="true" record_count="2">
+</node>
+</node>
+<node value="false" attribute="" isLeave="false" record_count="1">
+<node value="2" attribute="my action" isLeave="true" record_count="1">
+</node>
+</node>
+</node>
+</node>
+</node>
+<node value="bad" attribute="" isLeave="false" record_count="2">
+<node value="0" attribute="my action" isLeave="true" record_count="2">
+</node>
+</node>
+</node>
+<node value="4" attribute="I see ally" isLeave="false" record_count="149">
+<node value="true" attribute="I see enemy" isLeave="false" record_count="5">
+<node value="true" attribute="" isLeave="false" record_count="1">
+<node value="1" attribute="my action" isLeave="true" record_count="1">
+</node>
+</node>
+<node value="false" attribute="my weapon is loaded" isLeave="false" record_count="4">
+<node value="true" attribute="" isLeave="false" record_count="3">
+<node value="0" attribute="my action" isLeave="true" record_count="2">
+</node>
+<node value="2" attribute="my action" isLeave="true" record_count="1">
+</node>
+</node>
+<node value="false" attribute="" isLeave="false" record_count="1">
+<node value="0" attribute="my action" isLeave="true" record_count="1">
+</node>
+</node>
+</node>
+</node>
+<node value="false" attribute="I see enemy" isLeave="false" record_count="144">
+<node value="true" attribute="my weapon is loaded" isLeave="false" record_count="79">
+<node value="true" attribute="" isLeave="false" record_count="62">
+<node value="0" attribute="my action" isLeave="true" record_count="26">
+</node>
+<node value="2" attribute="my action" isLeave="true" record_count="36">
+</node>
+</node>
+<node value="false" attribute="I am under attack" isLeave="false" record_count="17">
+<node value="false" attribute="my health" isLeave="false" record_count="17">
+<node value="good" attribute="my eye sight" isLeave="false" record_count="17">
+<node value="good" attribute="I can fast load weapon" isLeave="false" record_count="17">
+<node value="false" attribute="my target enemy's health" isLeave="false" record_count="17">
+<node value="good" attribute="my target enemy's eye sight" isLeave="false" record_count="17">
+<node value="bad" attribute="my target enemy is attacking me" isLeave="false" record_count="17">
+<node value="false" attribute="my target enemy's weapon is loaded" isLeave="false" record_count="17">
+<node value="true" attribute="my target enemy can fast load weapon" isLeave="false" record_count="17">
+<node value="0" attribute="my action" isLeave="true" record_count="8">
+</node>
+<node value="2" attribute="my action" isLeave="true" record_count="9">
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node value="false" attribute="my weapon is loaded" isLeave="false" record_count="65">
+<node value="true" attribute="" isLeave="false" record_count="59">
+<node value="0" attribute="my action" isLeave="true" record_count="10">
+</node>
+<node value="2" attribute="my action" isLeave="true" record_count="49">
+</node>
+</node>
+<node value="false" attribute="" isLeave="false" record_count="6">
+<node value="0" attribute="my action" isLeave="true" record_count="2">
+</node>
+<node value="2" attribute="my action" isLeave="true" record_count="4">
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>

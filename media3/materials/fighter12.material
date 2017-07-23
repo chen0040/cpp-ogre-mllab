@@ -1,0 +1,51 @@
+
+material Jetstream/f12_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture fighter12.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/f12_2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture fighter12.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/f12_3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture fighter12.dds
+			}
+		}
+
+	}
+
+}

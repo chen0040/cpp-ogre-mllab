@@ -1,0 +1,40 @@
+<html>
+<head>
+<script type="text/javascript" src="Navi.js"></script>
+	<script type="text/javascript">
+	window.addEvent('domready', function(){
+	
+		$('btnAgentRequest').addEvent('click', function(){
+			var myData = new NaviData('InvokeAgent');
+			myData.add({command: "Config CI"});
+			myData.send();
+		});
+		
+	});
+	window.addEvent('domready', function(){
+	
+		$('btnCloseBrowser').addEvent('click', function(){
+			var myData=new NaviData('InvokeAgent');
+			myData.add({command: "Close Browser"});
+			myData.send();
+		});
+	});
+	window.addEvent("domready", function(){
+		
+		$('btnGenerateCode').addEvent('click', function(){
+			var myData=new NaviData('InvokeAgent');
+			myData.add({command: "Generate Code"});
+			myData.send();
+		});
+	});
+</script>
+</head>
+<body style="color:#00FF00; background-color:#000000">
+	<h2>This is the default HTML page</h2>
+	Click the following buttons to interact with the 3D environment.
+	<hr />
+	<input type="button" id="btnAgentRequest" value="Config CI" />
+	<input type="button" id="btnGenerateCode" value="Generate Code" />
+	<input type="button" id="btnCloseBrowser" value="Close Browser" />
+</body>
+</html>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="EditableTerrainManager" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug_Win32">
+				<Option platforms="Windows;" />
+				<Option output="bin/Debug/EditableTerrainManager_d.so" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add option="-DET_MANAGER_EXPORTS" />
+					<Add directory="$(OGRE_HOME)/include" />
+					<Add directory="include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="$(OGRE_HOME)/include" />
+					<Add directory="include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="OgreMain_d" />
+					<Add directory="$(OGRE_HOME)/bin/debug" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="copy bin\debug\EditableTerrainManager_d.dll %OGRE_HOME%\bin\debug" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release_Win32">
+				<Option platforms="Windows;" />
+				<Option output="bin/Release/EditableTerrainManager.so" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-W" />
+					<Add option="-DET_MANAGER_EXPORTS" />
+					<Add directory="$(OGRE_HOME)/include" />
+					<Add directory="include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="$(OGRE_HOME)/include" />
+					<Add directory="include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="OgreMain" />
+					<Add directory="$(OGRE_HOME)/bin/release" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="copy bin\Release\EditableTerrainManager.dll %OGRE_HOME%\bin\release" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Debug_Linux">
+				<Option platforms="Unix;" />
+				<Option output="bin/debug/libEditableTerrain_d.so" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/debug" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="`pkg-config --cflags OGRE`" />
+					<Add option="-DET_MANAGER_EXPORTS" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="`pkg-config --libs OGRE`" />
+				</Linker>
+			</Target>
+			<Target title="Release_Linux">
+				<Option platforms="Unix;" />
+				<Option output="bin/release/libEditableTerrain.so" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/release" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-march=i686" />
+					<Add option="-O2" />
+					<Add option="-W" />
+					<Add option="`pkg-config --cflags OGRE`" />
+					<Add option="-DET_MANAGER_EXPORTS" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="`pkg-config --libs OGRE`" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="include/ETBrush.h" />
+		<Unit filename="include/ETPrerequisites.h" />
+		<Unit filename="include/ETSplattingManager.h" />
+		<Unit filename="include/ETTerrainInfo.h" />
+		<Unit filename="include/ETTerrainManager.h" />
+		<Unit filename="include/Impl/ETIndexHandler.h" />
+		<Unit filename="include/Impl/ETOptions.h" />
+		<Unit filename="include/Impl/ETTerrainImpl.h" />
+		<Unit filename="include/Impl/ETTile.h" />
+		<Unit filename="src/ETBrush.cpp" />
+		<Unit filename="src/ETIndexHandler.cpp" />
+		<Unit filename="src/ETLightmap.cpp" />
+		<Unit filename="src/ETLoadSaveHeightmap.cpp" />
+		<Unit filename="src/ETSplattingManager.cpp" />
+		<Unit filename="src/ETTerrainInfo.cpp" />
+		<Unit filename="src/ETTerrainManager.cpp" />
+		<Unit filename="src/ETTile.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

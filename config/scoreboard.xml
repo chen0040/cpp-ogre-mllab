@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<scoreboard>
+<param name="record_interval" value="0.1" />
+<param name="armor" value="10" />
+<param name="walkSpeed" value="40" />
+<param name="senseRange" value="250" />
+<param name="life" value="1000" />
+<param name="bulletCount" value="20" />
+</scoreboard>

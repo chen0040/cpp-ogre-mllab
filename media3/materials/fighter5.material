@@ -1,0 +1,41 @@
+material fighter51
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture fighter5.dds
+			}
+		}
+	}
+}
+
+material fighter51-green
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture fighter5-green.dds
+			}
+		}
+	}
+}
+
+material fighter51-blue
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture fighter5-blue.dds
+			}
+		}
+	}
+}

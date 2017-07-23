@@ -1,0 +1,403 @@
+Index: Samples/MapEditor/src/MapEditorListener.cpp
+===================================================================
+RCS file: /cvsroot/ogre/ogreaddons/paginglandscape/Samples/MapEditor/src/MapEditorListener.cpp,v
+retrieving revision 1.7
+diff -u -r1.7 MapEditorListener.cpp
+--- Samples/MapEditor/src/MapEditorListener.cpp	25 May 2005 13:10:03 -0000	1.7
++++ Samples/MapEditor/src/MapEditorListener.cpp	27 May 2005 06:21:04 -0000
+@@ -12,8 +12,11 @@
+ #include <CEGUI/elements/CEGUIStaticImage.h>
+ #include "OgreCEGUIRenderer.h"
+ #include "OgreCEGUIResourceProvider.h"
+-
+ #include "MapEditorListener.h"
++#include "GameObject.h"
++#include "PagingGameObjectManager.h"
++#include <OgrePagingLandScapeOptions.h>
++#include <OgrePagingLandScapeSceneManager.h>
+ 
+ #define PI 3.14159265f
+ #define DEG2RAD(x) (x * (PI / 180.0f))
+@@ -90,6 +93,13 @@
+ 	mScnMgr->setOption("BrushScale", &mBrushStrength);
+ 
+ 	setEditMode(EditNothing);
++	mSimulationRunning = false;
++	mUpdateObjectListenersNextFrame = false;
++	
++	//create our objectmanager - at this point, it will be loaded using whatever is the default
++	//map in the paginglandscapeobject cfg, but later when a new map is loaded, it will
++	//be created with that map's name
++	createObjectManager();
+ }
+ //-----------------------------------------------------------------------
+ MapEditorListener::~MapEditorListener()
+@@ -244,6 +254,17 @@
+             }
+ 		}
+ 
++		if(e->getKey() == KC_DELETE)
++		{
++			if(mSelectedObjects.size())
++			{
++				//delete the current object
++				mObjectManager->deleteObjects(mSelectedObjects);
++				mSelectedObjects.clear();
++				mUpdateObjectListenersNextFrame = true;;
++			}
++		}
++
+ 		// Capture the screen to a PNG graphics file
+ 		if (e->getKey() == KC_SYSRQ)
+ 		{
+@@ -280,7 +301,7 @@
+ 	CEGUI::System::getSingleton().injectMouseMove(e->getRelX() * mGuiRenderer->getWidth(), 
+ 												  e->getRelY() * mGuiRenderer->getHeight());
+ 
+-    if (!rMouseDown && mEditMode!=EditNothing)
++    if (!rMouseDown && mEditMode!=EditNothing && mEditMode != EditObjects)
+     {
+ 		/*mAmountMovedY+=e->getRelY();
+ 		mAmountMovedX+=e->getRelX();*/
+@@ -358,6 +379,43 @@
+ 		mCamera->yaw(Radian( -e->getRelX() * mRotateSpeed ));
+         mCamera->pitch(Radian( -e->getRelY() * mRotateSpeed ));
+ 	}
++	else if(lMouseDown == true)
++	{
++		if(mSelectedObjects.size() && mEditMode == EditObjects)
++		{
++			if(mInputDevice->isKeyDown(KC_RMENU) || mInputDevice->isKeyDown(KC_LMENU))
++			{
++				//rotate the selected objects left/right based on x
++				mObjectManager->rotateObjects(mSelectedObjects, Radian(e->getRelX() * mRotateSpeed));
++			}
++			else if(mInputDevice->isKeyDown(KC_RSHIFT) || mInputDevice->isKeyDown(KC_LSHIFT))
++			{
++				//shift key is being held down so raise and lower the selected objects
++				mObjectManager->raiseObjects(mSelectedObjects, (-e->getRelY() * 400.0f));
++			}	
++			else
++			{
++				//drag the selected object
++				Ray mouseRay = mCamera->getCameraToViewportRay(e->getX(), e->getY());
++				mRayCursorQuery->setRay(mouseRay);
++				mRayCursorQuery->setSortByDistance( false );
++				mRayCursorQuery->setQueryMask(RSQ_FirstTerrain);
++
++				RaySceneQueryResult &result = mRayCursorQuery->execute();
++				RaySceneQueryResult::iterator itr;
++
++				for(itr = result.begin(); itr != result.end(); itr++)
++				{
++					if(itr->worldFragment)
++					{
++						mObjectManager->translateObjects(mSelectedObjects, itr->worldFragment->singleIntersection);
++						break;
++					} // if 
++				} // if
++			}
++			//updateObjectListeners();
++		}
++	}
+     e->consume();
+ }
+ //-----------------------------------------------------------------------
+@@ -379,6 +437,123 @@
+ 		   lMouseDown = true;
+ 		}
+ 
++		mInputDevice->capture();
++
++        //if we're editing, and alt or shift are not being held then check if we're inserting and object
++		//or selecting an object and do appropriate behavior
++		if(!mSimulationRunning && lMouseDown && mEditMode == EditObjects && !(mInputDevice->isKeyDown(KC_RMENU) || mInputDevice->isKeyDown(KC_LMENU) || mInputDevice->isKeyDown(KC_RSHIFT) || mInputDevice->isKeyDown(KC_LSHIFT)))
++		{
++			if(mInsertingObject)
++			{
++
++				Ray mouseRay = mCamera->getCameraToViewportRay( e->getX(), e->getY() );
++				mRayCursorQuery->setRay( mouseRay );
++
++				//test against terrain only
++				mRayCursorQuery->setQueryMask(RSQ_FirstTerrain);			
++
++				// Execute query
++				RaySceneQueryResult &result = mRayCursorQuery->execute();
++
++				// Get results, create a node/entity on the position
++				for(RaySceneQueryResult::iterator itr = result.begin(); itr != result.end(); itr++)
++				{
++					if (itr->worldFragment)
++					{
++						mInsertObject = mObjectManager->createObject(mInsertObjectID, itr->worldFragment->singleIntersection);
++						if(mInsertObject)
++						{
++							deselectObjects();
++							mInsertObject->select();
++							mSelectedObjects.push_back(mInsertObject);
++							mUpdateObjectListenersNextFrame = true;
++						}
++						mInsertingObject = false;
++						break;
++					} // else if
++				} // for
++
++			}
++			else
++			{
++				// Setup the ray scene query to check if an entity was clicked
++				Ray mouseRay = mCamera->getCameraToViewportRay( e->getX(), e->getY() );
++				mRayCursorQuery->setRay( mouseRay );
++				mRayCursorQuery->setSortByDistance( true );
++				mRayCursorQuery->setQueryMask( RSQ_Entities );
++
++				// Execute query
++				RaySceneQueryResult &result = mRayCursorQuery->execute();
++				GameObject *selectedObject = NULL;
++
++				// Get result and get the GameObject from the moveable object
++				for(RaySceneQueryResult::iterator itr = result.begin(); itr != result.end(); itr++)
++				{
++					if(itr->movable)
++					{
++						MovableObject *movable = itr->movable;
++						selectedObject = static_cast<GameObject*>(movable->getUserObject());
++						break;
++					} // if
++				} //for
++
++				if(selectedObject)
++				{
++					bool objectSelected = false;
++					//check if object already in selected list
++					vector<GameObject*>::iterator itr = mSelectedObjects.begin();
++					for(; itr != mSelectedObjects.end(); itr++)
++					{
++						if((*itr) == selectedObject)
++						{
++							objectSelected = true;
++							break;
++						}
++					}
++
++					if(mLinkingObject)
++					{
++						//we wanted to link the currently selected objects to the selected object
++						//check if the object is already in the selected list, and if so remove it
++                        if(objectSelected)	
++						{
++							mSelectedObjects.erase(itr);
++						}
++						mObjectManager->linkObjects(mSelectedObjects, selectedObject);
++						mLinkingObject = false;
++					}
++					else //if !linkingObject
++					{
++
++						//if ctrl isn't clicked, check if an object wasn't selected either
++						if(!(mInputDevice->isKeyDown(KC_LCONTROL) || mInputDevice->isKeyDown(KC_RCONTROL)))
++						{						
++							//only deselect all objects if it's not one of the already selected objects
++							if(!objectSelected)
++							{
++								deselectObjects();
++								mUpdateObjectListenersNextFrame = true;
++							}
++						}
++							
++						//if the object wasn't already selected, add it to the list
++						if(!objectSelected)
++						{
++							mSelectedObjects.push_back(selectedObject);
++							selectedObject->select();
++							mUpdateObjectListenersNextFrame = true;
++						}
++					}
++				}
++				else
++				{
++					mLinkingObject = false;
++					deselectObjects();
++					mUpdateObjectListenersNextFrame = true;
++				}
++				
++			}
++		}
+ 	
+ 		const int id = e->getButtonID();
+ 
+@@ -399,7 +574,10 @@
+ //-----------------------------------------------------------------------
+ void MapEditorListener::mouseReleased(MouseEvent* e)
+ {          
+-	CEGUI::System::getSingleton().injectMouseButtonUp(convertOgreButtonToCegui(e->getButtonID()));
++	if(!CEGUI::System::getSingleton().injectMouseButtonUp(convertOgreButtonToCegui(e->getButtonID())))
++	{
++		mUpdateObjectListenersNextFrame = true;
++	}
+ 
+ 	lMouseDown = false;
+ 	mClickActive = false;          
+@@ -483,6 +661,8 @@
+ 		moveScale = moveScale * 300;
+ 	}
+ 
++
++
+ 	Vector3 vec = Vector3::ZERO;
+ 	if (mInputDevice->isKeyDown(KC_LEFT) || mInputDevice->isKeyDown(KC_A) || mInputDevice->isKeyDown(KC_Q))
+ 	{
+@@ -538,3 +718,151 @@
+ 	}
+ 	mCursorPoints[AMOUNT_CURSOR_POINTS] = mCursorPoints[0];
+ }
++
++//-----------------------------------------------------------------------
++GameObjectManager* MapEditorListener::getObjectManager() const
++{
++	return mObjectManager;
++}
++
++//-----------------------------------------------------------------------
++void MapEditorListener::insertObject(const String& id)
++{
++	mInsertObjectID = id;
++	mInsertingObject = true;
++}
++
++//-----------------------------------------------------------------------
++void MapEditorListener::deselectObjects()
++{
++	for(vector<GameObject*>::iterator itr = mSelectedObjects.begin(); itr != mSelectedObjects.end(); ++itr)
++	{
++		(*itr)->deselect();
++	}
++	mSelectedObjects.clear();
++	mUpdateObjectListenersNextFrame = true;
++}
++
++//-----------------------------------------------------------------------
++void MapEditorListener::linkParent()
++{
++	//put into link mode
++	if(mSelectedObjects.size())
++		mLinkingObject = true;
++}
++
++//-----------------------------------------------------------------------
++void MapEditorListener::unlinkParent()
++{
++	if(mSelectedObjects.size())
++		mObjectManager->unlinkObjects(mSelectedObjects);
++}
++
++//-----------------------------------------------------------------------
++void MapEditorListener::startSimulation()
++{
++	deselectObjects();
++	mObjectManager->startSimulation();
++	mSimulationRunning = true;
++}
++
++//-----------------------------------------------------------------------
++void MapEditorListener::endSimulation()
++{
++	mObjectManager->endSimulation();
++	mSimulationRunning = false;
++}
++
++//-----------------------------------------------------------------------
++void MapEditorListener::exportPrefab()
++{
++	if(mSelectedObjects.size() == 1)
++	{
++		mObjectManager->savePrefabObject(mSelectedObjects[0]);
++	}
++	else
++	{
++		//MessageBox(NULL, "Must only have one object selected to export prefab", "Export Prefab", 0);
++	}
++}
++
++//-----------------------------------------------------------------------
++void MapEditorListener::setFixedHeight(float fixedHeight)
++{
++	mObjectManager->setFixedHeight(fixedHeight);
++}
++
++//-----------------------------------------------------------------------
++void MapEditorListener::setFixedHeightEnabled(bool enabled)
++{
++	mObjectManager->setFixedHeightEnabled(enabled);
++}
++
++//-----------------------------------------------------------------------
++float MapEditorListener::getFixedHeightFromObject()
++{
++	if(mSelectedObjects.size() == 1)
++	{
++		return mSelectedObjects[0]->getWorldPosition().y;
++	}
++	else
++		return 0.0f;
++}
++
++//-----------------------------------------------------------------------
++vector<GameObject*>& MapEditorListener::getSelectedObjects()
++{
++	return mSelectedObjects;
++}
++
++//-----------------------------------------------------------------------
++void MapEditorListener::setProperty(const String& id, GameObjectPropertyData data)
++{
++	if(mSelectedObjects.size() == 1)
++		mSelectedObjects[0]->setProperty(id, data);
++}
++
++//-----------------------------------------------------------------------
++void MapEditorListener::addObjectListener(ObjectListener* listener)
++{
++	mObjectListeners.push_back(listener);
++}
++
++//-----------------------------------------------------------------------
++void MapEditorListener::updateObjectListeners()
++{
++	for(vector<ObjectListener*>::iterator itr = mObjectListeners.begin(); itr != mObjectListeners.end(); ++itr)
++	{
++		(*itr)->onObjectChanged();
++	}
++}
++
++//-----------------------------------------------------------------------
++void MapEditorListener::saveObjects()
++{
++	mObjectManager->save();
++}
++
++//-----------------------------------------------------------------------
++void MapEditorListener::newMapLoaded()
++{
++	//destroy the old object manager and create a new one
++	if(mObjectManager)
++	{
++		mObjectManager->destroy();
++		delete mObjectManager;
++	}
++	createObjectManager();
++}
++
++void MapEditorListener::createObjectManager()
++{
++	//create the object manager passing true for editing
++	mObjectManager = new PagingGameObjectManager(true);
++	String currentMap;
++	SceneManager *pagingSceneMgr = static_cast<PagingLandScapeSceneManager*>(getSceneManager());
++	pagingSceneMgr->getOption("CurrentMap", &currentMap);
++	char fileName[64];
++	sprintf(fileName, ".\\%s_PagingGameObjectManagerSettings.xml", currentMap.c_str());
++	mObjectManager->init(fileName, mScnMgr);
++}
+\ No newline at end of file

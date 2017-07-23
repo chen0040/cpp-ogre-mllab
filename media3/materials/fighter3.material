@@ -1,0 +1,54 @@
+material Jetstream/fighter3-green
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture fighter3-green.dds
+			}
+		}
+	}
+}
+
+material ScorpionGlow_Glass
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture fighter3.dds
+			}
+		}
+	}
+}
+material ScorpionBody
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture fighter3.dds
+			}
+		}
+	}
+}
+
+material Scorpion_Glass
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture fighter3.dds
+			}
+		}
+	}
+}

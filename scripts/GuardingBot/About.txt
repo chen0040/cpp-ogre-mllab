@@ -1,0 +1,1 @@
+This is a stupid Zoombie Bot. A zoombie bot randomly select an enemy within its sensing range to attack

@@ -1,0 +1,26 @@
+material Jetstream/car5_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture car5_1.dds
+			}
+		}
+	}
+}
+
+material Jetstream/car5_2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+		}
+	}
+}

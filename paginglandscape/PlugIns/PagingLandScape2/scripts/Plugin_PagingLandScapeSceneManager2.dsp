@@ -1,0 +1,7119 @@
+# Microsoft Developer Studio Project File - Name="Plugin_PagingLandScapeSceneManager2" - Package Owner=<4>
+# Microsoft Developer Studio Generated Build File, Format Version 6.00
+# ** DO NOT EDIT **
+
+# TARGTYPE "Win32 (x86) Dynamic-Link Library" 0x0102
+
+CFG=Plugin_PagingLandScapeSceneManager2 - Win32 Debug
+!MESSAGE This is not a valid makefile. To build this project using NMAKE,
+!MESSAGE use the Export Makefile command and run
+!MESSAGE 
+!MESSAGE NMAKE /f "Plugin_PagingLandScapeSceneManager2.mak".
+!MESSAGE 
+!MESSAGE You can specify a configuration when running NMAKE
+!MESSAGE by defining the macro CFG on the command line. For example:
+!MESSAGE 
+!MESSAGE NMAKE /f "Plugin_PagingLandScapeSceneManager2.mak" CFG="Plugin_PagingLandScapeSceneManager2 - Win32 Debug"
+!MESSAGE 
+!MESSAGE Possible choices for configuration are:
+!MESSAGE 
+!MESSAGE "Plugin_PagingLandScapeSceneManager2 - Win32 Debug" (based on "Win32 (x86) Dynamic-Link Library")
+!MESSAGE "Plugin_PagingLandScapeSceneManager2 - Win32 Release" (based on "Win32 (x86) Dynamic-Link Library")
+!MESSAGE 
+
+# Begin Project
+# PROP AllowPerConfigDependencies 0
+# PROP Scc_ProjName ""
+# PROP Scc_LocalPath ""
+CPP=cl.exe
+MTL=midl.exe
+RSC=rc.exe
+
+!IF  "$(CFG)" == "Plugin_PagingLandScapeSceneManager2 - Win32 Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "..\bin\$(ConfigurationName)"
+# PROP BASE Intermediate_Dir "..\obj\$(ConfigurationName)"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "..\bin\$(ConfigurationName)"
+# PROP Intermediate_Dir "..\obj\$(ConfigurationName)"
+# PROP Target_Dir ""
+# ADD BASE CPP /nologo /MDd /W3 /GR /GX /Zi /Od /I "..\include" /I "..\..\..\OgreMain\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "PLUGIN_PAGINGLANDSCAPE2_EXPORTS" /D "_STLP_DEBUG" /D "_MBCS" /FR /GZ PRECOMP_VC7_TOBEREMOVED /c
+# ADD CPP /nologo /MDd /W3 /GR /GX /Zi /Od /I "..\include" /I "..\..\..\OgreMain\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "PLUGIN_PAGINGLANDSCAPE2_EXPORTS" /D "_STLP_DEBUG" /D "_MBCS" /FR /GZ PRECOMP_VC7_TOBEREMOVED /c
+# ADD BASE MTL /nologo /win32
+# ADD MTL /nologo /win32
+# ADD BASE RSC /l 0x409
+# ADD RSC /l 0x409
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib OgreMain_d.lib /nologo /version:0.14 /subsystem:windows /dll /incremental:no /map:"plugin_paging_landscape2" /debug /machine:IX86 /def:"..\misc\OgrePagingLandScapeSceneManager2.def" /implib:"$(OutDir)/Plugin_PagingLandScapeSceneManager2.lib" /pdbtype:sept /libpath:""..\..\..\OgreMain\lib\$(ConfigurationName)"" /libpath:""..\..\..\Dependencies\lib\$(ConfigurationName)"" /mapinfo:exports
+# SUBTRACT BASE LINK32 /pdb:none
+# ADD LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib OgreMain_d.lib /nologo /version:0.14 /subsystem:windows /dll /incremental:no /map:"plugin_paging_landscape2" /debug /machine:IX86 /def:"..\misc\OgrePagingLandScapeSceneManager2.def" /implib:"$(OutDir)/Plugin_PagingLandScapeSceneManager2.lib" /pdbtype:sept /libpath:""..\..\..\OgreMain\lib\$(ConfigurationName)"" /libpath:""..\..\..\Dependencies\lib\$(ConfigurationName)"" /mapinfo:exports
+# SUBTRACT LINK32 /pdb:none
+# Begin Special Build Tool
+OutDir=.\..\bin\$(ConfigurationName)
+SOURCE="$(InputPath)"
+PostBuild_Cmds=copy $(OutDir)\$(TargetFileName) ..\..\..\Samples\Common\bin\$(ConfigurationName)
+# End Special Build Tool
+
+!ELSEIF  "$(CFG)" == "Plugin_PagingLandScapeSceneManager2 - Win32 Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "..\bin\$(ConfigurationName)"
+# PROP BASE Intermediate_Dir "..\obj\$(ConfigurationName)"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "..\bin\Release"
+# PROP Intermediate_Dir "..\obj\Release"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+# ADD BASE CPP /nologo /MD /W3 /GX /Zi /Ot /Oi /I "..\include" /I "..\..\..\OgreMain\include" /D "WIN32" /D "_WINDOWS" /D "_USRDLL" /D "PLUGIN_PAGINGLANDSCAPE2_EXPORTS" /D "NDEBUG" /D "_MBCS" /FR /GF /EHsc PRECOMP_VC7_TOBEREMOVED /c
+# ADD CPP /nologo /MD /W3 /GX /Zi /Ot /Oi /I "..\include" /I "..\..\..\OgreMain\include" /D "WIN32" /D "_WINDOWS" /D "_USRDLL" /D "PLUGIN_PAGINGLANDSCAPE2_EXPORTS" /D "NDEBUG" /D "_MBCS" /GF /EHsc /c
+# ADD BASE MTL /nologo /win32
+# ADD MTL /nologo /win32
+# ADD BASE RSC /l 0x409
+# ADD RSC /l 0x409
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib OgreMain.lib /nologo /version:1.0 /subsystem:windows /dll /map:"Plugin_pagingLandScapeSceneManager2.map" /debug /machine:IX86 /def:"..\misc\OgrePagingLandScapeSceneManager2.def" /implib:"$(OutDir)/Plugin_PagingLandScapeSceneManager2.lib" /pdbtype:sept /libpath:""..\..\..\OgreMain\lib\$(ConfigurationName)"" /libpath:""..\..\..\Dependencies\lib\$(ConfigurationName)"" /mapinfo:exports /opt:ref /opt:icf
+# ADD LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib OgreMain.lib /nologo /version:1.0 /subsystem:windows /dll /machine:IX86 /def:"..\misc\OgrePagingLandScapeSceneManager2.def" /implib:"$(OutDir)/Plugin_PagingLandScapeSceneManager2.lib" /pdbtype:sept /libpath:"..\..\..\OgreMain\lib\Release" /libpath:""..\..\..\OgreMain\lib\$(ConfigurationName)"" /libpath:""..\..\..\Dependencies\lib\$(ConfigurationName)"" /mapinfo:exports /opt:ref /opt:icf /Zm1000
+# SUBTRACT LINK32 /pdb:none
+# Begin Special Build Tool
+SOURCE="$(InputPath)"
+PostBuild_Cmds=copy ..\bin\Release\*.dll ..\..\..\Samples\Common\bin\Release
+# End Special Build Tool
+
+!ENDIF 
+
+# Begin Target
+
+# Name "Plugin_PagingLandScapeSceneManager2 - Win32 Debug"
+# Name "Plugin_PagingLandScapeSceneManager2 - Win32 Release"
+# Begin Group "Source Files"
+
+# PROP Default_Filter "cpp;c;cxx;def;odl;idl;hpj;bat;asm"
+# Begin Group "Data2D"
+
+# PROP Default_Filter ""
+# Begin Group "Loader"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=..\src\DRGNURBSSurface.cpp
+DEP_CPP_DRGNU=\
+	"..\include\DRGNURBSSurface.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeData2D_HeightField.cpp
+DEP_CPP_OGREP=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreArchiveManager.h"\
+	"..\..\..\OgreMain\include\OgreCodec.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreImageCodec.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\fileutils.h"\
+	"..\include\OgrePagingLandScapeData2D.h"\
+	"..\include\OgrePagingLandScapeData2D_HeightField.h"\
+	"..\include\OgrePagingLandScapeData2DManager.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	
+NODEP_CPP_OGREP=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeData2D_HeightFieldN.cpp
+DEP_CPP_OGREPA=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreArchiveManager.h"\
+	"..\..\..\OgreMain\include\OgreCodec.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreImageCodec.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\fileutils.h"\
+	"..\include\OgrePagingLandScapeData2D.h"\
+	"..\include\OgrePagingLandScapeData2D_HeightFieldN.h"\
+	"..\include\OgrePagingLandScapeData2DManager.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	
+NODEP_CPP_OGREPA=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeData2D_HeightFieldNTC.cpp
+DEP_CPP_OGREPAG=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\fileutils.h"\
+	"..\include\OgrePagingLandScapeData2D.h"\
+	"..\include\OgrePagingLandScapeData2D_HeightFieldNTC.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	
+NODEP_CPP_OGREPAG=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeData2D_HeightFieldRaw.cpp
+DEP_CPP_OGREPAGI=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\fileutils.h"\
+	"..\include\OgrePagingLandScapeData2D.h"\
+	"..\include\OgrePagingLandScapeData2D_HeightFieldRaw.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	
+NODEP_CPP_OGREPAGI=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeData2D_HeightFieldRawTC.cpp
+DEP_CPP_OGREPAGIN=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\fileutils.h"\
+	"..\include\OgrePagingLandScapeData2D.h"\
+	"..\include\OgrePagingLandScapeData2D_HeightFieldRawTC.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	
+NODEP_CPP_OGREPAGIN=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeData2D_HeightFieldTC.cpp
+DEP_CPP_OGREPAGING=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\fileutils.h"\
+	"..\include\OgrePagingLandScapeData2D.h"\
+	"..\include\OgrePagingLandScapeData2D_HeightFieldTC.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	
+NODEP_CPP_OGREPAGING=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeData2D_Spline.cpp
+DEP_CPP_OGREPAGINGL=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\DRGNURBSSurface.h"\
+	"..\include\OgrePagingLandScapeData2D.h"\
+	"..\include\OgrePagingLandScapeData2D_Spline.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	
+NODEP_CPP_OGREPAGINGL=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeData2D.cpp
+DEP_CPP_OGREPAGINGLA=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreFrameListener.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgrePagingLandScapeData2D.h"\
+	"..\include\OgrePagingLandScapeData2DManager.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePage.h"\
+	"..\include\OgrePagingLandScapePageManager.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeQueue.h"\
+	"..\include\OgrePagingLandScapeRenderable.h"\
+	"..\include\OgrePagingLandScapeTile.h"\
+	"..\include\OgrePagingLandScapeTileInfo.h"\
+	
+NODEP_CPP_OGREPAGINGLA=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeData2DManager.cpp
+DEP_CPP_OGREPAGINGLAN=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreCamera.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreFrameListener.h"\
+	"..\..\..\OgreMain\include\OgreFrustum.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreMovablePlane.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\DRGNURBSSurface.h"\
+	"..\include\OgreOctreeCamera.h"\
+	"..\include\OgrePagingLandScapeCamera.h"\
+	"..\include\OgrePagingLandScapeData2D.h"\
+	"..\include\OgrePagingLandScapeData2D_HeightField.h"\
+	"..\include\OgrePagingLandScapeData2D_HeightFieldN.h"\
+	"..\include\OgrePagingLandScapeData2D_HeightFieldNTC.h"\
+	"..\include\OgrePagingLandScapeData2D_HeightFieldRaw.h"\
+	"..\include\OgrePagingLandScapeData2D_HeightFieldRawTC.h"\
+	"..\include\OgrePagingLandScapeData2D_HeightFieldTC.h"\
+	"..\include\OgrePagingLandScapeData2D_Spline.h"\
+	"..\include\OgrePagingLandScapeData2DManager.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePage.h"\
+	"..\include\OgrePagingLandScapePageManager.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeQueue.h"\
+	"..\include\OgrePagingLandScapeRenderable.h"\
+	"..\include\OgrePagingLandScapeTile.h"\
+	"..\include\OgrePagingLandScapeTileInfo.h"\
+	
+NODEP_CPP_OGREPAGINGLAN=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# End Group
+# Begin Group "Page"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapePage.cpp
+DEP_CPP_OGREPAGINGLAND=\
+	"..\..\..\OgreMain\include\OgreAnimationState.h"\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAutoParamDataSource.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreCamera.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreController.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreFrameListener.h"\
+	"..\..\..\OgreMain\include\OgreFrustum.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreMovablePlane.h"\
+	"..\..\..\OgreMain\include\OgreNode.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRectangle2D.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueueSortingGrouping.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneNode.h"\
+	"..\..\..\OgreMain\include\OgreSceneQuery.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\OgreWireBoundingBox.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctree.h"\
+	"..\include\OgreOctreeCamera.h"\
+	"..\include\OgreOctreeSceneManager.h"\
+	"..\include\OgrePagingLandScapeCamera.h"\
+	"..\include\OgrePagingLandScapeData2D.h"\
+	"..\include\OgrePagingLandScapeData2DManager.h"\
+	"..\include\OgrePagingLandScapeHorizon.h"\
+	"..\include\OgrePagingLandScapeIndexBuffer.h"\
+	"..\include\OgrePagingLandscapeListener.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePage.h"\
+	"..\include\OgrePagingLandScapePageManager.h"\
+	"..\include\OgrePagingLandScapePageRenderable.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeQueue.h"\
+	"..\include\OgrePagingLandScapeRenderableManager.h"\
+	"..\include\OgrePagingLandScapeSceneManager.h"\
+	"..\include\OgrePagingLandScapeTextureManager.h"\
+	"..\include\OgrePagingLandScapeTile.h"\
+	"..\include\OgrePagingLandScapeTileInfo.h"\
+	"..\include\OgrePagingLandScapeTileManager.h"\
+	
+NODEP_CPP_OGREPAGINGLAND=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapePageManager.cpp
+DEP_CPP_OGREPAGINGLANDS=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreCamera.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreFrameListener.h"\
+	"..\..\..\OgreMain\include\OgreFrustum.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreMovablePlane.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctreeCamera.h"\
+	"..\include\OgrePagingLandScapeCamera.h"\
+	"..\include\OgrePagingLandScapeData2DManager.h"\
+	"..\include\OgrePagingLandScapeHorizon.h"\
+	"..\include\OgrePagingLandScapeIndexBuffer.h"\
+	"..\include\OgrePagingLandscapeListener.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePage.h"\
+	"..\include\OgrePagingLandScapePageManager.h"\
+	"..\include\OgrePagingLandScapePageRenderable.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeQueue.h"\
+	"..\include\OgrePagingLandScapeRenderableManager.h"\
+	"..\include\OgrePagingLandScapeTexture.h"\
+	"..\include\OgrePagingLandScapeTextureManager.h"\
+	"..\include\OgrePagingLandScapeTile.h"\
+	"..\include\OgrePagingLandScapeTileInfo.h"\
+	
+NODEP_CPP_OGREPAGINGLANDS=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapePageRenderable.cpp
+DEP_CPP_OGREPAGINGLANDSC=\
+	"..\..\..\OgreMain\include\OgreAnimationState.h"\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAutoParamDataSource.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreCamera.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreController.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreFrameListener.h"\
+	"..\..\..\OgreMain\include\OgreFrustum.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreMovablePlane.h"\
+	"..\..\..\OgreMain\include\OgreNode.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRectangle2D.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueueSortingGrouping.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreRoot.h"\
+	"..\..\..\OgreMain\include\OgreSceneManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneManagerEnumerator.h"\
+	"..\..\..\OgreMain\include\OgreSceneNode.h"\
+	"..\..\..\OgreMain\include\OgreSceneQuery.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\OgreViewport.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctreeCamera.h"\
+	"..\include\OgrePagingLandScapeCamera.h"\
+	"..\include\OgrePagingLandScapeData2D.h"\
+	"..\include\OgrePagingLandScapeData2DManager.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePage.h"\
+	"..\include\OgrePagingLandScapePageManager.h"\
+	"..\include\OgrePagingLandScapePageRenderable.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeQueue.h"\
+	"..\include\OgrePagingLandScapeTextureManager.h"\
+	"..\include\OgrePagingLandScapeTile.h"\
+	"..\include\OgrePagingLandScapeTileInfo.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSC=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# End Group
+# Begin Group "Query"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeRaySceneQuery.cpp
+DEP_CPP_OGREPAGINGLANDSCA=\
+	"..\..\..\OgreMain\include\OgreAnimationState.h"\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAutoParamDataSource.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreController.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreEntity.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMesh.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreNode.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreProgressiveMesh.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRectangle2D.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueueSortingGrouping.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneNode.h"\
+	"..\..\..\OgreMain\include\OgreSceneQuery.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSkeleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexBoneAssignment.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\OgreWireBoundingBox.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctree.h"\
+	"..\include\OgreOctreeSceneManager.h"\
+	"..\include\OgreOctreeSceneQuery.h"\
+	"..\include\OgrePagingLandScapeData2DManager.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeRaySceneQuery.h"\
+	"..\include\OgrePagingLandScapeSceneManager.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCA=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# End Group
+# Begin Group "Renderable"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeIndexBuffer.cpp
+DEP_CPP_OGREPAGINGLANDSCAP=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgrePagingLandScapeIndexBuffer.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeRenderable.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAP=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeRenderable.cpp
+DEP_CPP_OGREPAGINGLANDSCAPE=\
+	"..\..\..\OgreMain\include\OgreAnimationState.h"\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAutoParamDataSource.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreCamera.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreController.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreFrameListener.h"\
+	"..\..\..\OgreMain\include\OgreFrustum.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreMovablePlane.h"\
+	"..\..\..\OgreMain\include\OgreNode.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRectangle2D.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueueSortingGrouping.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreRoot.h"\
+	"..\..\..\OgreMain\include\OgreSceneManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneManagerEnumerator.h"\
+	"..\..\..\OgreMain\include\OgreSceneNode.h"\
+	"..\..\..\OgreMain\include\OgreSceneQuery.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctreeCamera.h"\
+	"..\include\OgrePagingLandScapeCamera.h"\
+	"..\include\OgrePagingLandScapeData2D.h"\
+	"..\include\OgrePagingLandScapeData2DManager.h"\
+	"..\include\OgrePagingLandScapeHorizon.h"\
+	"..\include\OgrePagingLandScapeIndexBuffer.h"\
+	"..\include\OgrePagingLandscapeListener.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePage.h"\
+	"..\include\OgrePagingLandScapePageManager.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeQueue.h"\
+	"..\include\OgrePagingLandScapeRenderable.h"\
+	"..\include\OgrePagingLandScapeRenderableManager.h"\
+	"..\include\OgrePagingLandScapeTile.h"\
+	"..\include\OgrePagingLandScapeTileInfo.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPE=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeRenderableManager.cpp
+DEP_CPP_OGREPAGINGLANDSCAPER=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreCamera.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreFrustum.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreMovablePlane.h"\
+	"..\..\..\OgreMain\include\OgreNode.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneNode.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctreeCamera.h"\
+	"..\include\OgrePagingLandScapeCamera.h"\
+	"..\include\OgrePagingLandScapeIndexBuffer.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeQueue.h"\
+	"..\include\OgrePagingLandScapeRenderable.h"\
+	"..\include\OgrePagingLandScapeRenderableManager.h"\
+	"..\include\OgrePagingLandScapeTile.h"\
+	"..\include\OgrePagingLandScapeTileInfo.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPER=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# End Group
+# Begin Group "Texture"
+
+# PROP Default_Filter ""
+# Begin Group "splatting"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeTexture_Splatting.cpp
+DEP_CPP_OGREPAGINGLANDSCAPET=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgrePagingLandScapeData2DManager.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeTexture.h"\
+	"..\include\OgrePagingLandScapeTexture_Splatting.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPET=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeTexture_Splatting2.cpp
+DEP_CPP_OGREPAGINGLANDSCAPETE=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeTexture.h"\
+	"..\include\OgrePagingLandScapeTexture_Splatting2.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPETE=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeTexture_Splatting3.cpp
+DEP_CPP_OGREPAGINGLANDSCAPETEX=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeTexture.h"\
+	"..\include\OgrePagingLandScapeTexture_Splatting3.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPETEX=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeTexture_Splatting4.cpp
+DEP_CPP_OGREPAGINGLANDSCAPETEXT=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeTexture.h"\
+	"..\include\OgrePagingLandScapeTexture_Splatting4.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPETEXT=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeTexture_Splatting5.cpp
+DEP_CPP_OGREPAGINGLANDSCAPETEXTU=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeTexture.h"\
+	"..\include\OgrePagingLandScapeTexture_Splatting5.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPETEXTU=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeTexture_Splatting6.cpp
+DEP_CPP_OGREPAGINGLANDSCAPETEXTUR=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeTexture.h"\
+	"..\include\OgrePagingLandScapeTexture_Splatting6.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPETEXTUR=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeTexture_Splatting7.cpp
+DEP_CPP_OGREPAGINGLANDSCAPETEXTURE=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeTexture.h"\
+	"..\include\OgrePagingLandScapeTexture_Splatting7.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPETEXTURE=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeTexture.cpp
+DEP_CPP_OGREPAGINGLANDSCAPETEXTURE_=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeTexture.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPETEXTURE_=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeTexture_BaseTexture.cpp
+DEP_CPP_OGREPAGINGLANDSCAPETEXTURE_B=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgrePagingLandScapeData2DManager.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeTexture.h"\
+	"..\include\OgrePagingLandScapeTexture_BaseTexture.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPETEXTURE_B=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeTexture_BaseTexture2.cpp
+DEP_CPP_OGREPAGINGLANDSCAPETEXTURE_BA=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgrePagingLandScapeData2DManager.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeTexture.h"\
+	"..\include\OgrePagingLandScapeTexture_BaseTexture2.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPETEXTURE_BA=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeTexture_Image.cpp
+DEP_CPP_OGREPAGINGLANDSCAPETEXTURE_I=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeTexture.h"\
+	"..\include\OgrePagingLandScapeTexture_Image.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPETEXTURE_I=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeTexture_InstantBaseTexture.cpp
+DEP_CPP_OGREPAGINGLANDSCAPETEXTURE_IN=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\fileutils.h"\
+	"..\include\OgrePagingLandScapeData2D.h"\
+	"..\include\OgrePagingLandScapeData2DManager.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeTexture.h"\
+	"..\include\OgrePagingLandScapeTexture_InstantBaseTexture.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPETEXTURE_IN=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeTextureManager.cpp
+DEP_CPP_OGREPAGINGLANDSCAPETEXTUREM=\
+	"..\..\..\OgreMain\include\OgreAnimationState.h"\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAutoParamDataSource.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreConfigOptionMap.h"\
+	"..\..\..\OgreMain\include\OgreController.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreFrameListener.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgramManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreNode.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRectangle2D.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueueSortingGrouping.h"\
+	"..\..\..\OgreMain\include\OgreRenderSystem.h"\
+	"..\..\..\OgreMain\include\OgreRenderSystemCapabilities.h"\
+	"..\..\..\OgreMain\include\OgreRenderTarget.h"\
+	"..\..\..\OgreMain\include\OgreRenderTexture.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreRoot.h"\
+	"..\..\..\OgreMain\include\OgreSceneManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneManagerEnumerator.h"\
+	"..\..\..\OgreMain\include\OgreSceneNode.h"\
+	"..\..\..\OgreMain\include\OgreSceneQuery.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreTimer.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\OgreViewport.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeTexture.h"\
+	"..\include\OgrePagingLandScapeTexture_BaseTexture.h"\
+	"..\include\OgrePagingLandScapeTexture_BaseTexture2.h"\
+	"..\include\OgrePagingLandScapeTexture_Image.h"\
+	"..\include\OgrePagingLandScapeTexture_InstantBaseTexture.h"\
+	"..\include\OgrePagingLandScapeTexture_Splatting.h"\
+	"..\include\OgrePagingLandScapeTexture_Splatting2.h"\
+	"..\include\OgrePagingLandScapeTexture_Splatting3.h"\
+	"..\include\OgrePagingLandScapeTexture_Splatting4.h"\
+	"..\include\OgrePagingLandScapeTexture_Splatting5.h"\
+	"..\include\OgrePagingLandScapeTexture_Splatting6.h"\
+	"..\include\OgrePagingLandScapeTexture_Splatting7.h"\
+	"..\include\OgrePagingLandScapeTextureManager.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPETEXTUREM=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# End Group
+# Begin Group "Tile"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeTile.cpp
+DEP_CPP_OGREPAGINGLANDSCAPETI=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreCamera.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreFrameListener.h"\
+	"..\..\..\OgreMain\include\OgreFrustum.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreMovablePlane.h"\
+	"..\..\..\OgreMain\include\OgreNode.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneNode.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctreeCamera.h"\
+	"..\include\OgrePagingLandScapeCamera.h"\
+	"..\include\OgrePagingLandScapeData2D.h"\
+	"..\include\OgrePagingLandScapeData2DManager.h"\
+	"..\include\OgrePagingLandScapeIndexBuffer.h"\
+	"..\include\OgrePagingLandscapeListener.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePage.h"\
+	"..\include\OgrePagingLandScapePageManager.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeQueue.h"\
+	"..\include\OgrePagingLandScapeRenderable.h"\
+	"..\include\OgrePagingLandScapeRenderableManager.h"\
+	"..\include\OgrePagingLandScapeTextureManager.h"\
+	"..\include\OgrePagingLandScapeTile.h"\
+	"..\include\OgrePagingLandScapeTileInfo.h"\
+	"..\include\OgrePagingLandScapeTileManager.h"\
+	"..\include\OgrePagingLandScapePoolSet.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPETI=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeTileManager.cpp
+DEP_CPP_OGREPAGINGLANDSCAPETIL=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreCamera.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreFrustum.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreMovablePlane.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctreeCamera.h"\
+	"..\include\OgrePagingLandScapeCamera.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeQueue.h"\
+	"..\include\OgrePagingLandScapeTile.h"\
+	"..\include\OgrePagingLandScapeTileInfo.h"\
+	"..\include\OgrePagingLandScapeTileManager.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPETIL=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# End Group
+# Begin Group "Octree"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=..\src\OgreOctree.cpp
+DEP_CPP_OGREO=\
+	"..\..\..\OgreMain\include\OgreAnimationState.h"\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAutoParamDataSource.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreController.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreNode.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRectangle2D.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueueSortingGrouping.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneNode.h"\
+	"..\..\..\OgreMain\include\OgreSceneQuery.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\OgreWireBoundingBox.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctree.h"\
+	"..\include\OgreOctreeNode.h"\
+	"..\include\OgreOctreeSceneManager.h"\
+	
+NODEP_CPP_OGREO=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgreOctreeCamera.cpp
+DEP_CPP_OGREOC=\
+	"..\..\..\OgreMain\include\OgreAnimationState.h"\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAutoParamDataSource.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreCamera.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreController.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreFrustum.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreMovablePlane.h"\
+	"..\..\..\OgreMain\include\OgreNode.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRectangle2D.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueueSortingGrouping.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreRoot.h"\
+	"..\..\..\OgreMain\include\OgreSceneManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneManagerEnumerator.h"\
+	"..\..\..\OgreMain\include\OgreSceneNode.h"\
+	"..\..\..\OgreMain\include\OgreSceneQuery.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctreeCamera.h"\
+	
+NODEP_CPP_OGREOC=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgreOctreeNode.cpp
+DEP_CPP_OGREOCT=\
+	"..\..\..\OgreMain\include\OgreAnimationState.h"\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAutoParamDataSource.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreController.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreNode.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRectangle2D.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueueSortingGrouping.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreRoot.h"\
+	"..\..\..\OgreMain\include\OgreSceneManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneManagerEnumerator.h"\
+	"..\..\..\OgreMain\include\OgreSceneNode.h"\
+	"..\..\..\OgreMain\include\OgreSceneQuery.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\OgreWireBoundingBox.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctree.h"\
+	"..\include\OgreOctreeNode.h"\
+	"..\include\OgreOctreeSceneManager.h"\
+	
+NODEP_CPP_OGREOCT=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgreOctreeSceneManager.cpp
+DEP_CPP_OGREOCTR=\
+	"..\..\..\OgreMain\include\OgreAnimationState.h"\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAutoParamDataSource.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreCamera.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreConfigOptionMap.h"\
+	"..\..\..\OgreMain\include\OgreController.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreFrameListener.h"\
+	"..\..\..\OgreMain\include\OgreFrustum.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreMovablePlane.h"\
+	"..\..\..\OgreMain\include\OgreNode.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRectangle2D.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueueSortingGrouping.h"\
+	"..\..\..\OgreMain\include\OgreRenderSystem.h"\
+	"..\..\..\OgreMain\include\OgreRenderSystemCapabilities.h"\
+	"..\..\..\OgreMain\include\OgreRenderTarget.h"\
+	"..\..\..\OgreMain\include\OgreRenderTexture.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneNode.h"\
+	"..\..\..\OgreMain\include\OgreSceneQuery.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreTimer.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\OgreViewport.h"\
+	"..\..\..\OgreMain\include\OgreWireBoundingBox.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctree.h"\
+	"..\include\OgreOctreeCamera.h"\
+	"..\include\OgreOctreeNode.h"\
+	"..\include\OgreOctreeSceneManager.h"\
+	"..\include\OgreOctreeSceneQuery.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	
+NODEP_CPP_OGREOCTR=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgreOctreeSceneQuery.cpp
+DEP_CPP_OGREOCTRE=\
+	"..\..\..\OgreMain\include\OgreAnimationState.h"\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAutoParamDataSource.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreController.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreEntity.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMesh.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreNode.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreProgressiveMesh.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRectangle2D.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueueSortingGrouping.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneNode.h"\
+	"..\..\..\OgreMain\include\OgreSceneQuery.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSkeleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexBoneAssignment.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\OgreWireBoundingBox.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctree.h"\
+	"..\include\OgreOctreeSceneManager.h"\
+	"..\include\OgreOctreeSceneQuery.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	
+NODEP_CPP_OGREOCTRE=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=..\src\filetutils.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeCamera.cpp
+DEP_CPP_OGREPAGINGLANDSCAPEC=\
+	"..\..\..\OgreMain\include\OgreAnimationState.h"\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAutoParamDataSource.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreCamera.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreController.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreFrustum.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreMovablePlane.h"\
+	"..\..\..\OgreMain\include\OgreNode.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRectangle2D.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueueSortingGrouping.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneNode.h"\
+	"..\..\..\OgreMain\include\OgreSceneQuery.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\OgreWireBoundingBox.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctree.h"\
+	"..\include\OgreOctreeCamera.h"\
+	"..\include\OgreOctreeSceneManager.h"\
+	"..\include\OgrePagingLandScapeCamera.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeSceneManager.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPEC=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeHorizon.cpp
+DEP_CPP_OGREPAGINGLANDSCAPEH=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreCamera.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreFrustum.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreMovablePlane.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctreeCamera.h"\
+	"..\include\OgrePagingLandScapeCamera.h"\
+	"..\include\OgrePagingLandScapeHorizon.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeTileInfo.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPEH=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandscapeListener.cpp
+DEP_CPP_OGREPAGINGLANDSCAPEL=\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgrePagingLandscapeListener.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPEL=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeOptions.cpp
+DEP_CPP_OGREPAGINGLANDSCAPEO=\
+	"..\..\..\OgreMain\include\OgreAnimationState.h"\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAutoParamDataSource.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreCamera.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreConfigFile.h"\
+	"..\..\..\OgreMain\include\OgreConfigOptionMap.h"\
+	"..\..\..\OgreMain\include\OgreController.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreFrameListener.h"\
+	"..\..\..\OgreMain\include\OgreFrustum.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgramManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreMovablePlane.h"\
+	"..\..\..\OgreMain\include\OgreNode.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRectangle2D.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueueSortingGrouping.h"\
+	"..\..\..\OgreMain\include\OgreRenderSystem.h"\
+	"..\..\..\OgreMain\include\OgreRenderSystemCapabilities.h"\
+	"..\..\..\OgreMain\include\OgreRenderTarget.h"\
+	"..\..\..\OgreMain\include\OgreRenderTexture.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreRoot.h"\
+	"..\..\..\OgreMain\include\OgreSceneManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneManagerEnumerator.h"\
+	"..\..\..\OgreMain\include\OgreSceneNode.h"\
+	"..\..\..\OgreMain\include\OgreSceneQuery.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreTimer.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\OgreViewport.h"\
+	"..\..\..\OgreMain\include\OgreWireBoundingBox.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctree.h"\
+	"..\include\OgreOctreeSceneManager.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeSceneManager.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPEO=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeSceneManager.cpp
+DEP_CPP_OGREPAGINGLANDSCAPES=\
+	"..\..\..\OgreMain\include\OgreAnimationState.h"\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAutoParamDataSource.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreCamera.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreController.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreFrameListener.h"\
+	"..\..\..\OgreMain\include\OgreFrustum.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreMovablePlane.h"\
+	"..\..\..\OgreMain\include\OgreNode.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRectangle2D.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueueSortingGrouping.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreRoot.h"\
+	"..\..\..\OgreMain\include\OgreSceneManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneManagerEnumerator.h"\
+	"..\..\..\OgreMain\include\OgreSceneNode.h"\
+	"..\..\..\OgreMain\include\OgreSceneQuery.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringConverter.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\OgreWireBoundingBox.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctree.h"\
+	"..\include\OgreOctreeCamera.h"\
+	"..\include\OgreOctreeSceneManager.h"\
+	"..\include\OgreOctreeSceneQuery.h"\
+	"..\include\OgrePagingLandScapeCamera.h"\
+	"..\include\OgrePagingLandScapeData2DManager.h"\
+	"..\include\OgrePagingLandScapeHorizon.h"\
+	"..\include\OgrePagingLandScapeIndexBuffer.h"\
+	"..\include\OgrePagingLandScapeIntersectionSceneQuery.h"\
+	"..\include\OgrePagingLandscapeListener.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePage.h"\
+	"..\include\OgrePagingLandScapePageManager.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeQueue.h"\
+	"..\include\OgrePagingLandScapeRaySceneQuery.h"\
+	"..\include\OgrePagingLandScapeRenderable.h"\
+	"..\include\OgrePagingLandScapeRenderableManager.h"\
+	"..\include\OgrePagingLandScapeSceneManager.h"\
+	"..\include\OgrePagingLandScapeTexture.h"\
+	"..\include\OgrePagingLandScapeTextureManager.h"\
+	"..\include\OgrePagingLandScapeTile.h"\
+	"..\include\OgrePagingLandScapeTileInfo.h"\
+	"..\include\OgrePagingLandScapeTileManager.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPES=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\OgrePagingLandScapeSceneManagerDll.cpp
+DEP_CPP_OGREPAGINGLANDSCAPESC=\
+	"..\..\..\OgreMain\include\OgreAnimationState.h"\
+	"..\..\..\OgreMain\include\OgreArchive.h"\
+	"..\..\..\OgreMain\include\OgreAutoParamDataSource.h"\
+	"..\..\..\OgreMain\include\OgreAxisAlignedBox.h"\
+	"..\..\..\OgreMain\include\OgreBlendMode.h"\
+	"..\..\..\OgreMain\include\OgreColourValue.h"\
+	"..\..\..\OgreMain\include\OgreCommon.h"\
+	"..\..\..\OgreMain\include\OgreConfig.h"\
+	"..\..\..\OgreMain\include\OgreController.h"\
+	"..\..\..\OgreMain\include\OgreDataStream.h"\
+	"..\..\..\OgreMain\include\OgreException.h"\
+	"..\..\..\OgreMain\include\OgreGpuProgram.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareBufferManager.h"\
+	"..\..\..\OgreMain\include\OgreHardwareIndexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwarePixelBuffer.h"\
+	"..\..\..\OgreMain\include\OgreHardwareVertexBuffer.h"\
+	"..\..\..\OgreMain\include\OgreImage.h"\
+	"..\..\..\OgreMain\include\OgreIteratorWrappers.h"\
+	"..\..\..\OgreMain\include\OgreLight.h"\
+	"..\..\..\OgreMain\include\OgreMaterial.h"\
+	"..\..\..\OgreMain\include\OgreMaterialManager.h"\
+	"..\..\..\OgreMain\include\OgreMaterialSerializer.h"\
+	"..\..\..\OgreMain\include\OgreMath.h"\
+	"..\..\..\OgreMain\include\OgreMatrix3.h"\
+	"..\..\..\OgreMain\include\OgreMatrix4.h"\
+	"..\..\..\OgreMain\include\OgreMemoryMacros.h"\
+	"..\..\..\OgreMain\include\OgreMemoryManager.h"\
+	"..\..\..\OgreMain\include\OgreMovableObject.h"\
+	"..\..\..\OgreMain\include\OgreNode.h"\
+	"..\..\..\OgreMain\include\OgrePass.h"\
+	"..\..\..\OgreMain\include\OgrePixelFormat.h"\
+	"..\..\..\OgreMain\include\OgrePlane.h"\
+	"..\..\..\OgreMain\include\OgrePlaneBoundedVolume.h"\
+	"..\..\..\OgreMain\include\OgrePlatform.h"\
+	"..\..\..\OgreMain\include\OgrePrerequisites.h"\
+	"..\..\..\OgreMain\include\OgreQuaternion.h"\
+	"..\..\..\OgreMain\include\OgreRay.h"\
+	"..\..\..\OgreMain\include\OgreRectangle2D.h"\
+	"..\..\..\OgreMain\include\OgreRenderable.h"\
+	"..\..\..\OgreMain\include\OgreRenderOperation.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueue.h"\
+	"..\..\..\OgreMain\include\OgreRenderQueueSortingGrouping.h"\
+	"..\..\..\OgreMain\include\OgreResource.h"\
+	"..\..\..\OgreMain\include\OgreResourceGroupManager.h"\
+	"..\..\..\OgreMain\include\OgreResourceManager.h"\
+	"..\..\..\OgreMain\include\OgreRoot.h"\
+	"..\..\..\OgreMain\include\OgreSceneManager.h"\
+	"..\..\..\OgreMain\include\OgreSceneManagerEnumerator.h"\
+	"..\..\..\OgreMain\include\OgreSceneNode.h"\
+	"..\..\..\OgreMain\include\OgreSceneQuery.h"\
+	"..\..\..\OgreMain\include\OgreScriptLoader.h"\
+	"..\..\..\OgreMain\include\OgreShadowCaster.h"\
+	"..\..\..\OgreMain\include\OgreSharedPtr.h"\
+	"..\..\..\OgreMain\include\OgreSimpleRenderable.h"\
+	"..\..\..\OgreMain\include\OgreSingleton.h"\
+	"..\..\..\OgreMain\include\OgreSphere.h"\
+	"..\..\..\OgreMain\include\OgreStdHeaders.h"\
+	"..\..\..\OgreMain\include\OgreString.h"\
+	"..\..\..\OgreMain\include\OgreStringInterface.h"\
+	"..\..\..\OgreMain\include\OgreStringVector.h"\
+	"..\..\..\OgreMain\include\OgreTechnique.h"\
+	"..\..\..\OgreMain\include\OgreTexture.h"\
+	"..\..\..\OgreMain\include\OgreTextureManager.h"\
+	"..\..\..\OgreMain\include\OgreTextureUnitState.h"\
+	"..\..\..\OgreMain\include\OgreVector3.h"\
+	"..\..\..\OgreMain\include\OgreVector4.h"\
+	"..\..\..\OgreMain\include\OgreVertexIndexData.h"\
+	"..\..\..\OgreMain\include\OgreWireBoundingBox.h"\
+	"..\..\..\OgreMain\include\stl_user_config.h"\
+	"..\include\OgreOctree.h"\
+	"..\include\OgreOctreeSceneManager.h"\
+	"..\include\OgrePagingLandScapeOptions.h"\
+	"..\include\OgrePagingLandScapePrerequisites.h"\
+	"..\include\OgrePagingLandScapeSceneManager.h"\
+	
+NODEP_CPP_OGREPAGINGLANDSCAPESC=\
+	"..\..\..\..\..\..\usr\include\pthread.h"\
+	"..\..\..\OgreMain\include\config.h"\
+	".\ash_map"\
+	".\ash_set"\
+	".\onfig\_epilog.h"\
+	".\onfig\_msvc_warnings_off.h"\
+	".\onfig\_prolog.h"\
+	".\onfig\stl_apcc.h"\
+	".\onfig\stl_apple.h"\
+	".\onfig\stl_as400.h"\
+	".\onfig\stl_bc.h"\
+	".\onfig\stl_como.h"\
+	".\onfig\stl_confix.h"\
+	".\onfig\stl_cray.h"\
+	".\onfig\stl_dec.h"\
+	".\onfig\stl_dec_vms.h"\
+	".\onfig\stl_dm.h"\
+	".\onfig\stl_fujitsu.h"\
+	".\onfig\stl_gcc.h"\
+	".\onfig\stl_hpacc.h"\
+	".\onfig\stl_ibm.h"\
+	".\onfig\stl_icc.h"\
+	".\onfig\stl_intel.h"\
+	".\onfig\stl_kai.h"\
+	".\onfig\stl_msvc.h"\
+	".\onfig\stl_mwerks.h"\
+	".\onfig\stl_mycomp.h"\
+	".\onfig\stl_sco.h"\
+	".\onfig\stl_select_lib.h"\
+	".\onfig\stl_sgi.h"\
+	".\onfig\stl_solaris.h"\
+	".\onfig\stl_sunpro.h"\
+	".\onfig\stl_symantec.h"\
+	".\onfig\stl_watcom.h"\
+	".\onfig\stl_wince.h"\
+	".\onfig\stlcomp.h"\
+	".\onfig\vc_select_lib.h"\
+	".\thread.h"\
+	".\tl\_abbrevs.h"\
+	".\tl\_algobase.c"\
+	".\tl\_algobase.h"\
+	".\tl\_alloc.c"\
+	".\tl\_alloc.h"\
+	".\tl\_alloc_old.h"\
+	".\tl\_bvector.h"\
+	".\tl\_config.h"\
+	".\tl\_config_compat.h"\
+	".\tl\_config_compat_post.h"\
+	".\tl\_construct.h"\
+	".\tl\_cwchar.h"\
+	".\tl\_epilog.h"\
+	".\tl\_function_base.h"\
+	".\tl\_hash_fun.h"\
+	".\tl\_hash_map.h"\
+	".\tl\_hash_set.h"\
+	".\tl\_hashtable.c"\
+	".\tl\_hashtable.h"\
+	".\tl\_iterator.h"\
+	".\tl\_iterator_base.h"\
+	".\tl\_iterator_old.h"\
+	".\tl\_new.h"\
+	".\tl\_pair.h"\
+	".\tl\_prolog.h"\
+	".\tl\_pthread_alloc.c"\
+	".\tl\_pthread_alloc.h"\
+	".\tl\_ptrs_specialize.h"\
+	".\tl\_range_errors.h"\
+	".\tl\_relops_cont.h"\
+	".\tl\_relops_hash_cont.h"\
+	".\tl\_site_config.h"\
+	".\tl\_sparc_atomic.h"\
+	".\tl\_threads.c"\
+	".\tl\_threads.h"\
+	".\tl\_uninitialized.h"\
+	".\tl\_vector.c"\
+	".\tl\_vector.h"\
+	".\tl\debug\_debug.c"\
+	".\tl\debug\_debug.h"\
+	".\tl\debug\_hashtable.h"\
+	".\tl\debug\_iterator.h"\
+	".\tl\debug\_relops_cont.h"\
+	".\tl\debug\_relops_hash_cont.h"\
+	".\tl\debug\_vector.h"\
+	".\tl\type_traits.h"\
+	".\tl\wrappers\_hash_map.h"\
+	".\tl\wrappers\_hash_set.h"\
+	".\tl\wrappers\_vector.h"\
+	
+# End Source File
+# End Group
+# Begin Group "Header Files"
+
+# PROP Default_Filter "h;hpp;hxx;hm;inl;inc"
+# Begin Group "Data2D No. 1"
+
+# PROP Default_Filter ""
+# Begin Group "loader No. 1"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=..\include\DRGNURBSSurface.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeData2D_HeightField.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeData2D_HeightFieldN.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeData2D_HeightFieldNTC.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeData2D_HeightFieldRaw.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeData2D_HeightFieldRawTC.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeData2D_HeightFieldTC.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeData2D_Spline.h
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeData2D.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeData2DManager.h
+# End Source File
+# End Group
+# Begin Group "Page No. 1"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapePage.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapePageManager.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapePageRenderable.h
+# End Source File
+# End Group
+# Begin Group "Query No. 1"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeIntersectionSceneQuery.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeRaySceneQuery.h
+# End Source File
+# End Group
+# Begin Group "Renderable No. 1"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeIndexBuffer.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeRenderable.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeRenderableManager.h
+# End Source File
+# End Group
+# Begin Group "Texture No. 1"
+
+# PROP Default_Filter ""
+# Begin Group "splatting No. 1"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeTexture_Splatting.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeTexture_Splatting2.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeTexture_Splatting3.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeTexture_Splatting4.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeTexture_Splatting5.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeTexture_Splatting6.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeTexture_Splatting7.h
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeTexture.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeTexture_BaseTexture.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeTexture_BaseTexture2.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeTexture_Image.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeTexture_InstantBaseTexture.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeTextureManager.h
+# End Source File
+# End Group
+# Begin Group "Tile No. 1"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeTile.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeTileInfo.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeTileManager.h
+# End Source File
+# End Group
+# Begin Group "Octree No. 1"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=..\include\OgreOctree.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgreOctreeCamera.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgreOctreeNode.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgreOctreeSceneManager.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgreOctreeSceneQuery.h
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=..\include\fileutils.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeCamera.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeHorizon.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandscapeListener.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeOptions.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapePrerequisites.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\include\OgrePagingLandScapeSceneManager.h
+# End Source File
+# End Group
+# Begin Group "Resource Files"
+
+# PROP Default_Filter "rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"
+# End Group
+# End Target
+# End Project

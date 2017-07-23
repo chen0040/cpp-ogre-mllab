@@ -1,0 +1,35 @@
+
+material tree8-1
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture t_skin12.dds
+			}
+		}
+	}
+}
+material tree8-2
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture chunk_24.dds
+			}
+		}
+	}
+}

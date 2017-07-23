@@ -1,0 +1,17 @@
+Index: Samples/MapEditor/src/TabWindow.cpp
+===================================================================
+RCS file: /cvsroot/ogre/ogreaddons/paginglandscape/Samples/MapEditor/src/TabWindow.cpp,v
+retrieving revision 1.2
+diff -u -r1.2 TabWindow.cpp
+--- Samples/MapEditor/src/TabWindow.cpp	27 Apr 2005 16:39:36 -0000	1.2
++++ Samples/MapEditor/src/TabWindow.cpp	27 May 2005 03:41:25 -0000
+@@ -33,6 +33,9 @@
+ 
+ 	mTextureWindow = new TextureWindow(listener);
+ 	CEGUI::WindowManager::getSingleton().getWindow("TabPage2")->addChildWindow(mTextureWindow->getWindow());
++
++	mObjectWindow = new ObjectWindow(listener);
++	CEGUI::WindowManager::getSingleton().getWindow("TabPage3")->addChildWindow(mObjectWindow->getWindow());
+ }
+ //------------------------------------------------------------------------------------------------
+ TabWindow::~TabWindow()

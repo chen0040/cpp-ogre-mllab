@@ -1,0 +1,15 @@
+Index: Samples/MapEditor/src/NewTerrainWindow.cpp
+===================================================================
+RCS file: /cvsroot/ogre/ogreaddons/paginglandscape/Samples/MapEditor/src/NewTerrainWindow.cpp,v
+retrieving revision 1.6
+diff -u -r1.6 NewTerrainWindow.cpp
+--- Samples/MapEditor/src/NewTerrainWindow.cpp	25 May 2005 13:10:03 -0000	1.6
++++ Samples/MapEditor/src/NewTerrainWindow.cpp	27 May 2005 06:13:37 -0000
+@@ -251,6 +251,7 @@
+ 
+ 	mListener->getSceneManager()->setOption("InsertNewMap", &mapName);
+ 	mListener->getSceneManager()->setOption("CurrentMap", &mapName);
++	mListener->newMapLoaded();
+ 
+     delete [] heightData;
+ 	return true;

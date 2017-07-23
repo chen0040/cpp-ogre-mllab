@@ -1,0 +1,28 @@
+// This material will be used with splatting
+material IPLSM_Image
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.3 0.3 0.1
+			diffuse 0.8 0.8 0.6 1.0
+
+			texture_unit
+			{
+				//texture none
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_diffuse
+			}
+
+			texture_unit
+			{
+				texture rockDetail.jpg
+				filtering bilinear
+				tex_address_mode mirror
+				colour_op_ex modulate_x2
+				scale 0.03 0.03
+			}
+		}
+	}
+}

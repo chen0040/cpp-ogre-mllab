@@ -1,0 +1,141 @@
+// This material will be used with splatting
+material IPLSM_Splatting1
+{
+	lod_distances 7000
+	technique
+	{
+		lod_index 0
+		pass
+		{
+			// Base Pass
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			texture_unit
+			{
+				// Base Texture
+				texture none
+				tex_address_mode clamp
+				alpha_op_ex source1 src_texture src_texture
+				colour_op_ex modulate src_current src_texture
+			}
+		}
+		pass
+		{
+			// Snow Pass
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			scene_blend alpha_blend
+			depth_func equal
+			texture_unit
+			{
+				// Snow Alpha map
+				texture none
+				tex_address_mode clamp
+				alpha_op_ex source1 src_texture src_texture
+				colour_op_ex source1 src_current src_current
+				alpha_rejection greater_equal 2
+			}
+			texture_unit
+			{
+				// Snow Splat
+				texture splatting_snow.jpg
+				tex_address_mode mirror
+				alpha_op_ex source1 src_current src_current
+				colour_op_ex source2 src_current src_texture
+				scale 0.01 0.01
+			}
+		}
+		pass
+		{
+			// Sand Pass
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			scene_blend alpha_blend
+			depth_func equal
+			texture_unit
+			{
+				// Sand Alpha map
+				texture none
+				tex_address_mode clamp
+				alpha_op_ex source1 src_texture src_texture
+				colour_op_ex source1 src_current src_current
+				alpha_rejection greater_equal 2
+			}
+			texture_unit
+			{
+				// Sand Splat
+				texture splatting_sand.jpg
+				tex_address_mode mirror
+				alpha_op_ex source1 src_current src_current
+				colour_op_ex source2 src_current src_texture
+				scale 0.01 0.01
+			}
+		}
+		pass
+		{
+			// Grass Pass
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			scene_blend alpha_blend
+			depth_func equal
+			texture_unit
+			{
+				// Grass Alpha map
+				texture none
+				tex_address_mode clamp
+				alpha_op_ex source1 src_texture src_texture
+				colour_op_ex source1 src_current src_current
+				alpha_rejection greater_equal 2
+			}
+			texture_unit
+			{
+				// Grass Splat
+				texture splatting_grass.jpg
+				tex_address_mode mirror
+				alpha_op_ex source1 src_current src_current
+				colour_op_ex source2 src_current src_texture
+				scale 0.01 0.01
+			}
+		}
+		pass
+		{
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			scene_blend alpha_blend
+			depth_func equal
+			texture_unit
+			{
+				// Rock Alpha map
+				texture none
+				tex_address_mode clamp
+				alpha_op_ex source1 src_texture src_texture
+				colour_op_ex source1 src_current src_current
+				alpha_rejection greater_equal 2
+			}
+			texture_unit
+			{
+				// Rock Splat
+				texture splatting_rock.jpg
+				tex_address_mode mirror
+				alpha_op_ex source1 src_current src_current
+				colour_op_ex source2 src_current src_texture
+				scale 0.01 0.01
+			}
+		}
+	}
+	technique
+	{
+		lod_index 1
+		pass
+		{
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			texture_unit
+			{
+				// Base Texture
+				texture none
+				tex_address_mode clamp
+			}
+		}
+	}
+}

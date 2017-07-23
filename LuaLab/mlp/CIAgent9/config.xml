@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<npc system="lua">
+<system name="lua">
+<file src="Bot.lua" />
+</system>
+</npc>

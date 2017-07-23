@@ -1,0 +1,123 @@
+material Jetstream/Building
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture building.dds
+			}
+		}
+
+		pass
+		{
+			emissive 0 0 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture building-night.dds
+			}
+		}
+
+	}
+}
+
+material Jetstream/Building-Damaged
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture building.dds
+			}
+		}
+
+	}
+}
+
+material Jetstream/Building-Red
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture building-red.dds
+			}
+		}
+
+		pass
+		{
+			emissive 1 0 0
+			scene_blend add
+
+			texture_unit
+			{
+				texture building-night.dds
+			}
+		}
+
+	}
+}
+
+material Jetstream/Building-Red-Damaged
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture building-red.dds
+			}
+		}
+
+	}
+}
+
+material Jetstream/Building-Green
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture building-green.dds
+			}
+		}
+
+		pass
+		{
+			emissive 0 1 0
+			scene_blend add
+
+			texture_unit
+			{
+				texture building-night.dds
+			}
+		}
+
+	}
+}
+
+material Jetstream/Building-Green-Damaged
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture building-green.dds
+			}
+		}
+
+	}
+}
+

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<method name="Naive Bayse Classifier">	
+	<packages>
+		<package name="ml" />
+		<package name="imagex" />
+	</packages>
+	
+	<class name="java">
+	<file type="java" src="..\ML\src\bayse\classifier\naive\NaiveBayseClassifier.java" name="bayse\classifier\naive\NaiveBayseClassifier.java" config="true" />
+	<file type="java" src="..\ML\src\bayse\classifier\naive\application\UnitTest.java" name="bayse\classifier\naive\application\UnitTest.java" config="false" />
+	</class>
+	
+	<class name="lua">
+	<file type="lua" src="..\ML\lua\bayse\classifier\naive\About.txt" name="About.txt" config="false" />
+	<file type="lua" src="..\ML\lua\bayse\classifier\naive\Attribute.lua" name="Attribute.lua" config="false" />
+	<file type="lua" src="..\ML\lua\bayse\classifier\naive\Bot.lua" name="Bot.lua" config="true" />
+	<file type="lua" src="..\ML\lua\bayse\classifier\naive\config.xml" name="config.xml" config="false" />
+	<!--<file type="lua" src="..\ML\lua\bayse\classifier\naive\Saved.xml" name="Saved.xml" config="false" />-->
+	<file type="lua" src="..\ML\lua\bayse\classifier\naive\example.lua" name="example.lua" config="false" />
+	<file type="lua" src="..\ML\lua\bayse\classifier\naive\lua5.1.dll" name="lua5.1.dll" config="false" />
+	<file type="lua" src="..\ML\lua\bayse\classifier\naive\lua5.1.exe" name="lua5.1.exe" config="false" />
+	<file type="lua" src="..\ML\lua\bayse\classifier\naive\Microsoft.VC80.CRT.manifest" name="Microsoft.VC80.CRT.manifest" config="false" />
+	<file type="lua" src="..\ML\lua\bayse\classifier\naive\msvcr80.dll" name="msvcr80.dll" config="false" />
+	<file type="lua" src="..\ML\lua\bayse\classifier\naive\NaiveBayseClassifier.lua" name="NaiveBayseClassifier.lua" config="false" />
+	<file type="lua" src="..\ML\lua\bayse\classifier\naive\Record.lua" name="Record.lua" config="false" />
+	<file type="lua" src="..\ML\lua\bayse\classifier\naive\UnitTest.bat" name="UnitTest.bat" config="false" />
+	</class>
+</method>

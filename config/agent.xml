@@ -1,0 +1,490 @@
+<?xml version="1.0"?>
+<agent default_type="robot">
+
+<type name="robot" environment="LAND">
+<animation idle="Idle" shoot="Shoot" slump="Slump" die="Die" walk="Walk" />
+<model mesh="robot.mesh" />
+<scale x="0.4" y="0.4" z="0.4" />
+<rotation x="1" y="0" z="0" />
+<offset x="0" y="0" z="0" />
+<weapon name="laser_pulse" offset_x="0" offset_y="15" offset_z="0" />
+</type>
+
+<type name="F111" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="fighter8.mesh" />
+<scale x="6" y="6" z="6" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="80" z="0" />
+<weapon name="fire_shot" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="F112" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="fighter4.mesh" />
+<scale x="6" y="6" z="6" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="laser_pulse" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="F113" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="spacefighter19.mesh" />
+<scale x="6" y="6" z="6" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="80" z="0" />
+<weapon name="laser_pulse" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="F114" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="fighter2.mesh" />
+<scale x="6" y="6" z="6" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="laser_pulse" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="F115" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="fighter3.mesh" />
+<scale x="6" y="6" z="6" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="fire_shot" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="F116" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="fighter4.mesh" />
+<scale x="6" y="6" z="6" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="bomb" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="F117" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="fighter5.mesh" />
+<scale x="6" y="6" z="6" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="laser_pulse" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="F118" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="fighter6.mesh" />
+<scale x="6" y="6" z="6" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="fire_shot" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="F119" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="fighter7.mesh" />
+<scale x="6" y="6" z="6" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="laser_pulse" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="F120" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="fighter8.mesh" />
+<scale x="6" y="6" z="6" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="bomb" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+
+<type name="F121" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="fighter11.mesh" />
+<scale x="6" y="6" z="6" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="laser_pulse" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+
+<type name="F122" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="spacefighter19.mesh" /> <!--fighter10.mesh-->
+<scale x="6" y="6" z="6" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="80" z="0" />
+<weapon name="bomb" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="F123" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="fighter12.mesh" />
+<scale x="6" y="6" z="6" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="bomb" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="F124" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="fighter13.mesh" />
+<scale x="6" y="6" z="6" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="laser_pulse" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="F125" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="fighter14.mesh" />
+<scale x="6" y="6" z="6" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="laser_pulse" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="Hello" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="F111.mesh" />
+<scale x="0.005" y="0.005" z="0.005" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="bomb" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+
+<type name="building1" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="building1.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="building2" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="building2.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="building3" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="building3.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="building4" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="building4.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="building5" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="building5.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="building6" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="building6.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="building7" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="building7.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="building8" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="building8.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="building9" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="building9.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="building10" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="building10.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="building11" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="building11.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="building12" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="building12.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="building13" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="building13.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="building14" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="building14.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="building15" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="building15.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="building16" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="building16.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="bridge1" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="bridge1.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="road2" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="road2.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="road3" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="road3.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="road4" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="road4.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="road5" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="road5.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="road6" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="road6.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="road7" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="road7.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="crane2" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="crane2.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="crane3" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="crane3.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="cistern4" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="cistern4.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="rock1" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="rock1.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="landingdock" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="landingdock.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="car10" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="car10.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="pickup" environment="STATIC">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="pickup.mesh" />
+<scale x="2" y="2" z="2" />
+<rotation x="0" y="0" z="-1" />
+<offset x="0" y="10" z="0" />
+<weapon name="" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+
+
+
+
+<!--
+<type name="jet" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="razor.mesh" />
+<scale x="0.2" y="0.2" z="0.2" />
+<rotation x="0" y="0" z="1" />
+<offset x="0" y="220" z="0" />
+<weapon name="fire_shot" offset_x="0" offset_y="0" offset_z="0" />
+</type>
+
+<type name="FX" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="F111.mesh" />
+<scale x="0.005" y="0.005" z="0.005" />
+<rotation x="0" y="0" z="1" />
+<offset x="0" y="280" z="0" />
+<weapon name="laser_pulse" offset_x="0" offset_y="1" offset_z="0" />
+</type>
+
+<type name="BEFighter" environment="AIR">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="BEFighter.mesh" />
+<scale x="0.1" y="0.1" z="0.1" />
+<rotation x="0" y="0" z="1" />
+<offset x="0" y="220" z="0" />
+<weapon name="laser_pulse" offset_x="0" offset_y="1" offset_z="0" />
+</type>
+
+<type name="VOSPER" environment="LAND">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="VOSPER.mesh" />
+<scale x="0.01" y="0.01" z="0.01" />
+<rotation x="0" y="0" z="1" />
+<offset x="0" y="10" z="0" />
+<weapon name="laser_pulse" offset_x="0" offset_y="1" offset_z="0" />
+</type>
+
+<type name="Tank" environment="LAND">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="Tank.mesh" />
+<scale x="0.1" y="0.1" z="0.1" />
+<rotation x="0" y="0" z="1" />
+<offset x="0" y="10" z="0" />
+<weapon name="laser_pulse" offset_x="0" offset_y="1" offset_z="0" />
+</type>
+
+<type name="WarMachine" environment="LAND">
+<animation idle="" shoot="" slump="" die="" walk="" />
+<model mesh="WarMachine.mesh" />
+<scale x="0.15" y="0.15" z="0.15" />
+<rotation x="0" y="0" z="1" />
+<offset x="0" y="10" z="0" />
+<weapon name="laser_pulse" offset_x="0" offset_y="1" offset_z="0" />
+</type>
+-->
+
+</agent>

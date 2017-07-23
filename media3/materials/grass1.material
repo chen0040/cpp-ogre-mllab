@@ -1,0 +1,20 @@
+
+material Jetstream/grass1_1
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 127
+			
+			texture_unit
+			{
+				texture_alias 0
+				texture grass1.dds
+			}
+		}
+
+	}
+
+}

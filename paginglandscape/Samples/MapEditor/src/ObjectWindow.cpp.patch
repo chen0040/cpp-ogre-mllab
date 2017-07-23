@@ -1,0 +1,273 @@
+Index: Samples/MapEditor/src/ObjectWindow.cpp
+===================================================================
+RCS file: /cvsroot/ogre/ogreaddons/paginglandscape/Samples/MapEditor/src/ObjectWindow.cpp,v
+retrieving revision 1.1
+diff -u -r1.1 ObjectWindow.cpp
+--- Samples/MapEditor/src/ObjectWindow.cpp	29 Mar 2005 17:12:48 -0000	1.1
++++ Samples/MapEditor/src/ObjectWindow.cpp	27 May 2005 05:14:55 -0000
+@@ -1,12 +1,263 @@
++#include <CEGUIImageset.h>
++#include <CEGUISystem.h>
++#include <CEGUI/CEGUILogger.h>
++#include <CEGUI/CEGUISchemeManager.h>
++#include <CEGUI/CEGUIWindowManager.h>
++#include <CEGUI/CEGUIWindow.h>
++#include <CEGUI/elements/CEGUIPushButton.h>
++#include <CEGUI/elements/CEGUIRadioButton.h>
++#include <CEGUI/elements/CEGUIFrameWindow.h>
++#include <CEGUI/elements/CEGUIComboBox.h>
++#include <CEGUI/elements/CEGUIListbox.h>
++#include <CEGUI/elements/CEGUIScrollbar.h>
++#include <CEGUI/elements/CEGUIStaticImage.h>
++#include <CEGUI/elements/CEGUIStaticText.h>
++#include <CEGUI/elements/CEGUIListboxTextItem.h>
++#include <CEGUI/elements/CEGUICheckbox.h>
++#include <CEGUI/elements/CEGUIEditbox.h>
++#include "OgreCEGUIRenderer.h"
++#include "OgreCEGUIResourceProvider.h"
++#include "MapEditorListener.h"
+ #include "ObjectWindow.h"
++#include "GameObjectManager.h"
+ 
+ //------------------------------------------------------------------------------------------------
+-ObjectWindow::ObjectWindow()
++ObjectWindow::ObjectWindow(FrameListener* listener)
+ {
++	mListener=static_cast<MapEditorListener*>(listener);
++	mWindow = CEGUI::WindowManager::getSingleton().loadWindowLayout((CEGUI::utf8*)"MapEditorObjectWindowLayout.xml");
++	mWindow->subscribeEvent(CEGUI::Window::EventRenderingStarted,CEGUI::Event::Subscriber(&ObjectWindow::handleShowObjectWindow, this));
++	
++	mCategoriesCombobox = (CEGUI::Combobox*)mWindow->getChild("CategoriesComboBox");
++	mObjectsListbox = (CEGUI::Listbox*)mWindow->getChild("ObjectsListBox");
+ 
++	mInsertButton = (CEGUI::PushButton*)mWindow->getChild("InsertButton");
++	mLinkButton = (CEGUI::PushButton*)mWindow->getChild("LinkButton");
++	mUnlinkButton = (CEGUI::PushButton*)mWindow->getChild("UnlinkParent");
++	mSimulationButton = (CEGUI::PushButton*)mWindow->getChild("StartSim");
++	mExportPrefabButton = (CEGUI::PushButton*)mWindow->getChild("ExportPrefabButton");
++	mEnableFixedHeightCheckbox = (CEGUI::Checkbox*)mWindow->getChild("EnableFixedHeightCheckbox");
++	mFixedHeightEditbox = (CEGUI::Editbox*)mWindow->getChild("PlanarHeightEditbox");
++	mFixedHeightFromObjectButton = (CEGUI::PushButton*)mWindow->getChild("GetFixedHeightButton");
++	mPropertiesButton = (CEGUI::PushButton*)mWindow->getChild("PropertiesButton");
++	mSaveButton = (CEGUI::PushButton*)mWindow->getChild("SaveButton");
++	
++
++	mInsertButton->subscribeEvent(CEGUI::PushButton::EventMouseClick, CEGUI::Event::Subscriber(&ObjectWindow::handleInsertButtonClicked, this));
++	mLinkButton->subscribeEvent(CEGUI::PushButton::EventMouseClick, CEGUI::Event::Subscriber(&ObjectWindow::handleLinkButtonClicked, this));
++	mUnlinkButton->subscribeEvent(CEGUI::PushButton::EventMouseClick, CEGUI::Event::Subscriber(&ObjectWindow::handleUnlinkButtonClicked, this));
++	mSimulationButton->subscribeEvent(CEGUI::PushButton::EventMouseClick, CEGUI::Event::Subscriber(&ObjectWindow::handleSimulationButtonClicked, this));
++	mExportPrefabButton->subscribeEvent(CEGUI::PushButton::EventMouseClick, CEGUI::Event::Subscriber(&ObjectWindow::handleExportPrefabButtonClicked, this));
++	mEnableFixedHeightCheckbox->subscribeEvent(CEGUI::Checkbox::EventCheckStateChanged, CEGUI::Event::Subscriber(&ObjectWindow::handleEnableFixedHeightCheckboxClicked, this));
++	mFixedHeightEditbox->subscribeEvent(CEGUI::Editbox::EventDeactivated, CEGUI::Event::Subscriber(&ObjectWindow::handleFixedHeightEditboxChanged, this));
++	mFixedHeightEditbox->subscribeEvent(CEGUI::Editbox::EventTextAccepted, CEGUI::Event::Subscriber(&ObjectWindow::handleFixedHeightEditboxChanged, this));
++	mFixedHeightFromObjectButton->subscribeEvent(CEGUI::PushButton::EventMouseClick, CEGUI::Event::Subscriber(&ObjectWindow::handleFixedHeightFromObjectButtonClicked, this));
++	mPropertiesButton->subscribeEvent(CEGUI::PushButton::EventMouseClick, CEGUI::Event::Subscriber(&ObjectWindow::handlePropertiesButtonClicked, this));
++	mSaveButton->subscribeEvent(CEGUI::PushButton::EventMouseClick, CEGUI::Event::Subscriber(&ObjectWindow::handleSaveButtonClicked, this));
++
++	String empty = "";
++	setupCategories(empty, 0);
++
++	mCategoriesCombobox->subscribeEvent(CEGUI::Combobox::EventListSelectionAccepted, CEGUI::Event::Subscriber(&ObjectWindow::handleCategoryChange, this));
++	mObjectsListbox->subscribeEvent(CEGUI::Listbox::EventMouseDoubleClick, CEGUI::Event::Subscriber(&ObjectWindow::handleObjectDoubleClicked, this));
++	
++	mSimulationRunning = false;
++
++	mPropertiesWindow = new ObjectPropertiesWindow(mListener);
++	CEGUI::WindowManager::getSingleton().getWindow("MainWindow")->addChildWindow(mPropertiesWindow->getWindow());
++	
+ }
+ //------------------------------------------------------------------------------------------------
+ ObjectWindow::~ObjectWindow()
+ {
++	for(vector<String*>::iterator itr = mIDs.begin(); itr != mIDs.end(); ++itr)
++	{
++		delete *itr;
++	}
++}
++
++void ObjectWindow::setupCategories(const String& parentCategoryID, int depth)
++{
++	//ask the manager for its categories recursively
++	vector<GameObjectOrCategoryPreview> categories;
++	mListener->getObjectManager()->enumerateCategories(parentCategoryID, categories);
++
++	depth++;
++	uint count = 0;
++	for(vector<GameObjectOrCategoryPreview>::iterator itr = categories.begin(); itr != categories.end(); ++itr)
++	{
++
++		if(depth == 1 && count == 0)
++		{
++			//first category so enumerate objects in the category and add them to the list
++
++		}
++
++		String paddedName;
++		for(uint x = 0; x < depth; ++x)
++		{
++			paddedName += " ";
++		}
++		paddedName += (*itr).name;
++		CEGUI::ListboxTextItem* item = new CEGUI::ListboxTextItem((CEGUI::utf8*)paddedName.c_str(), count);
++		String* id = new String();
++		*id = (*itr).id;
++		item->setUserData((void*)id);
++		item->setSelectionBrushImage("WindowsLook", "EditBoxCarat");
++		//item->setSelectionColours(CEGUI::colour(0.0f, 0.0f, 0.8f));
++		item->setTextColours(CEGUI::colour(0.0f,0.0f,0.0f));
++		mIDs.push_back(id);
++		mCategoriesCombobox->addItem(item);	
++		setupCategories((*itr).id,depth);
++		count++;
++	}
++}
++
++//------------------------------------------------------------------------------------------------
++bool ObjectWindow::handleCategoryChange(const CEGUI::EventArgs& e)
++{
++	const CEGUI::WindowEventArgs& windowEventArgs = static_cast<const CEGUI::WindowEventArgs&>(e);
++    CEGUI::ListboxItem* item = static_cast<CEGUI::Combobox*>(windowEventArgs.window)->getSelectedItem();
++
++	String* categoryID = (String*)item->getUserData();
++	setupObjects(*categoryID);
++	return true;
++}
++
++//------------------------------------------------------------------------------------------------
++void ObjectWindow::setupObjects(const String &categoryID)
++{
++	mObjectsListbox->resetList();
++	//ask the manager for its categories recursively
++	vector<GameObjectOrCategoryPreview> objects;
++	mListener->getObjectManager()->enumerateObjects(categoryID, objects);
++
++	uint count = 0;
++	for(vector<GameObjectOrCategoryPreview>::iterator itr = objects.begin(); itr != objects.end(); ++itr)
++	{
++		CEGUI::ListboxTextItem* item = new CEGUI::ListboxTextItem((CEGUI::utf8*)(*itr).name.c_str(), count);
++		String* id = new String();
++		*id = (*itr).id;
++		item->setUserData((void*)id);
++		item->setSelectionBrushImage("WindowsLook", "EditBoxCarat");
++		//item->setSelectionColours(CEGUI::colour(0.0f, 0.0f, 0.8f));
++		item->setTextColours(CEGUI::colour(0.0f,0.0f,0.0f));
++		mIDs.push_back(id);
++		mObjectsListbox->addItem(item);
++		count++;
++	}
++
++}
++
++//------------------------------------------------------------------------------------------------
++bool ObjectWindow::handleObjectDoubleClicked(const CEGUI::EventArgs& e)
++{
++	 insertObject();
++	 return true;
++}
++
++//------------------------------------------------------------------------------------------------
++bool ObjectWindow::handleShowObjectWindow(const CEGUI::EventArgs& e)
++{
++	mListener->setEditMode(EditObjects);
++	//mPropertiesWindow->showWindow();
++	return true;
++}
++
++//------------------------------------------------------------------------------------------------
++bool ObjectWindow::handleInsertButtonClicked(const CEGUI::EventArgs& e)
++{
++	insertObject();
++	return true;
++}
++
++//------------------------------------------------------------------------------------------------
++bool ObjectWindow::handleLinkButtonClicked(const CEGUI::EventArgs& e)
++{
++	mListener->linkParent();
++	return true;
++}
++
++//------------------------------------------------------------------------------------------------
++bool ObjectWindow::handleUnlinkButtonClicked(const CEGUI::EventArgs& e)
++{
++	mListener->unlinkParent();
++	return true;
++}
++
++//------------------------------------------------------------------------------------------------
++bool ObjectWindow::handleSimulationButtonClicked(const CEGUI::EventArgs& e)
++{
++	if(!mSimulationRunning)
++	{
++		mSimulationButton->setText("End Simulation");
++		mListener->startSimulation();
++	}
++	else
++	{
++		mSimulationButton->setText("Start Simulation");
++		mListener->endSimulation();
++	}
++
++	mSimulationRunning = !mSimulationRunning;
++	return true;
++}
++
++//------------------------------------------------------------------------------------------------
++bool ObjectWindow::handleExportPrefabButtonClicked(const CEGUI::EventArgs& e)
++{
++	mListener->exportPrefab();
++	return true;
++}
++
++//------------------------------------------------------------------------------------------------
++void ObjectWindow::insertObject()
++{
++	CEGUI::ListboxItem* item = mObjectsListbox->getFirstSelectedItem();
++
++	if(!item)
++		return;
++
++	String* objectID = (String*)item->getUserData();
++	//now set the object id to insert 
++	mListener->insertObject(*objectID);
++}
++
++//------------------------------------------------------------------------------------------------
++bool ObjectWindow::handleEnableFixedHeightCheckboxClicked(const CEGUI::EventArgs& e)
++{
++	//get the checkbox's state
++	mListener->setFixedHeightEnabled(mEnableFixedHeightCheckbox->isSelected());
++	return true;
++}
+ 
++//------------------------------------------------------------------------------------------------
++bool ObjectWindow::handleFixedHeightEditboxChanged(const CEGUI::EventArgs& e)
++{
++	float height = atol(mFixedHeightEditbox->getText().c_str());
++	mListener->setFixedHeight(height);
++	return true;
++}
++
++//------------------------------------------------------------------------------------------------
++bool ObjectWindow::handleFixedHeightFromObjectButtonClicked(const CEGUI::EventArgs& e)
++{
++	mFixedHeightEditbox->setText(StringConverter::toString(mListener->getFixedHeightFromObject()));
++	float height = atol(mFixedHeightEditbox->getText().c_str());
++	mListener->setFixedHeight(height);
++	return true;
++}
++
++//------------------------------------------------------------------------------------------------
++bool ObjectWindow::handlePropertiesButtonClicked(const CEGUI::EventArgs& e)
++{
++	mPropertiesWindow->showWindow();
++	return true;
++}
++
++//------------------------------------------------------------------------------------------------
++bool ObjectWindow::handleSaveButtonClicked(const CEGUI::EventArgs& e)
++{
++	mListener->saveObjects();
++	return true;
+ }
+\ No newline at end of file

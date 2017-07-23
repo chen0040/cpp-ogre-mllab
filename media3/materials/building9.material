@@ -1,0 +1,121 @@
+
+material Jetstream/b9_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b9_1.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b9_2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b9_2.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b9_3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b9_3.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b9_4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b9_4.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b9_5
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture_alias 0
+				texture b9_5.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b9_6
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture_alias 0
+				texture b9_6.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b9_7
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b9_7.dds
+			}
+		}
+
+	}
+
+}

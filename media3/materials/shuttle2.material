@@ -1,0 +1,14 @@
+
+material shuttle21
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture S02_512.dds
+			}
+		}
+	}
+}

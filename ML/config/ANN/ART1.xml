@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<method name="ART1">
+	<configuration>
+		<section name="Parameters">
+			<param name="F1NeuronCount" label="Input Dimension" value="5" type="integer" lower_bound="1" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.37"/>
+			<param name="F2NeuronCount" label="Class Count" value="10" type="integer" lower_bound="2" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.37"/>
+			<param name="A" label="A" value="1" type="float" lower_bound="0" upper_bound="1" width="0.7" height="0.1" vgap="0.01" label_width="0.37"/>
+			<param name="B" label="B" value="1" type="float" lower_bound="0" upper_bound="1" width="0.7" height="0.1" vgap="0.01" label_width="0.37"/>
+			<param name="C" label="C" value="1" type="float" lower_bound="0" upper_bound="1" width="0.7" height="0.1" vgap="0.01" label_width="0.37"/>
+			<param name="D" label="D" value="1" type="float" lower_bound="0" upper_bound="1" width="0.7" height="0.1" vgap="0.01" label_width="0.37"/>
+			<param name="L" label="L" value="1" type="float" lower_bound="0" upper_bound="1" width="0.7" height="0.1" vgap="0.01" label_width="0.37"/>
+			<param name="rho" label="rho" value="1" type="float" lower_bound="0" upper_bound="1" width="0.7" height="0.1" vgap="0.01" label_width="0.37" />
+		</section>
+		
+		<section name="Simulation">
+			<param name="SimulationSampleCount" label="Simulation Sample Count" value="5" type="integer" lower_bound="1" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.57" />
+		</section>
+	</configuration>
+	
+	<class name="ARTNN">
+	<file type="java" src="..\ML\src\ann\art\art1\ARTNN.java" name="ann\art\art1\ARTNN.java" config="false" />
+	</class>
+	
+	<class name="F1">
+	<file type="java" src="..\ML\src\ann\art\art1\F1.java" name="ann\art\art1\F1.java" config="false" />
+	</class>
+	
+	<class name="F1InputSynapse">
+	<file type="java" src="..\ML\src\ann\art\art1\F1InputSynapse.java" name="ann\art\art1\F1InputSynapse.java" config="false" />
+	</class>
+	
+	<class name="F1Neuron">
+	<file type="java" src="..\ML\src\ann\art\art1\F1Neuron.java" name="ann\art\art1\F1Neuron.java" config="false" />
+	</class>
+	
+	<class name="F2">
+	<file type="java" src="..\ML\src\ann\art\art1\F2.java" name="ann\art\art1\F2.java" config="false" />
+	</class>
+	
+	<class name="F2InputSynapse">
+	<file type="java" src="..\ML\src\ann\art\art1\F2InputSynapse.java" name="ann\art\art1\F2InputSynapse.java" config="false" />
+	</class>
+	
+	<class name="F2Neuron">
+	<file type="java" src="..\ML\src\ann\art\art1\F2Neuron.java" name="ann\art\art1\F2Neuron.java" config="false" />
+	</class>
+	
+	<class name="Example">
+	<file type="java" src="..\ML\src\ann\art\art1\Example.java" name="ann\art\art1\Example.java" config="true" />
+	</class>
+	
+	<class name="NeuralLayer">
+	<file type="java" src="..\ML\src\ann\NeuralLayer.java" name="ann\NeuralLayer.java" config="false" />
+	</class>
+	
+	<class name="Neuron.java">
+	<file type="java" src="..\ML\src\ann\Neuron.java" name="ann\Neuron.java" config="false" />
+	</class>
+	
+	<class name="Synapse.java">
+	<file type="java" src="..\ML\src\ann\Synapse.java" name="ann\Synapse.java" config="false" />
+	</class>
+
+	<packages>
+		<package name="ml" />
+		<package name="imagex" />
+	</packages>
+</method>

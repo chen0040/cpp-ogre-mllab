@@ -1,0 +1,1 @@
+alert("stupid", "Some Stupid Title");

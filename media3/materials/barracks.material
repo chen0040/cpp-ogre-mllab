@@ -1,0 +1,65 @@
+material VMtl03
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metal_window_01.dds
+			}
+		}
+	}
+}
+material VMtl01
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metal07_door_128.dds
+			}
+		}
+	}
+}
+material VMtl02
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metal_door_windws01.dds
+			}
+		}
+	}
+}
+material VMtl04
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metal03_3_128x128.dds
+			}
+		}
+	}
+}
+material VMtl05
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metal07_door2_128.dds
+			}
+		}
+	}
+}

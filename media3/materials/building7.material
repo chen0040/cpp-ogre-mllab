@@ -1,0 +1,51 @@
+
+material Jetstream/b7_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b7_1.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b7_2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b7_2.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b7_3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b7_3.dds
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<simulation expert_mode="true" remove_agents_on_start="true" record_last_entry="true" sound_enabled="false" cell_initialization="false" random_aura_color="true" simulation_count="10">
+    <stop_after_seconds enabled="true" seconds="60.000000" />
+    <stop_after_lifes enabled="false" lives_remained="3" />
+    <region minX="250.000000" maxX="1250.000000" minZ="250.000000" maxZ="1250.000000" />
+	<models>
+		
+		<model name="F111" frequency="0.1" />
+		<model name="F112" frequency="0.1" />
+		<model name="F113" frequency="0.05" />
+		<model name="F114" frequency="0.05" />
+		<model name="F115" frequency="0.05" />
+		<model name="F116" frequency="0.05" />
+		<model name="F117" frequency="0.05" />
+		<model name="F118" frequency="0.05" />
+		<model name="F119" frequency="0.05" />
+		<model name="F120" frequency="0.05" />
+		<model name="F121" frequency="0.05" />
+		<model name="F122" frequency="0.05" />
+		<model name="F123" frequency="0.05" />
+		<model name="F124" frequency="0.05" />
+		<model name="F125" frequency="0.05" />
+		<model name="robot" frequency="0.3" />
+		<!--<model name="F111" frequency="0" />-->
+	</models>
+    <agents>
+        <agent scriptId="065269J06" />
+        <agent scriptId="065229H06" />
+        <agent scriptId="065309F06" />
+        <agent scriptId="065009E06" />
+        <agent scriptId="075149E06" />
+        <agent scriptId="065199C06" />
+        <agent scriptId="064958c06" />
+        <agent scriptId="064948L06" />
+        <agent scriptId="065108G06" />
+        <agent scriptId="065268G06" />
+        <agent scriptId="065078B06" />
+        <agent scriptId="065198A06" />
+        <agent scriptId="065077L06" />
+        <agent scriptId="065207J06" />
+        <agent scriptId="065377A06" />
+        <agent scriptId="065366G06" />
+        <agent scriptId="065156G06" />
+        <agent scriptId="065186E06" />
+        <agent scriptId="064966B06" />
+        <agent scriptId="065296A06" />
+        <agent scriptId="064926A06" />
+        <agent scriptId="20090611e" />
+        <agent scriptId="065085k06" />
+        <agent scriptId="065365e06" />
+        <agent scriptId="065175L06" />
+        <agent scriptId="065295K06" />
+        <agent scriptId="065155E06" />
+        <agent scriptId="064905D06" />
+        <agent scriptId="065065D06" />
+        <agent scriptId="075154J06" />
+        <agent scriptId="064924H06" />
+        <agent scriptId="065154C06" />
+        <agent scriptId="064944C06" />
+        <agent scriptId="065273L06" />
+        <agent scriptId="075003K06" />
+        <agent scriptId="065083F06" />
+        <agent scriptId="064923F06" />
+        <agent scriptId="065133F06" />
+        <agent scriptId="064912a06" />
+        <agent scriptId="065022H06" />
+        <agent scriptId="065102F06" />
+        <agent scriptId="065252C06" />
+        <agent scriptId="065212B06" />
+        <agent scriptId="065122A06" />
+        <agent scriptId="065001L06" />
+        <agent scriptId="074931L06" />
+        <agent scriptId="065201H06" />
+        <agent scriptId="065151H06" />
+        <agent scriptId="069831F18" />
+        <agent scriptId="065171C06" />
+        <agent scriptId="064921B06" />
+        <agent scriptId="075340F06" />
+        <agent scriptId="065110E06" />
+        <agent scriptId="065380A06" />
+        <agent scriptId="064960A06" />
+    </agents>
+</simulation>

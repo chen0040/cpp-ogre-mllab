@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<method name="Multiple Layer Perceptron">
+	<configuration>
+		<section name="Parameters">
+		<param name="LearningRate" label="Learning Rate" value="0.2" type="double" lower_bound="0" upper_bound="1" width="0.7" height="0.1" vgap="0.01" label_width="0.47" />
+		</section>
+		
+		<section name="Training">
+		<param name="MinErrorThreshold" label="Error Threshold" value="0.01" type="double" lower_bound="0" upper_bound="1" width="0.7" height="0.1" vgap="0.01" label_width="0.57"/>
+		<param name="MaxEpoches" label="Max Epoches" value="10000" type="integer" lower_bound="1" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.57"/>
+		<param name="StagnationEpoches" label="Max Stagnating Epoches" value="10000" type="integer" lower_bound="1" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.57"/>
+		<param name="StagnationThreshold" label="Min Improve Delta" value="0.00000001" type="double" lower_bound="0" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.57"/>
+		</section>
+		
+		<section name="Network">
+			<list_template name="HiddenLayers" prefix="HiddenLayer" width="0.9" height="0.9" vgap="0.01" label="Hidden Layers" label_height="0.1" button_width="0.25" button_height="0.1" detail_height="0.2" >
+			<param name="LayerNeuronCount" label="Number of Neurons" value="2" type="integer" lower_bound="1" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.47" />
+			</list_template>
+		</section>
+	</configuration>
+	
+	<class name="java">
+	<file type="java" src="..\ML\src\ann\mlp\MLPLayer.java" name="ann\mlp\MLPLayer.java" config="false" />
+	<file type="java" src="..\ML\src\ann\mlp\MLPNet.java" name="ann\mlp\MLPNet.java" config="false" />
+	<file type="java" src="..\ML\src\ann\mlp\MLPNeuron.java" name="ann\mlp\MLPNeuron.java" config="false" />
+	<file type="java" src="..\ML\src\ann\mlp\MLPSynapse.java" name="ann\mlp\MLPSynapse.java" config="false" />
+	<file type="java" src="..\ML\src\ann\mlp\MLPTrainParam.java" name="ann\mlp\MLPTrainParam.java" config="false" />
+	<file type="java" src="..\ML\src\ann\mlp\Example.java" name="ann\mlp\Example.java" config="true" />
+	<file type="java" src="..\ML\src\ann\NeuralLayer.java" name="ann\NeuralLayer.java" config="false" />
+	<file type="java" src="..\ML\src\ann\Neuron.java" name="ann\Neuron.java" config="false" />
+	<file type="java" src="..\ML\src\ann\Synapse.java" name="ann\Synapse.java" config="false" />
+	</class>
+	
+	<class name="lua">
+	<file type="lua" src="..\ML\lua\ann\mlp\MLP.lua" name="MLP.lua" config="false" />
+	<file type="lua" src="..\ML\lua\ann\mlp\Bot.lua" name="Bot.lua" config="true" />
+	<file type="lua" src="..\ML\lua\ann\mlp\config.xml" name="config.xml" config="false" />
+	<file type="lua" src="..\ML\lua\ann\mlp\About.txt" name="About.txt" config="false" />
+	<file type="lua" src="..\ML\lua\ann\mlp\lua\lua5.1.exe" name="lua5.1.exe" config="false" />
+	<file type="lua" src="..\ML\lua\ann\mlp\lua\lua5.1.dll" name="lua5.1.dll" config="false" />
+	<file type="lua" src="..\ML\lua\ann\mlp\lua\msvcr80.dll" name="msvcr80.dll" config="false" />
+	<file type="lua" src="..\ML\lua\ann\mlp\lua\Microsoft.VC80.CRT.manifest" name="Microsoft.VC80.CRT.manifest" config="false" />
+	<file type="lua" src="..\ML\lua\ann\mlp\example.lua" name="example.lua" config="false" />
+	<file type="lua" src="..\ML\lua\ann\mlp\UnitTest.bat" name="UnitTest.bat" config="false" />
+	</class>
+	
+	<packages>
+		<package name="ml" />
+		<package name="imagex" />
+	</packages>
+	
+</method>

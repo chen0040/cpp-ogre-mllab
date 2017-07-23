@@ -1,0 +1,21 @@
+
+material Jetstream/train5
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0.898039 0.898039 0.898039 1 12.8
+
+			texture_unit
+			{
+				texture_alias 0
+				texture auto.dds
+			}
+		}
+
+	}
+
+}

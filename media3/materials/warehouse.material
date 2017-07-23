@@ -1,0 +1,44 @@
+
+material Warehouse1
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture metal07_door2_128.dds
+			}
+		}
+	}
+}
+material Warehouse2
+{
+	technique
+	{
+		pass
+		{
+
+
+			texture_unit
+			{
+				texture metal07_door2_128.dds
+			}
+		}
+	}
+}
+material Warehouse3
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture metal07_nucl_128.dds
+			}
+		}
+	}
+}

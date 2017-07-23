@@ -1,0 +1,38 @@
+material Jetstream/Player_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture SF-02.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Player_Night_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture SF-02.dds
+			}
+		}
+
+		pass
+		{
+			emissive 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture sf-illum.dds
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+plugindir=@libdir@/@PACKAGE@
+
+Name: Plugin_PagingLandScape2
+Description: Object-Oriented Graphics Rendering Engine Paging LandScape Scene Manager
+Version: @VERSION@
+Libs: -L${libdir} -lPagingLandScape2
+Cflags: -I${includedir}/@PACKAGE@ @OGRE_CFLAGS@

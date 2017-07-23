@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<games default="UAV">
+    <game name="Caelum">
+        <resource url="../games/Caelum" loc_type="FileSystem" />
+    </game>
+    <game name="City">
+        <resource url="../games/City" loc_type="FileSystem" />
+    </game>
+    <game name="GrassLand">
+        <resource url="../games/GrassLand" loc_type="FileSystem" />
+    </game>
+    <game name="HydraxDemo">
+        <resource url="../games/HydraxDemo" loc_type="FileSystem" />
+    </game>
+    <game name="LakeDemo">
+        <resource url="../games/LakeDemo" loc_type="FileSystem" />
+    </game>
+    <game name="RockLand">
+        <resource url="../games/RockLand" loc_type="FileSystem" />
+    </game>
+    <game name="UAV">
+        <resource url="../games/UAV" loc_type="FileSystem" />
+    </game>
+    <game name="Zero">
+        <resource url="../games/Zero" loc_type="FileSystem" />
+    </game>
+</games>

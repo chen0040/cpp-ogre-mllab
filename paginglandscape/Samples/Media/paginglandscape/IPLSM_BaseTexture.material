@@ -1,0 +1,43 @@
+material IPLSM_BaseTexture
+{
+	lod_distances 200
+	technique
+	{
+		lod_index 0
+		pass
+		{
+			// Base Pass
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			texture_unit
+			{
+				// Base Texture
+				texture none
+				tex_coord_set 0
+				tex_address_mode clamp
+			}
+			texture_unit
+			{
+				// Noise texture
+				texture rockDetail.jpg
+				tex_address_mode mirror
+				scale 0.03 0.03
+			}
+		}
+	}
+	technique
+	{
+		lod_index 1
+		pass
+		{
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			texture_unit
+			{
+				// Base Texture
+				texture none
+				tex_address_mode clamp
+			}
+		}
+	}
+}

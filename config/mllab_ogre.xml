@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<mllab_ogre ogre_config="true" RenderSystem="code02" fps="30">
+
+<RenderSystem id="code01" name="Direct3D9 Rendering Subsystem" >
+<Config name="Full Screen" value="No" />
+<Config name="Video Mode" value="800 x 600 @ 32-bit colour" />
+</RenderSystem>
+
+<RenderSystem id="code02" name="OpenGL Rendering Subsystem" >
+<Config name="Full Screen" value="No" />
+<Config name="Video Mode" value="800 x 600 @ 32-bit colour" />
+</RenderSystem>
+
+<RenderSystem id="code03" name="OpenGL Rendering Subsystem" >
+<Config name="Full Screen" value="No" />
+<Config name="Video Mode" value="1200 x 864 @ 32-bit colour" />
+</RenderSystem>
+
+</mllab_ogre>

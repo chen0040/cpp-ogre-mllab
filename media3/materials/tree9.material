@@ -1,0 +1,62 @@
+material tree9/Mat_1
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture_alias 0
+				texture t_skin57.dds
+			}
+		}
+
+	}
+
+}
+
+material tree9/Mat_2
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture_alias 0
+				texture chunk_9.dds
+			}
+		}
+
+	}
+
+}
+
+material tree9/Mat_3
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture_alias 0
+				texture chunk_9.dds
+			}
+		}
+
+	}
+
+}

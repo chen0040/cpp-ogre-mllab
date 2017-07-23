@@ -1,0 +1,47 @@
+
+material Jetstream/bbhoop_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture bbhoop_2.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/bbhoop_2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture Metal_Pa.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/bbhoop_3
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0.647059 0 1
+		}
+
+	}
+
+}

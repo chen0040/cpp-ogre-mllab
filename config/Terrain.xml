@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<terrain>
+<brush default="default">
+<brush_type name="default" uri="brush.png" />
+</brush>
+</terrain>

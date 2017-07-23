@@ -1,0 +1,36 @@
+
+material Jetstream/t14_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture t14_1.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/t14_2
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture t14_2.dds
+			}
+		}
+
+	}
+
+}

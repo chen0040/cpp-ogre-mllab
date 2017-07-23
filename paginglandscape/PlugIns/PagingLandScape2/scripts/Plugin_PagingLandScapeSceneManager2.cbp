@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="4" />
+	<Project>
+		<Option title="Plugin_PagingLandScapeSceneManager2" />
+		<Option default_target="-1" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="..\bin\Release\Plugin_PagingLandScapeSceneManager2.dll" />
+				<Option object_output="..\obj\Release" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option includeInTargetAll="1" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="OgreMain" />
+					<Add library="stlport.5.0" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="copy ..\bin\Release\Plugin_PagingLandScapeSceneManager2.dll ..\..\..\Samples\Common\bin\Release" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-W" />
+			<Add option="-mthreads" />
+			<Add option="-fmessage-length=0" />
+			<Add option="-fexceptions" />
+			<Add option="-fident" />
+			<Add option="-D_STLP_NO_CUSTOM_IO" />
+			<Add option="-D_STLP_USE_DYNAMIC_LIB" />
+			<Add option="-DPLUGIN_PAGINGLANDSCAPE2_EXPORTS" />
+			<Add directory="$(OGRE_HOME)\stlport\stlport" />
+			<Add directory="$(OGRE_HOME)\include" />
+			<Add directory="..\include" />
+		</Compiler>
+		<Linker>
+			<Add option="-Wl -enable-runtime-pseudo-reloc" />
+			<Add option="-Wl,--enable-auto-image-base" />
+			<Add option="-Wl,--add-stdcall-alias" />
+			<Add directory="..\..\..\bin\release" />
+		</Linker>
+		<Unit filename="..\include\DRGNURBSSurface.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgreOcclusionBoundingBox.h">
+			<Option compilerVar="CPP" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeCamera.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeData2D.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeData2DManager.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeData2D_HeightField.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeData2D_HeightFieldBlendNeighbor.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeData2D_HeightFieldN.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeData2D_HeightFieldNTC.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeData2D_HeightFieldRaw.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeData2D_HeightFieldRawTC.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeData2D_HeightFieldTC.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeData2D_Spline.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeHorizon.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeIndexBuffer.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeListener.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeListenerManager.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOcclusion.h">
+			<Option compilerVar="CPP" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOcclusionCHCTraversal.h">
+			<Option compilerVar="CPP" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOcclusionCameraTraversal.h">
+			<Option compilerVar="CPP" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOcclusionDebugTraversal.h">
+			<Option compilerVar="CPP" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOcclusionElement.h">
+			<Option compilerVar="CPP" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOcclusionQuerySet.h">
+			<Option compilerVar="CPP" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOcclusionSWTraversal.h">
+			<Option compilerVar="CPP" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOcclusionSorter.h">
+			<Option compilerVar="CPP" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOcclusionTraversal.h">
+			<Option compilerVar="CPP" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOcclusionVFTraversal.h">
+			<Option compilerVar="CPP" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOcclusionVisibilityData.h">
+			<Option compilerVar="CPP" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOctree.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOctreeAxisAlignedBoxSceneQuery.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOctreeCamera.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOctreeIntersectionSceneQuery.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOctreeNode.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOctreePlaneBoundedVolumeListSceneQuery.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOctreeRaySceneQuery.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOctreeSceneManager.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOctreeSphereSceneQuery.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeOptions.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapePage.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapePageManager.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapePageRenderable.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapePoolSet.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapePrerequisites.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeRaySceneQuery.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeRenderable.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeRenderableManager.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeSceneManager.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTexture.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTextureCoordinatesManager.h">
+			<Option compilerVar="CPP" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTextureManager.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTexture_BaseTexture.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTexture_BaseTexture2.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTexture_Image.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTexture_InstantBaseTexture.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTexture_InstantBaseTextureEdit.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTexture_InstantBaseTextureShadowed.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTexture_Splatting.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTexture_Splatting2.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTexture_Splatting2Edit.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTexture_Splatting3.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTexture_Splatting4.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTexture_Splatting5.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTexture_Splatting6.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTexture_Splatting7.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTexture_Splatting7Edit.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTexture_SplattingShader.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTile.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTileInfo.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\OgrePagingLandScapeTileManager.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\fileutils.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\DRGNURBSSurface.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgreOcclusionBoundingBox.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeCamera.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeData2D.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeData2DManager.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeData2D_HeightField.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeData2D_HeightFieldBlendNeighbor.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeData2D_HeightFieldN.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeData2D_HeightFieldNTC.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeData2D_HeightFieldRaw.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeData2D_HeightFieldRawTC.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeData2D_HeightFieldTC.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeData2D_Spline.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeHorizon.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeIndexBuffer.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeListenerManager.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOcclusion.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOcclusionCHCTraversal.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOcclusionCameraTraversal.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOcclusionDebugTraversal.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOcclusionElement.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOcclusionQuerySet.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOcclusionSWTraversal.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOcclusionTraversal.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOcclusionVFTraversal.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOctree.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOctreeAxisAlignedBoxSceneQuery.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOctreeCamera.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOctreeIntersectionSceneQuery.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOctreeNode.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOctreePlaneBoundedVolumeListSceneQuery.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOctreeRaySceneQuery.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOctreeSceneManager.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOctreeSphereSceneQuery.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeOptions.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapePage.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapePageManager.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapePageRenderable.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeRaySceneQuery.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeRenderable.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeRenderableManager.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeSceneManager.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeSceneManagerDll.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTextureCoordinatesManager.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTextureManager.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture_BaseTexture.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture_BaseTexture2.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture_Image.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture_InstantBaseTexture.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture_InstantBaseTextureEdit.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture_InstantBaseTextureShadowed.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture_Splatting.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture_Splatting2.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture_Splatting2Edit.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture_Splatting3.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture_Splatting4.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture_Splatting5.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture_Splatting6.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture_Splatting7.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture_Splatting7Edit.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture_SplattingShader.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTexture_SplattingShaderEdit.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTile.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\OgrePagingLandScapeTileManager.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\filetutils.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

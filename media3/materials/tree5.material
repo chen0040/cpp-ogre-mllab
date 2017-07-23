@@ -1,0 +1,98 @@
+
+material Mat_0
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+		}
+	}
+}
+material Mat_1
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture t_skin10.dds
+			}
+		}
+	}
+}
+material Mat_2
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture chunk_24.dds
+			}
+		}
+	}
+}
+material Mat_3
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture chunk_24.dds
+			}
+		}
+	}
+}
+material Mat_4
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture chunk_24.dds
+			}
+		}
+	}
+}
+material Mat_5
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture chunk_24.dds
+			}
+		}
+	}
+}

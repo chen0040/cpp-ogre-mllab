@@ -1,0 +1,181 @@
+
+material VOSPER-CARCASA
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.533333 0.603922 0.623529 1
+			diffuse 0.533333 0.603922 0.623529 1
+			specular 0.05 0.05 0.05 40 0
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material VOSPER-BRONCE
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.462745 0.494118 0.490196 1
+			diffuse 0.462745 0.494118 0.490196 1
+			specular 0.05 0.05 0.05 100 0
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material VOSPER-MOTOR
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.25098 0.243137 0.231373 1
+			diffuse 0.25098 0.243137 0.231373 1
+			specular 0.05 0.05 0.05 100 0
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material VOSPER-MADERA
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0313726 0.14902 0.180392 1
+			diffuse 0.0313726 0.14902 0.180392 1
+			specular 0.05 0.05 0.05 100 0
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture ASHWOOD2.JPG
+			}
+		}
+
+	}
+
+}
+
+
+
+material VOSPER-CASCO
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.533333 0.603922 0.623529 1
+			diffuse 0.533333 0.603922 0.623529 1
+			specular 0.05 0.05 0.05 25 0
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture LEFT.TGA
+			}
+		}
+
+	}
+
+}
+
+
+
+material VOSPER-CRISTAL
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0509804 0.196078 0.00392157 1
+			diffuse 0.0509804 0.196078 0.00392157 1
+			specular 0.05 0.05 0.05 100 0
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material VOSPER-BLANCO
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.94902 0.94902 0.94902 1
+			diffuse 0.94902 0.94902 0.94902 1
+			specular 0.05 0.05 0.05 40 0
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material VOSPER-TORPED
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.262745 0.262745 0.262745 1
+			diffuse 0.262745 0.262745 0.262745 1
+			specular 0.05 0.05 0.05 100 0
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material VOSPER-FLOTADO
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 0.317647 0.317647 1
+			diffuse 1 0.317647 0.317647 1
+			specular 0.05 0.05 0.05 40 0
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+

@@ -1,0 +1,59 @@
+AC_PREREQ(2.50)
+
+AC_INIT([PAGINGLANDSCAPE], [1.4])
+
+AC_CANONICAL_TARGET
+
+#AM_INIT_AUTOMAKE([1.6.1 foreign no-installinfo no-installman subdir-objects])
+AM_INIT_AUTOMAKE([PAGINGLANDSCAPE], 1.4)
+AM_CONFIG_HEADER(config.h)
+
+dnl Check for programs
+AC_PROG_CC
+AC_PROG_CXX
+AM_PROG_CC_C_O
+AC_PROG_INSTALL
+
+
+
+dnl Setup target-specific parameters
+PLSM2_CHECK_OGRE
+OGRE_SETUP_FOR_TARGET
+AC_PROG_LIBTOOL
+AC_LIBTOOL_LANG_CXX_CONFIG
+
+
+AC_CHECK_LIB(dl, dlopen)
+AC_CHECK_LIB(m, pow)
+AC_CHECK_LIB(z, gzopen)
+AC_CHECK_FUNC(snprintf, AC_DEFINE(HAVE_SNPRINTF,,snprintf))
+AC_CHECK_FUNC(vsnprintf, AC_DEFINE(HAVE_VSNPRINTF,,vsnprintf))
+
+dnl Check to see if user wants to disable building of demos 
+dnl (defaults is to build) - also checks for OIS
+PLSM2_BUILD_DEMO
+
+CFLAGS="$CFLAGS"
+CXXFLAGS="$CXXFLAGS"
+LIBS="$LIBS"
+
+dnl Create the makefiles
+AC_CONFIG_FILES([Makefile \
+    PlugIns/Makefile \
+    PlugIns/PagingLandScape2/Makefile \
+    PlugIns/PagingLandScape2/src/Makefile \
+    PlugIns/PagingLandScape2/include/Makefile \
+    Samples/Makefile \
+    Samples/Common/Makefile \
+    Samples/Common/include/Makefile \
+    Samples/PagingLandScape2/Makefile \
+    Samples/PagingLandScape2/src/Makefile \
+    Samples/PagingLandScape2/include/Makefile \
+    Tools/Makefile \
+    Tools/MapSplitter/Makefile \
+    Tools/MapSplitter/include/Makefile \
+    Tools/MapSplitter/src/Makefile \
+    OGRE-PLUGIN-PLSM2.pc
+    ])
+
+AC_OUTPUT

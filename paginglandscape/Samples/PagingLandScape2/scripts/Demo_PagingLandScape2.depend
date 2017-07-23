@@ -1,0 +1,1038 @@
+# depslib dependency file v1.0
+1118926572 c:\documents and settings\drinker soul\desktop\ogrenew\samples\paginglandscape2\src\paginglandscape.cpp
+	"Ogre.h"
+	"PagingLandScape.h"
+	"windows.h"
+
+1117060170 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogre.h
+	"OgrePrerequisites.h"
+	"OgreAnimation.h"
+	"OgreAnimationTrack.h"
+	"OgreAny.h"
+	"OgreArchive.h"
+	"OgreArchiveManager.h"
+	"OgreAxisAlignedBox.h"
+	"OgreBillboardSet.h"
+	"OgreBone.h"
+	"OgreCamera.h"
+	"OgreConfigFile.h"
+	"OgreControllerManager.h"
+	"OgreDataStream.h"
+	"OgreEntity.h"
+	"OgreEventProcessor.h"
+	"OgreException.h"
+	"OgreFrustum.h"
+	"OgreGpuProgram.h"
+	"OgreGpuProgramManager.h"
+	"OgreHardwareBufferManager.h"
+	"OgreHardwareIndexBuffer.h"
+	"OgreHardwareOcclusionQuery.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHighLevelGpuProgram.h"
+	"OgreHighLevelGpuProgramManager.h"
+	"OgreInput.h"
+	"OgreKeyFrame.h"
+	"OgreLight.h"
+	"OgreLogManager.h"
+	"OgreMaterial.h"
+	"OgreMaterialManager.h"
+	"OgreMaterialSerializer.h"
+	"OgreMath.h"
+	"OgreMatrix3.h"
+	"OgreMatrix4.h"
+	"OgreMesh.h"
+	"OgreMeshManager.h"
+	"OgreMeshSerializer.h"
+	"OgreOverlay.h"
+	"OgreOverlayContainer.h"
+	"OgreOverlayElement.h"
+	"OgreOverlayManager.h"
+	"OgreParticleAffector.h"
+	"OgreParticleEmitter.h"
+	"OgreParticleSystemManager.h"
+	"OgrePass.h"
+	"OgrePatchMesh.h"
+	"OgrePatchSurface.h"
+	"OgrePlatformManager.h"
+	"OgreProfiler.h"
+	"OgreRadixSort.h"
+	"OgreRenderQueueListener.h"
+	"OgreRenderSystem.h"
+	"OgreRenderTargetListener.h"
+	"OgreRenderTexture.h"
+	"OgreRenderWindow.h"
+	"OgreResourceGroupManager.h"
+	"OgreRoot.h"
+	"OgreSceneManager.h"
+	"OgreSceneManagerEnumerator.h"
+	"OgreSceneNode.h"
+	"OgreSimpleRenderable.h"
+	"OgreSkeleton.h"
+	"OgreSkeletonInstance.h"
+	"OgreSkeletonManager.h"
+	"OgreSkeletonSerializer.h"
+	"OgreStaticGeometry.h"
+	"OgreString.h"
+	"OgreStringConverter.h"
+	"OgreStringVector.h"
+	"OgreSubEntity.h"
+	"OgreSubMesh.h"
+	"OgreTechnique.h"
+	"OgreTextureManager.h"
+	"OgreTextureManager.h"
+	"OgreTextureUnitState.h"
+	"OgreUserDefinedObject.h"
+	"OgreVector2.h"
+	"OgreViewport.h"
+
+1122485942 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreprerequisites.h
+	"OgrePlatform.h"
+	"OgreStdHeaders.h"
+	"OgreMemoryManager.h"
+
+1119714944 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreplatform.h
+	"OgreConfig.h"
+	"config.h"
+	<SDL/SDL_main.h>
+
+1123946166 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreconfig.h
+	"config.h"
+
+1118277370 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrestdheaders.h
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<cstring>
+	<cstdarg>
+	<cmath>
+	<vector>
+	<map>
+	<string>
+	<set>
+	<list>
+	<deque>
+	<queue>
+	<ext/hash_map>
+	<ext/hash_set>
+	<hash_set>
+	<hash_map>
+	<algorithm>
+	<functional>
+	<limits>
+	<fstream>
+	<iostream>
+	<iomanip>
+	<sstream>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<dlfcn.h>
+	<unistd.h>
+	<sys/param.h>
+	<CoreFoundation/CoreFoundation.h>
+	<boost/thread/recursive_mutex.hpp>
+
+1113168350 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrememorymanager.h
+	"OgrePlatform.h"
+	"OgreStdHeaders.h"
+	"OgreMemoryMacros.h"
+
+1110927058 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrememorymacros.h
+
+1119222926 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreanimation.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreIteratorWrappers.h"
+	"OgreAnimable.h"
+	"OgreAnimationTrack.h"
+
+1119714944 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrestring.h
+	"OgrePrerequisites.h"
+	<ext/hash_map>
+
+1107539292 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreiteratorwrappers.h
+	"OgrePrerequisites.h"
+
+1117578032 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreanimable.h
+	"OgrePrerequisites.h"
+	"OgreVector2.h"
+	"OgreVector3.h"
+	"OgreVector4.h"
+	"OgreQuaternion.h"
+	"OgreColourValue.h"
+	"OgreSharedPtr.h"
+	"OgreStringVector.h"
+	"OgreException.h"
+	"OgreAny.h"
+
+1123535072 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrevector2.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+
+1107539304 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogremath.h
+	"OgrePrerequisites.h"
+
+1123535072 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrevector3.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+	"OgreQuaternion.h"
+
+1123535070 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrequaternion.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+
+1107539342 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrevector4.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1123686948 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrecolourvalue.h
+	"OgrePrerequisites.h"
+
+1118055916 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogresharedptr.h
+	"OgrePrerequisites.h"
+
+1107539340 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrestringvector.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+
+1116699710 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreexception.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+
+1122811668 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreany.h
+	"OgrePrerequisites.h"
+	"OgreException.h"
+	"OgreString.h"
+	<algorithm>
+	<typeinfo>
+
+1118532884 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreanimationtrack.h
+	"OgrePrerequisites.h"
+	"OgreSimpleSpline.h"
+	"OgreRotationalSpline.h"
+	"OgreKeyFrame.h"
+	"OgreAnimable.h"
+
+1107539330 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogresimplespline.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreMatrix4.h"
+
+1120254134 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrematrix4.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreMatrix3.h"
+	"OgreVector4.h"
+	"OgrePlane.h"
+
+1107539304 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrematrix3.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1107539310 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreplane.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1107539324 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerotationalspline.h
+	"OgrePrerequisites.h"
+	"OgreQuaternion.h"
+
+1118012558 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrekeyframe.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreQuaternion.h"
+	"OgreAny.h"
+	"OgreHardwareVertexBuffer.h"
+
+1118270938 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrehardwarevertexbuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+	"OgreColourValue.h"
+
+1107539278 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrehardwarebuffer.h
+	"OgrePrerequisites.h"
+
+1107539272 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrearchive.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreDataStream.h"
+	"OgreSharedPtr.h"
+	"OgreStringVector.h"
+
+1107539276 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogredatastream.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+	<istream>
+
+1107539274 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrearchivemanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+
+1112018718 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreresourcemanager.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreResourceGroupManager.h"
+	"OgreIteratorWrappers.h"
+	"OgreCommon.h"
+	"OgreDataStream.h"
+	"OgreStringVector.h"
+	"OgreScriptLoader.h"
+
+1107539312 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreresource.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+	"OgreStringInterface.h"
+
+1119201602 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrestringinterface.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreCommon.h"
+
+1115757018 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrecommon.h
+	<utility>
+
+1123535070 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreresourcegroupmanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreCommon.h"
+	"OgreDataStream.h"
+	"OgreResource.h"
+	"OgreArchive.h"
+
+1107539330 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogresingleton.h
+	"OgrePrerequisites.h"
+
+1107602528 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrescriptloader.h
+	"OgrePrerequisites.h"
+	"OgreDataStream.h"
+	"OgreStringVector.h"
+
+1107539274 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreaxisalignedbox.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreMatrix4.h"
+
+1119201602 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrebillboardset.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreRadixSort.h"
+
+1123946166 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogremovableobject.h
+	"OgrePrerequisites.h"
+	"OgreRenderQueue.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreShadowCaster.h"
+	"OgreFactoryObj.h"
+	"OgreAnimable.h"
+	"OgreAny.h"
+	"OgreUserDefinedObject.h"
+
+1107539312 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerenderqueue.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+
+1107539330 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogresphere.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1123535072 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreshadowcaster.h
+	"OgrePrerequisites.h"
+	"OgreRenderable.h"
+
+1114808888 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerenderable.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreRenderOperation.h"
+	"OgreMatrix4.h"
+	"OgreMaterial.h"
+	"OgrePlane.h"
+	"OgreGpuProgram.h"
+	"OgreVector4.h"
+	"OgreException.h"
+
+1118055916 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerenderoperation.h
+	"OgrePrerequisites.h"
+	"OgreVertexIndexData.h"
+
+1120254134 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrevertexindexdata.h
+	"OgrePrerequisites.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwareIndexBuffer.h"
+
+1107539280 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrehardwareindexbuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+
+1123535060 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrematerial.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreIteratorWrappers.h"
+	"OgreCommon.h"
+	"OgreColourValue.h"
+	"OgreBlendMode.h"
+
+1123098838 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreblendmode.h
+	"OgrePrerequisites.h"
+	"OgreColourValue.h"
+
+1123708522 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogregpuprogram.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreSharedPtr.h"
+	"OgreIteratorWrappers.h"
+
+1107539278 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrefactoryobj.h
+	"OgrePrerequisites.h"
+
+1120254134 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreuserdefinedobject.h
+	"OgrePrerequisites.h"
+
+1115587812 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreradixsort.h
+	"OgrePrerequisites.h"
+
+1107539274 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrebone.h
+	"OgrePrerequisites.h"
+	"OgreNode.h"
+
+1107539306 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrenode.h
+	"OgrePrerequisites.h"
+	"OgreMatrix3.h"
+	"OgreMatrix4.h"
+	"OgreQuaternion.h"
+	"OgreString.h"
+	"OgreRenderable.h"
+	"OgreIteratorWrappers.h"
+
+1119878502 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrecamera.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgreMatrix4.h"
+	"OgreVector3.h"
+	"OgrePlane.h"
+	"OgreQuaternion.h"
+	"OgreCommon.h"
+	"OgreFrustum.h"
+	"OgreRay.h"
+
+1120345158 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrefrustum.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreAxisAlignedBox.h"
+	"OgreVertexIndexData.h"
+	"OgreMovablePlane.h"
+
+1116111760 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogremovableplane.h
+	"OgrePrerequisites.h"
+	"OgrePlane.h"
+	"OgreMovableObject.h"
+
+1107539310 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreray.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgrePlaneBoundedVolume.h"
+
+1107539310 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreplaneboundedvolume.h
+	"OgrePrerequisites.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreMath.h"
+	"OgrePlane.h"
+
+1111862666 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreconfigfile.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreStringVector.h"
+	"OgreIteratorWrappers.h"
+	"OgreDataStream.h"
+
+1107539276 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrecontrollermanager.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreSingleton.h"
+	"OgreController.h"
+	"OgrePredefinedControllers.h"
+	"OgreTextureUnitState.h"
+	"OgreSharedPtr.h"
+
+1107539276 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrecontroller.h
+	"OgrePrerequisites.h"
+	"OgreSharedPtr.h"
+
+1115757018 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrepredefinedcontrollers.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreController.h"
+	"OgreFrameListener.h"
+	"OgreGpuProgram.h"
+
+1107539278 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreframelistener.h
+	"OgrePrerequisites.h"
+
+1123099176 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogretextureunitstate.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreBlendMode.h"
+	"OgreMatrix4.h"
+	"OgreIteratorWrappers.h"
+	"OgreString.h"
+	"OgreTexture.h"
+
+1123801808 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogretexture.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreResource.h"
+	"OgreImage.h"
+
+1113168350 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreimage.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgrePixelFormat.h"
+	"OgreDataStream.h"
+
+1119714944 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrepixelformat.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+
+1124874234 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreentity.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgreAnimationState.h"
+	"OgreQuaternion.h"
+	"OgreVector3.h"
+	"OgreHardwareBufferManager.h"
+	"OgreMesh.h"
+
+1119049500 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreanimationstate.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreController.h"
+	"OgreIteratorWrappers.h"
+
+1118055916 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrehardwarebuffermanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwareIndexBuffer.h"
+
+1119544764 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogremesh.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreVertexIndexData.h"
+	"OgreAxisAlignedBox.h"
+	"OgreVertexBoneAssignment.h"
+	"OgreAnimationState.h"
+	"OgreIteratorWrappers.h"
+	"OgreProgressiveMesh.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreSkeleton.h"
+
+1107539342 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrevertexboneassignment.h
+	"OgrePrerequisites.h"
+
+1118055916 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreprogressivemesh.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwareIndexBuffer.h"
+	"OgreRenderOperation.h"
+
+1118270938 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreskeleton.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreAnimationState.h"
+	"OgreQuaternion.h"
+	"OgreVector3.h"
+
+1107539276 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreeventprocessor.h
+	<list>
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreFrameListener.h"
+	"OgreMouseTarget.h"
+	"OgreKeyTarget.h"
+	"OgreMouseMotionTarget.h"
+
+1111862666 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogremousetarget.h
+	"OgrePrerequisites.h"
+	"OgrePositionTarget.h"
+
+1107539310 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrepositiontarget.h
+	"OgrePrerequisites.h"
+	"OgreEventTarget.h"
+
+1107539278 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreeventtarget.h
+	"OgrePrerequisites.h"
+
+1111862666 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrekeytarget.h
+	"OgrePrerequisites.h"
+	"OgreEventTarget.h"
+
+1111862666 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogremousemotiontarget.h
+	"OgrePrerequisites.h"
+	"OgrePositionTarget.h"
+
+1107539278 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogregpuprogrammanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreException.h"
+	"OgreGpuProgram.h"
+	"OgreSingleton.h"
+
+1111862666 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrehardwareocclusionquery.h
+	"OgrePrerequisites.h"
+
+1119397658 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrehighlevelgpuprogram.h
+	"OgrePrerequisites.h"
+	"OgreGpuProgram.h"
+
+1107539290 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrehighlevelgpuprogrammanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+	"OgreException.h"
+	"OgreHighLevelGpuProgram.h"
+
+1107539292 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreinput.h
+	"OgrePrerequisites.h"
+
+1120345158 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrelight.h
+	"OgrePrerequisites.h"
+	"OgreColourValue.h"
+	"OgreVector3.h"
+	"OgreVector4.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgrePlaneBoundedVolume.h"
+
+1107606828 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrelogmanager.h
+	"OgrePrerequisites.h"
+	"OgreLog.h"
+	"OgreSingleton.h"
+	"OgreString.h"
+
+1107606828 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrelog.h
+	"OgrePrerequisites.h"
+
+1107539304 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrematerialmanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreResourceManager.h"
+	"OgreMaterial.h"
+	"OgreStringVector.h"
+	"OgreMaterialSerializer.h"
+
+1118614814 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrematerialserializer.h
+	"OgrePrerequisites.h"
+	"OgreMaterial.h"
+	"OgreBlendMode.h"
+	"OgreTextureUnitState.h"
+	"OgreGpuProgram.h"
+	"OgreStringVector.h"
+
+1107539304 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogremeshmanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+	"OgreVector3.h"
+	"OgreHardwareBuffer.h"
+	"OgreMesh.h"
+	"OgrePatchMesh.h"
+
+1107539310 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrepatchmesh.h
+	"OgrePrerequisites.h"
+	"OgreMesh.h"
+	"OgrePatchSurface.h"
+
+1107539310 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrepatchsurface.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreString.h"
+	"OgreRenderOperation.h"
+	"OgreAxisAlignedBox.h"
+
+1107539306 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogremeshserializer.h
+	"OgrePrerequisites.h"
+	"OgreMeshSerializerImpl.h"
+	"OgreSerializer.h"
+
+1118532884 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogremeshserializerimpl.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSerializer.h"
+	"OgreMaterial.h"
+	"OgreMesh.h"
+	"OgreEdgeListBuilder.h"
+
+1107539330 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreserializer.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreDataStream.h"
+
+1107539276 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreedgelistbuilder.h
+	"OgrePrerequisites.h"
+	"OgreVector4.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreRenderOperation.h"
+
+1115767724 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreoverlay.h
+	"OgrePrerequisites.h"
+	"OgreSceneNode.h"
+	"OgreIteratorWrappers.h"
+	"OgreMatrix4.h"
+
+1107539328 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrescenenode.h
+	"OgrePrerequisites.h"
+	"OgreNode.h"
+	"OgreIteratorWrappers.h"
+	"OgreAxisAlignedBox.h"
+
+1121034200 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreoverlaycontainer.h
+	"OgrePrerequisites.h"
+	"OgreOverlayElement.h"
+	"OgreIteratorWrappers.h"
+
+1107539306 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreoverlayelement.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreRenderable.h"
+	"OgreStringInterface.h"
+	"OgreOverlayElementCommands.h"
+	"OgreColourValue.h"
+	"OgreRectangle.h"
+
+1107539306 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreoverlayelementcommands.h
+	"OgrePrerequisites.h"
+	"OgreStringInterface.h"
+
+1107539310 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerectangle.h
+	"OgrePrerequisites.h"
+
+1109437322 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreoverlaymanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreStringVector.h"
+	"OgreOverlay.h"
+	"OgreScriptLoader.h"
+
+1114808888 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreparticleaffector.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreStringInterface.h"
+
+1114808888 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreparticleemitter.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringInterface.h"
+	"OgreParticleEmitterCommands.h"
+	"OgreParticle.h"
+
+1107539306 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreparticleemittercommands.h
+	"OgrePrerequisites.h"
+	"OgreStringInterface.h"
+
+1107539306 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreparticle.h
+	"OgrePrerequisites.h"
+	"OgreBillboard.h"
+
+1114818494 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrebillboard.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+
+1116371942 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreparticlesystemmanager.h
+	"OgrePrerequisites.h"
+	"OgreParticleSystem.h"
+	"OgreFrameListener.h"
+	"OgreSingleton.h"
+	"OgreIteratorWrappers.h"
+	"OgreScriptLoader.h"
+	"OgreResourceGroupManager.h"
+
+1119737446 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreparticlesystem.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreString.h"
+	"OgreParticleIterator.h"
+	"OgreStringInterface.h"
+	"OgreMovableObject.h"
+	"OgreRadixSort.h"
+
+1107539306 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreparticleiterator.h
+	"OgrePrerequisites.h"
+
+1123099020 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrepass.h
+	"OgrePrerequisites.h"
+	"OgreGpuProgram.h"
+	"OgreColourValue.h"
+	"OgreBlendMode.h"
+	"OgreCommon.h"
+	"OgreLight.h"
+
+1107539310 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreplatformmanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+
+1107539310 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreprofiler.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreString.h"
+	"OgreOverlay.h"
+
+1107539312 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerenderqueuelistener.h
+	"OgrePrerequisites.h"
+	"OgreRenderQueue.h"
+
+1123535070 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerendersystem.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreTextureUnitState.h"
+	"OgreCommon.h"
+	"OgreRenderOperation.h"
+	"OgreRenderSystemCapabilities.h"
+	"OgreRenderTarget.h"
+	"OgreRenderTexture.h"
+	"OgreFrameListener.h"
+	"OgreConfigOptionMap.h"
+	"OgreGpuProgram.h"
+	"OgrePlane.h"
+	"OgreIteratorWrappers.h"
+
+1122485942 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerendersystemcapabilities.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+
+1111862666 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerendertarget.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreTextureManager.h"
+	"OgreViewport.h"
+	"OgreTimer.h"
+
+1107539342 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogretexturemanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreTexture.h"
+	"OgreSingleton.h"
+
+1107539342 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreviewport.h
+	"OgrePrerequisites.h"
+	"OgreColourValue.h"
+
+1120254134 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogretimer.h
+	"OgrePrerequisites.h"
+
+1122485942 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerendertexture.h
+	"OgrePrerequisites.h"
+	"OgreRenderTarget.h"
+
+1107539276 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreconfigoptionmap.h
+	"OgrePrerequisites.h"
+	"OgreStringVector.h"
+	"OgreString.h"
+
+1107539312 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerendertargetlistener.h
+	"OgrePrerequisites.h"
+
+1119388394 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerenderwindow.h
+	"OgrePrerequisites.h"
+	"OgreRenderTarget.h"
+
+1123535072 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreroot.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreString.h"
+	"OgreSceneManagerEnumerator.h"
+	"OgreResourceGroupManager.h"
+	<exception>
+
+1107539328 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrescenemanagerenumerator.h
+	"OgrePrerequisites.h"
+	"OgreSceneManager.h"
+	"OgreSingleton.h"
+
+1124874430 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrescenemanager.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSceneNode.h"
+	"OgrePlane.h"
+	"OgreQuaternion.h"
+	"OgreColourValue.h"
+	"OgreCommon.h"
+	"OgreRenderQueue.h"
+	"OgreAnimationState.h"
+	"OgreSceneQuery.h"
+	"OgreAutoParamDataSource.h"
+	"OgreAnimationState.h"
+	"OgreRenderQueue.h"
+	"OgreRenderQueueSortingGrouping.h"
+	"OgreRectangle2D.h"
+
+1123535072 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrescenequery.h
+	"OgrePrerequisites.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreRay.h"
+	"OgreRenderOperation.h"
+	"OgrePlaneBoundedVolume.h"
+
+1117282188 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreautoparamdatasource.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreMatrix4.h"
+	"OgreVector4.h"
+	"OgreLight.h"
+	"OgreColourValue.h"
+
+1118055916 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerenderqueuesortinggrouping.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+	"OgreMaterial.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgreMaterialManager.h"
+	"OgreRadixSort.h"
+
+1117282188 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogretechnique.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+	"OgreBlendMode.h"
+	"OgreCommon.h"
+	"OgrePass.h"
+
+1107539312 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrerectangle2d.h
+	"OgrePrerequisites.h"
+	"OgreSimpleRenderable.h"
+
+1116111760 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogresimplerenderable.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreAxisAlignedBox.h"
+	"OgreMaterial.h"
+
+1115767724 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreskeletoninstance.h
+	"OgrePrerequisites.h"
+	"OgreSkeleton.h"
+
+1107539330 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreskeletonmanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+
+1117578034 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreskeletonserializer.h
+	"OgrePrerequisites.h"
+	"OgreSkeleton.h"
+	"OgreSerializer.h"
+
+1120345158 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrestaticgeometry.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreEdgeListBuilder.h"
+
+1113168352 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrestringconverter.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+	"OgreString.h"
+	"OgreStringVector.h"
+
+1119613224 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogresubentity.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreRenderable.h"
+	"OgreHardwareBufferManager.h"
+
+1107539340 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogresubmesh.h
+	"OgrePrerequisites.h"
+	"OgreVertexIndexData.h"
+	"OgreMaterial.h"
+	"OgreRenderOperation.h"
+	"OgreVertexBoneAssignment.h"
+	"OgreProgressiveMesh.h"
+
+1120925154 c:\documents and settings\drinker soul\desktop\ogrenew\samples\paginglandscape2\include\paginglandscape.h
+	"ExampleApplication.h"
+	"OgreStringConverter.h"
+	"OgreSphere.h"
+	"OgrePanelOverlayElement.h"
+	"OgrePagingLandScapeRaySceneQuery.h"
+	"OgrePagingLandScapeListenerManager.h"
+
+1107539634 c:\documents and settings\drinker soul\desktop\ogrenew\samples\common\include\exampleapplication.h
+	"Ogre.h"
+	"OgreConfigFile.h"
+	"ExampleFrameListener.h"
+
+1107539638 c:\documents and settings\drinker soul\desktop\ogrenew\samples\common\include\exampleframelistener.h
+	"Ogre.h"
+	"OgreKeyEvent.h"
+	"OgreEventListeners.h"
+	"OgreStringConverter.h"
+	"OgreException.h"
+
+1107539292 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrekeyevent.h
+	"OgrePrerequisites.h"
+	"OgreInputEvent.h"
+
+1107539292 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreinputevent.h
+	"OgrePrerequisites.h"
+
+1107539276 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogreeventlisteners.h
+	"OgrePrerequisites.h"
+	"OgreMouseEvent.h"
+
+1107539306 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogremouseevent.h
+	"OgrePrerequisites.h"
+	"OgreInputEvent.h"
+
+1118055916 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrepaneloverlayelement.h
+	"OgreOverlayContainer.h"
+
+1119361078 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscaperayscenequery.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeOctreeRaySceneQuery.h"
+
+1118925974 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapeprerequisites.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBufferManager.h"
+	"OgreTextureManager.h"
+	"OgreHardwarePixelBuffer.h"
+	<vector>
+	<map>
+	<queue>
+	<list>
+
+1122247186 c:\documents and settings\drinker soul\desktop\ogrenew\ogremain\include\ogrehardwarepixelbuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+	"OgrePixelFormat.h"
+	"OgreImage.h"
+
+1113553772 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapeoctreerayscenequery.h
+	"OgrePagingLandScapePrerequisites.h"
+	<OgreSceneManager.h>
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapelistenermanager.h
+	"OgrePagingLandScapePrerequisites.h"
+	"OgrePagingLandScapeListener.h"
+	"OgreSingleton.h"
+
+1114619838 c:\documents and settings\drinker soul\desktop\ogrenew\plugins\paginglandscape2\include\ogrepaginglandscapelistener.h
+	"OgrePagingLandScapePrerequisites.h"
+

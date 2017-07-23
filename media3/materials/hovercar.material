@@ -1,0 +1,71 @@
+
+material Jetstream/Car07e
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture_alias 0
+				texture Car07.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/Car07
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture_alias 0
+				texture Car07.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/Car07e2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture Car07.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/Car071
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture_alias 0
+				texture Car07.dds
+			}
+		}
+
+	}
+
+}

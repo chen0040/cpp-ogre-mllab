@@ -1,0 +1,14 @@
+
+material Jetstream/brickwall
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture brick_texture_small.dds
+			}
+		}
+	}
+}

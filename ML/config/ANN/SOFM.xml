@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<method name="Kohonen SOFM">
+	<configuration>
+		<section name="Parameters">
+			<param name="Rows" label="Rows" value="5" type="integer" lower_bound="1" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.37"/>
+			<param name="Cols" label="Cols" value="5" type="integer" lower_bound="1" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.37"/>
+			<param name="InputDimension" label="Input Dimension" value="3" type="integer" lower_bound="1" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.37"/>
+			<param name="WeightLowerBound" label="Weight Lower Bound" value="-5" type="integer" lower_bound="1" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.47"/>
+			<param name="WeightUpperBound" label="Weight Upper Bound" value="5" type="integer" lower_bound="1" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.47"/>
+		</section>
+		<section name="Training">
+			<param name="TrainingSampleCount" label="Simulation Sample Count" value="5" type="integer" lower_bound="1" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.57" />
+		</section>
+	</configuration>
+	
+	<class name="SOFMLayer">
+		<file type="java" src="..\ML\src\ann\som\kohonen\SOFMLayer.java" name="ann\som\kohonen\SOFMLayer.java" config="false" />
+	</class>
+	
+	<class name="SOFMNet">
+		<file type="java" src="..\ML\src\ann\som\kohonen\SOFMNet.java" name="ann\som\kohonen\SOFMNet.java" config="false" />
+	</class>
+	
+	<class name="SOFMNeuron">
+		<file type="java" src="..\ML\src\ann\som\kohonen\SOFMNeuron.java" name="ann\som\kohonen\SOFMNeuron.java" config="false" />
+	</class>
+	
+	<class name="SOFMSynapse">
+		<file type="java" src="..\ML\src\ann\som\kohonen\SOFMSynapse.java" name="ann\som\kohonen\SOFMSynapse.java" config="false" />
+	</class>
+	
+	<class name="Example">
+		<file type="java" src="..\ML\src\ann\som\kohonen\Example.java" name="ann\som\kohonen\Example.java" config="true" />
+	</class>
+	
+	<packages>
+		<package name="ml" />
+		<package name="imagex" />
+	</packages>
+</method>

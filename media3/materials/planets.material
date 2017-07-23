@@ -1,0 +1,268 @@
+material Jetstream/GreenSlime
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture greenslime.dds	
+				scroll_anim -0.01 0
+			}			
+		}
+	}
+}
+
+material Jetstream/PurpleIce
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture purpleice.dds
+				scroll_anim -0.01 0
+			}			
+		}
+	}
+}
+
+material Jetstream/PurpleViens
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture purpleviens.dds
+				scroll_anim -0.01 0
+			}			
+		}
+	}
+}
+
+material Jetstream/BlueSwirls
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture blueswirls.dds
+				scroll_anim -0.01 0
+			}			
+		}
+	}
+}
+
+material Jetstream/PinkSands
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture pinksands.dds
+				scroll_anim -0.01 0
+			}			
+		}
+	}
+}
+
+material Jetstream/PurpleShimer
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture purpleshimer.dds
+				scroll_anim -0.01 0
+			}			
+		}
+	}
+}
+
+material Jetstream/PurpleClouds
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture purpleclouds.dds		
+				scroll_anim -0.01 0		
+			}
+		}
+		
+		pass
+		{
+			scene_blend add
+			lighting off
+			cull_hardware none
+			cull_software none
+			
+			texture_unit
+			{
+				texture blue-purple-mist2.dds	
+				scroll_anim -0.005 0		
+			}		
+		}
+	}
+}
+
+material Jetstream/Mars
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture marsmap1k.dds	
+				scroll_anim -0.01 0		
+			}
+		}
+		
+		pass
+		{
+			scene_blend add
+			lighting off
+			cull_hardware none
+			cull_software none
+			
+			texture_unit
+			{
+				texture neptuneclouds.dds	
+				scroll_anim -0.005 0		
+			}		
+		}
+	}
+}
+
+material Jetstream/SilverIce
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture silverice.dds		
+				scroll_anim -0.01 0		
+			}
+		}
+		
+		pass
+		{
+			scene_blend add
+			lighting off
+			cull_hardware none
+			cull_software none
+			
+			texture_unit
+			{
+				texture blue-purple-mist.dds	
+				scroll_anim -0.005 0		
+			}		
+		}
+	}
+}
+
+material Jetstream/Earth
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture earth.dds		
+				scroll_anim -0.01 0
+			}			
+		}
+	}
+}
+
+material Jetstream/Sun
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture sun.dds				
+			}
+		}
+	}
+}
+
+material Jetstream/Neptune
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture neptunemap.dds
+				scroll_anim 0.02 0
+			}
+		}
+	}
+}

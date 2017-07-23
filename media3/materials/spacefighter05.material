@@ -1,0 +1,44 @@
+
+material Jetstream/SpaceFighter05_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture SF-05.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/Spacefighter5_Night_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture SF-05.dds
+			}
+		}
+
+		pass
+		{
+			emissive 1 0 0
+			scene_blend add
+
+			texture_unit
+			{
+				texture sf-illum.dds
+			}
+		}
+
+	}
+
+}

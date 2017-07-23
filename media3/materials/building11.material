@@ -1,0 +1,16 @@
+
+material Jetstream/b11_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture buildz1.dds
+			}
+		}
+
+	}
+
+}

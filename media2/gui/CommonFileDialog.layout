@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<GUILayout>
+	<Window Type="TaharezLook/FrameWindow" Name="CommonFileDialog">
+		<Property Name="AlwaysOnTop" Value="true" />
+		<Property Name="UnifiedAreaRect" Value="{{0.3,0.0},{0.2,0.0},{0.8,0.0},{0.8,0.0}}" />
+		<Property Name="SizingEnabled" Value="false" />
+		<Property Name="CloseButtonEnabled" Value="true" />
+		<Window Type="TaharezLook/Combobox" Name="CommonFileDialog/DriveCombobox">
+			<Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.07,0},{0.5,0},{0.57}}" />
+			<Property Name="ClippedByParent" Value="false" />
+			<Property Name="ReadOnly" Value="true" />
+		</Window>
+		<Window Type="TaharezLook/Button" Name="CommonFileDialog/BackButton">
+			<Property Name="AlwaysOnTop" Value="true" />
+			<Property Name="UnifiedAreaRect" Value="{{0.55,0},{0.07,0},{0.75},{0.12}}" />
+		</Window>
+		<Window Type="TaharezLook/Listbox" Name="CommonFileDialog/Listbox">
+			<Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.13,0},{0.95,0},{0.83,0}}" />
+		</Window>
+		<Window Type="TaharezLook/Button" Name="CommonFileDialog/OkButton">
+			<Property Name="AlwaysOnTop" Value="true" />
+			<Property Name="UnifiedAreaRect" Value="{{0.75,0},{0.85,0},{0.95,0},{0.9,0}}" />
+			<Property Name="Text" Value="Ok" />
+		</Window>
+		<Window Type="TaharezLook/Button" Name="CommonFileDialog/CancelButton">
+			<Property Name="AlwaysOnTop" Value="true" />
+			<Property Name="UnifiedAreaRect" Value="{{0.75,0},{0.9,0},{0.95,0},{0.95,0}}" />
+			<Property Name="Text" Value="Cancel" />
+		</Window>
+		<Window Type="TaharezLook/StaticText" Name="CommonFileDialog/FileNameText">
+			<Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.85,0},{0.25,0},{0.91,0}}" />
+			<Property Name="Text" Value="Filename:" />
+			<Property Name="FrameEnabled" Value="false" />
+			<Property Name="BackgroundEnabled" Value="false" />
+		</Window>
+		<Window Type="TaharezLook/StaticText" Name="CommonFileDialog/ExtentionText">
+			<Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.9,0},{0.25,0},{0.96,0}}" />
+			<Property Name="Text" Value="Extensions:" />
+			<Property Name="FrameEnabled" Value="false" />
+			<Property Name="BackgroundEnabled" Value="false" />
+		</Window>
+		<Window Type="TaharezLook/Combobox" Name="CommonFileDialog/FileCombobox">
+			<Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.85,0},{0.75,0},{1.35,0}}" />
+			<Property Name="ClippedByParent" Value="false" />
+			<Property Name="ReadOnly" Value="false" />
+		</Window>
+		<Window Type="TaharezLook/Combobox" Name="CommonFileDialog/ExtensionCombobox">
+			<Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.9,0},{0.75,0},{1.4,0}}" />
+			<Property Name="ClippedByParent" Value="false" />
+			<Property Name="ReadOnly" Value="true" />
+		</Window>
+		<Window Type="TaharezLook/FrameWindow" Name="CommonFileDialog/PromptLoad">
+			<Property Name="AlwaysOnTop" Value="true" />
+			<Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.3,0},{0.8,0},{0.7,0}}" />
+			<Property Name="SizingEnabled" Value="false" />
+			<Property Name="CloseButtonEnabled" Value="false" />
+			<Property Name="DragMovingEnabled" Value="false" />
+			<Window Type="TaharezLook/StaticText" Name="CommonFileDialog/PromptLoad/Text">
+				<Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.95,0},{0.3,0}}" />
+				<Property Name="FrameEnabled" Value="false" />
+				<Property Name="BackgroundEnabled" Value="false" />
+			</Window>
+			<Window Type="TaharezLook/Button" Name="CommonFileDialog/PromptLoad/OkButton">
+				<Property Name="AlwaysOnTop" Value="true" />
+				<Property Name="UnifiedAreaRect" Value="{{0.37,0},{0.8,0},{0.62,0},{0.9,0}}" />
+				<Property Name="Text" Value="Ok" />
+			</Window>
+		</Window>
+		<Window Type="TaharezLook/FrameWindow" Name="CommonFileDialog/PromptSave">
+			<Property Name="AlwaysOnTop" Value="true" />
+			<Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.3,0},{0.8,0},{0.7,0}}" />
+			<Property Name="SizingEnabled" Value="false" />
+			<Property Name="CloseButtonEnabled" Value="false" />
+			<Property Name="DragMovingEnabled" Value="false" />
+			<Window Type="TaharezLook/StaticText" Name="CommonFileDialog/PromptSave/Text">
+				<Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.95,0},{0.3,0}}" />
+				<Property Name="FrameEnabled" Value="false" />
+				<Property Name="BackgroundEnabled" Value="false" />
+			</Window>
+			<Window Type="TaharezLook/Button" Name="CommonFileDialog/PromptSave/OkButton">
+				<Property Name="AlwaysOnTop" Value="true" />
+				<Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.8,0},{0.45,0},{0.9,0}}" />
+				<Property Name="Text" Value="Ok" />
+			</Window>
+			<Window Type="TaharezLook/Button" Name="CommonFileDialog/PromptSave/CancelButton">
+				<Property Name="AlwaysOnTop" Value="true" />
+				<Property Name="UnifiedAreaRect" Value="{{0.55,0},{0.8,0},{0.8,0},{0.9,0}}" />
+				<Property Name="Text" Value="Cancel" />
+			</Window>
+		</Window>
+	</Window>
+</GUILayout>

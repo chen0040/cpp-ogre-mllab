@@ -1,0 +1,1252 @@
+material Jetstream/_Black
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture black.dds
+			}
+		}
+	}
+}
+
+material Jetstream/WeaponTeardrop
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				texture weaponteardrop.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Warp_Bubble
+{
+   technique
+   {
+       pass
+       {
+           lighting off
+           depth_write off
+           scene_blend alpha_blend
+           texture_unit
+           {
+			scroll_anim 1 1             
+ 			texture warp_bubble.dds
+           }
+       }
+   }
+}
+
+material Jetstream/Lensflare_Halo
+{
+   technique
+   {
+       pass
+       {
+           lighting off
+           depth_write off
+           scene_blend add
+           texture_unit
+           {
+               texture flare1.dds
+           }
+       }
+   }
+}
+
+material Jetstream/Lensflare_Burst
+{
+   technique
+   {
+       pass
+       {
+           lighting off
+           depth_write off
+           scene_blend add
+           texture_unit
+           {
+               texture flare2.dds
+           }
+       }
+   }
+}
+
+
+material Jetstream/Ring
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture ring.dds
+			}
+		}
+	}
+}
+
+material Jetstream/ShockwaveBomb
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture push_wave.dds
+			}
+		}
+	}
+}
+
+material Jetstream/powerup-glow
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture powerup-glow.dds
+			}
+		}
+	}
+}
+
+material Jetstream/leaf
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture leaf.dds
+			}
+		}
+	}
+}
+
+material Jetstream/BlueRedMist
+{
+	technique
+	{
+		pass
+		{
+			scene_blend add
+
+			texture_unit
+			{
+				scroll_anim 0 0.05
+				texture blue-red-mist.dds
+			}
+		}
+	}
+}
+
+material Jetstream/BlueNebulaMist
+{
+	technique
+	{
+		pass
+		{
+			scene_blend add
+
+			texture_unit
+			{
+				scroll_anim 0 0.05
+				texture blue-nebula.dds
+			}
+		}
+	}
+}
+
+material Jetstream/point_lensflare
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			point_sprites on
+			point_size 0.1
+			point_size_attenuation on
+
+			texture_unit
+			{
+				texture flare.dds
+			}
+		}
+	}
+}
+
+material Jetstream/bigFlame
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend add
+			cull_hardware none
+			cull_software none
+
+
+			texture_unit
+			{
+				texture bigflame.dds
+			}
+		}
+	}
+}
+
+
+material Jetstream/JetstreamLogo
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture jetstream.dds
+			}
+		}
+	}
+}
+
+material Jetstream/SoundPlaceholder
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture speaker.dds
+			}
+		}
+	}
+}
+
+material Jetstream/ShortLaser
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				texture shortlaser.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Burst
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				texture burst.dds
+				rotate_anim 1
+			}
+		}
+	}
+}
+
+material Jetstream/Blob
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture blob.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Blob45Left
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture blob-45-left.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Blob45Right
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture blob-45-right.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Blob90Left
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture blob-90-left.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Blob90Right
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture blob-90-right.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Defender
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+			
+			texture_unit
+			{
+				texture defender.dds
+			}
+		}
+	}
+}
+
+material Jetstream/explosion
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend add
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture explosion.dds
+			}
+		}
+	}
+}
+
+material Jetstream/OverlayBackground
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture background.dds
+			}
+		}
+	}
+}
+
+material Jetstream/TransparentOverlayBackground
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture background-transparent.dds
+			}
+		}
+	}
+}
+
+material Jetstream/OverlayBorder
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture border.dds
+			}
+		}
+	}
+}
+
+material Jetstream/LightRibbonTrail
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_check off
+
+			texture_unit
+			{
+				texture ribbonband.dds 1d
+				tex_address_mode clamp
+				filtering none
+			}
+		}
+	}
+}
+
+material Jetstream/Headlights
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture headlights.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Target
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture target.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Droplet
+{
+	technique
+	{
+		pass
+		{
+			scene_blend colour_blend
+			depth_write off
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture basic_droplet.dds
+			}
+		}
+	}
+}
+
+material Jetstream/lensflare
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend add
+
+			texture_unit
+			{
+				texture flare.dds
+			}
+		}
+	}
+}
+
+material Jetstream/DebugCollisionCircle
+{
+	technique
+	{
+		pass
+		{
+			scene_blend add
+			depth_write off
+			lighting off
+			
+			texture_unit
+			{
+				texture circle.dds				
+			}
+		}
+	}
+}
+
+material Jetstream/Lava
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			
+			texture_unit
+			{			
+				scale 0.1 0.025
+				texture lava.dds
+				scroll_anim 0.05 0
+			}
+		}
+	}
+}
+
+material Jetstream/Acid
+{
+	technique
+	{
+		pass
+		{
+			scene_blend Add
+			
+			texture_unit
+			{			
+				scale 0.1 0.025
+				texture acid.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Water
+{
+	technique
+	{
+		pass
+		{
+			scene_blend add
+			
+			texture_unit
+			{			
+				scale 1 0.2
+				texture water_detail.dds			
+			}
+		}
+	}
+}
+
+material Jetstream/YellowGreenWater
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			
+			texture_unit
+			{			
+				scale 1 0.2
+				texture yellow-green-water_detail.dds				
+			}
+		}
+	}
+}
+
+
+material Jetstream/Clouds
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+			
+			texture_unit
+			{
+				texture clouds.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Lightning
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+			
+			texture_unit
+			{
+				texture lightning.dds
+				
+			}
+		}
+	}
+}
+
+material Jetstream/Sarcasmo
+{
+	technique
+	{
+		pass
+		{
+			depth_write off
+			lighting off
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture sarcasmo.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Loading1
+{
+	technique
+	{
+		pass
+		{
+			depth_write off
+			lighting off
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture loading1.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Loading2
+{
+	technique
+	{
+		pass
+		{
+			depth_write off
+			lighting off
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture loading2.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Loading3
+{
+	technique
+	{
+		pass
+		{
+			depth_write off
+			lighting off
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture loading3.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Loading4
+{
+	technique
+	{
+		pass
+		{
+			depth_write off
+			lighting off
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture loading4.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Loading5
+{
+	technique
+	{
+		pass
+		{
+			depth_write off
+			lighting off
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture loading5.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Laser
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend src_alpha one
+			cull_hardware none
+			cull_software none
+			
+			texture_unit
+			{
+				texture laser.dds
+			}
+		}
+	}
+}
+
+material Jetstream/RedLaser
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend src_alpha one
+			cull_hardware none
+			cull_software none
+			
+			texture_unit
+			{
+				texture red-laser.dds
+			}
+		}
+	}
+}
+
+material Jetstream/RedTargetingLaser
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend src_alpha one
+			cull_hardware none
+			cull_software none
+			
+			texture_unit
+			{
+				texture red-targeting-laser.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Flare
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend add
+
+			texture_unit
+			{
+				texture flare2.dds
+			}
+		}
+	}
+}
+
+material Jetstream/FlareTrail
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture flaretrail.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Plasma
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend add
+
+			texture_unit
+			{
+				texture plasma.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Weave
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture weave.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Bomb
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture bomb.dds
+			}
+		}
+	}
+}
+
+material Jetstream/BasicBullet
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture basicbullet.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Shockwave
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend add
+
+			texture_unit
+			{
+				texture shockwave.dds
+			}
+		}
+	}
+}
+
+material Jetstream/Streak
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture flare3.dds
+			}
+		}
+	}
+}
+
+material Jetstream/ringflare
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend add
+
+			texture_unit
+			{
+				texture ring_flare.dds
+			}
+		}
+	}
+}
+
+material Jetstream/blueringflare
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend add
+
+			texture_unit
+			{
+				texture blue_ring_flare.dds
+			}
+		}
+	}
+}
+
+material Jetstream/DebugSphere
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.75 0.75 0.75
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture debugsphere.dds
+			}
+		}
+	}
+}
+
+material Jetstream/SpaceBackground1
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			texture_unit
+			{
+				texture SpaceBackground1.dds
+			}
+		}
+
+		pass
+		{
+			ambient 0.5 0.5 0.5
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture blue-purple-mist.dds
+				scroll_anim 0 0.025
+			}
+		}
+	}
+
+}
+
+material Jetstream/SpaceBackground2
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			texture_unit
+			{
+				texture SpaceBackground2.dds
+			}
+		}
+	}
+}
+
+material Jetstream/SpaceBackground3
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			texture_unit
+			{
+				texture stars1.dds
+				scroll_anim 0 0.010
+				scale 0.5 0.5
+			}
+		}
+		
+		pass
+		{
+			scene_blend add
+			lighting off
+			texture_unit
+			{
+				texture stars2.dds
+				scroll_anim 0 0.025
+				scale 0.5 0.5
+			}
+		}
+	}
+}
+
+material Jetstream/smoke
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture smoke.dds
+			}
+		}
+	}
+}
+
+material MainMenuWireframe
+{
+	technique
+	{
+		pass
+		{
+			polygon_mode wireframe
+		}
+	}
+}
+
+material Jetstream/SpaceSkyBox
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture stevecube.dds separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material Jetstream/SpaceSkyBox2
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture skybox.dds separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material Jetstream/GreenAsteroid
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture green_asteroid.dds
+			}
+		}
+	}
+}
+
+material Jetstream/BlueAsteroid
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture blue_asteroid.dds
+			}
+		}
+	}
+}
+
+material Jetstream/RedAsteroid
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture red_asteroid.dds
+			}
+		}
+	}
+}
+

@@ -1,0 +1,56 @@
+material Barrel1/Metal_Rust
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture BARREL_T.dds 
+            }
+        }
+    }
+}
+
+material Barrel1/Material_#45
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+			texture BARREL_T.dds
+		}
+        }
+    }
+}
+
+material Barrel1/Metal_Grey_Plain
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+			texture BARREL_T.dds
+		}
+        }
+    }
+}
+
+material Barrel1/Texture1
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture BARREL.dds 
+            }
+        }
+    }
+}
+

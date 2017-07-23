@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<trainingdata>
+    <record>
+        <state index="1" comment="is my target attackable" luaGet="isTargetAttackable" luaSet="setTargetAttackable" value="0" />
+        <state index="2" comment="number of my attackers" luaGet="getSightedAttackerCount" luaSet="setSightedAttackerCount" value="0" />
+        <state index="3" comment="target distance divided by my shooting range" luaGet="getTargetRelativeDistance" luaSet="setTargetRelativeDistance" value="1.000000" />
+        <state index="4" comment="target life divided by my life" luaGet="getTargetRelativeLife" luaSet="setTargetRelativeLife" value="1" />
+        <state index="5" comment="my number of bullets remained" luaGet="getGun():getBulletCount" luaSet="getGun():setBulletCount" value="20" />
+        <state index="6" comment="my health" luaGet="getLife" luaSet="setLife" value="1000" />
+        <state index="7" comment="my score" luaGet="getScore" luaSet="setScore" value="0.000000" />
+        <output index="1" comment="my action" symbol="GameAgentAction.APPROACH" value="2" luaSet="setCurrentAction" luaGet="getCurrentAction" />
+    </record>
+    <record>
+        <state index="1" comment="is my target attackable" luaGet="isTargetAttackable" luaSet="setTargetAttackable" value="1" />
+        <state index="2" comment="number of my attackers" luaGet="getSightedAttackerCount" luaSet="setSightedAttackerCount" value="0" />
+        <state index="3" comment="target distance divided by my shooting range" luaGet="getTargetRelativeDistance" luaSet="setTargetRelativeDistance" value="0.606732" />
+        <state index="4" comment="target life divided by my life" luaGet="getTargetRelativeLife" luaSet="setTargetRelativeLife" value="0" />
+        <state index="5" comment="my number of bullets remained" luaGet="getGun():getBulletCount" luaSet="getGun():setBulletCount" value="16" />
+        <state index="6" comment="my health" luaGet="getLife" luaSet="setLife" value="1000" />
+        <state index="7" comment="my score" luaGet="getScore" luaSet="setScore" value="59.999908" />
+        <output index="1" comment="my action" symbol="GameAgentAction.ATTACK" value="0" luaSet="setCurrentAction" luaGet="getCurrentAction" />
+    </record>
+    <record>
+        <state index="1" comment="is my target attackable" luaGet="isTargetAttackable" luaSet="setTargetAttackable" value="1" />
+        <state index="2" comment="number of my attackers" luaGet="getSightedAttackerCount" luaSet="setSightedAttackerCount" value="0" />
+        <state index="3" comment="target distance divided by my shooting range" luaGet="getTargetRelativeDistance" luaSet="setTargetRelativeDistance" value="0.978025" />
+        <state index="4" comment="target life divided by my life" luaGet="getTargetRelativeLife" luaSet="setTargetRelativeLife" value="0" />
+        <state index="5" comment="my number of bullets remained" luaGet="getGun():getBulletCount" luaSet="getGun():setBulletCount" value="11" />
+        <state index="6" comment="my health" luaGet="getLife" luaSet="setLife" value="1000" />
+        <state index="7" comment="my score" luaGet="getScore" luaSet="setScore" value="159.999908" />
+        <output index="1" comment="my action" symbol="GameAgentAction.ESCAPE" value="4" luaSet="setCurrentAction" luaGet="getCurrentAction" />
+    </record>
+    <record>
+        <state index="1" comment="is my target attackable" luaGet="isTargetAttackable" luaSet="setTargetAttackable" value="0" />
+        <state index="2" comment="number of my attackers" luaGet="getSightedAttackerCount" luaSet="setSightedAttackerCount" value="0" />
+        <state index="3" comment="target distance divided by my shooting range" luaGet="getTargetRelativeDistance" luaSet="setTargetRelativeDistance" value="1.000000" />
+        <state index="4" comment="target life divided by my life" luaGet="getTargetRelativeLife" luaSet="setTargetRelativeLife" value="0" />
+        <state index="5" comment="my number of bullets remained" luaGet="getGun():getBulletCount" luaSet="getGun():setBulletCount" value="12" />
+        <state index="6" comment="my health" luaGet="getLife" luaSet="setLife" value="1000" />
+        <state index="7" comment="my score" luaGet="getScore" luaSet="setScore" value="159.999908" />
+        <output index="1" comment="my action" symbol="GameAgentAction.WANDER" value="3" luaSet="setCurrentAction" luaGet="getCurrentAction" />
+    </record>
+    <record>
+        <state index="1" comment="is my target attackable" luaGet="isTargetAttackable" luaSet="setTargetAttackable" value="0" />
+        <state index="2" comment="number of my attackers" luaGet="getSightedAttackerCount" luaSet="setSightedAttackerCount" value="0" />
+        <state index="3" comment="target distance divided by my shooting range" luaGet="getTargetRelativeDistance" luaSet="setTargetRelativeDistance" value="1.000000" />
+        <state index="4" comment="target life divided by my life" luaGet="getTargetRelativeLife" luaSet="setTargetRelativeLife" value="0" />
+        <state index="5" comment="my number of bullets remained" luaGet="getGun():getBulletCount" luaSet="getGun():setBulletCount" value="12" />
+        <state index="6" comment="my health" luaGet="getLife" luaSet="setLife" value="1000" />
+        <state index="7" comment="my score" luaGet="getScore" luaSet="setScore" value="159.999908" />
+        <output index="1" comment="my action" symbol="GameAgentAction.ATTACK" value="0" luaSet="setCurrentAction" luaGet="getCurrentAction" />
+    </record>
+    <record>
+        <state index="1" comment="is my target attackable" luaGet="isTargetAttackable" luaSet="setTargetAttackable" value="0" />
+        <state index="2" comment="number of my attackers" luaGet="getSightedAttackerCount" luaSet="setSightedAttackerCount" value="0" />
+        <state index="3" comment="target distance divided by my shooting range" luaGet="getTargetRelativeDistance" luaSet="setTargetRelativeDistance" value="1.000000" />
+        <state index="4" comment="target life divided by my life" luaGet="getTargetRelativeLife" luaSet="setTargetRelativeLife" value="0" />
+        <state index="5" comment="my number of bullets remained" luaGet="getGun():getBulletCount" luaSet="getGun():setBulletCount" value="12" />
+        <state index="6" comment="my health" luaGet="getLife" luaSet="setLife" value="1000" />
+        <state index="7" comment="my score" luaGet="getScore" luaSet="setScore" value="159.999908" />
+        <output index="1" comment="my action" symbol="GameAgentAction.APPROACH" value="2" luaSet="setCurrentAction" luaGet="getCurrentAction" />
+    </record>
+    <record>
+        <state index="1" comment="is my target attackable" luaGet="isTargetAttackable" luaSet="setTargetAttackable" value="0" />
+        <state index="2" comment="number of my attackers" luaGet="getSightedAttackerCount" luaSet="setSightedAttackerCount" value="0" />
+        <state index="3" comment="target distance divided by my shooting range" luaGet="getTargetRelativeDistance" luaSet="setTargetRelativeDistance" value="1.000000" />
+        <state index="4" comment="target life divided by my life" luaGet="getTargetRelativeLife" luaSet="setTargetRelativeLife" value="0" />
+        <state index="5" comment="my number of bullets remained" luaGet="getGun():getBulletCount" luaSet="getGun():setBulletCount" value="12" />
+        <state index="6" comment="my health" luaGet="getLife" luaSet="setLife" value="1000" />
+        <state index="7" comment="my score" luaGet="getScore" luaSet="setScore" value="159.999908" />
+        <output index="1" comment="my action" symbol="GameAgentAction.ESCAPE" value="4" luaSet="setCurrentAction" luaGet="getCurrentAction" />
+    </record>
+    <record>
+        <state index="1" comment="is my target attackable" luaGet="isTargetAttackable" luaSet="setTargetAttackable" value="0" />
+        <state index="2" comment="number of my attackers" luaGet="getSightedAttackerCount" luaSet="setSightedAttackerCount" value="0" />
+        <state index="3" comment="target distance divided by my shooting range" luaGet="getTargetRelativeDistance" luaSet="setTargetRelativeDistance" value="1.000000" />
+        <state index="4" comment="target life divided by my life" luaGet="getTargetRelativeLife" luaSet="setTargetRelativeLife" value="0" />
+        <state index="5" comment="my number of bullets remained" luaGet="getGun():getBulletCount" luaSet="getGun():setBulletCount" value="12" />
+        <state index="6" comment="my health" luaGet="getLife" luaSet="setLife" value="1000" />
+        <state index="7" comment="my score" luaGet="getScore" luaSet="setScore" value="159.999908" />
+        <output index="1" comment="my action" symbol="GameAgentAction.IDLE" value="1" luaSet="setCurrentAction" luaGet="getCurrentAction" />
+    </record>
+</trainingdata>

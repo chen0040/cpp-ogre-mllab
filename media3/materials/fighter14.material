@@ -1,0 +1,69 @@
+
+material Jetstream/f14_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture fighter14.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/f14_2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture fighter14.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/f14_3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture fighter14.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/f14_4
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture_alias 0
+				texture fighter14.dds
+			}
+		}
+
+	}
+
+}

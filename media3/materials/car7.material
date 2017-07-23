@@ -1,0 +1,17 @@
+
+material Jetstream/c7_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture auto.dds
+			}
+		}
+
+	}
+
+}

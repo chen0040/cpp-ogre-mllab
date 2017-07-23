@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plugin_PagingLandScapeSceneManager2", "PlugIns\PagingLandScape2\scripts\Plugin_PagingLandScapeSceneManager2.vcproj", "{FC8118A4-376A-48EA-8062-999E589EA482}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo_PagingLandScape2", "Samples\PagingLandScape2\scripts\Demo_PagingLandScape2.vcproj", "{EDD4B978-5ABA-448B-8DA7-A02F99714D66}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FC8118A4-376A-48EA-8062-999E589EA482} = {FC8118A4-376A-48EA-8062-999E589EA482}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tool_MapSplitter", "Tools\MapSplitter\script\MapSplitter.vcproj", "{B8DB13C1-5F0E-4C42-8764-6DEE559A6646}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapEditor", "Samples\MapEditor\scripts\MapEditor.vcproj", "{78B6B269-E5EC-4745-A7E5-84802F92A32B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FC8118A4-376A-48EA-8062-999E589EA482} = {FC8118A4-376A-48EA-8062-999E589EA482}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FC8118A4-376A-48EA-8062-999E589EA482}.Debug.ActiveCfg = Debug|Win32
+		{FC8118A4-376A-48EA-8062-999E589EA482}.Debug.Build.0 = Debug|Win32
+		{FC8118A4-376A-48EA-8062-999E589EA482}.Release.ActiveCfg = Release|Win32
+		{EDD4B978-5ABA-448B-8DA7-A02F99714D66}.Debug.ActiveCfg = Debug|Win32
+		{EDD4B978-5ABA-448B-8DA7-A02F99714D66}.Debug.Build.0 = Debug|Win32
+		{EDD4B978-5ABA-448B-8DA7-A02F99714D66}.Release.ActiveCfg = Release|Win32
+		{B8DB13C1-5F0E-4C42-8764-6DEE559A6646}.Debug.ActiveCfg = Debug|Win32
+		{B8DB13C1-5F0E-4C42-8764-6DEE559A6646}.Debug.Build.0 = Debug|Win32
+		{B8DB13C1-5F0E-4C42-8764-6DEE559A6646}.Release.ActiveCfg = Release|Win32
+		{78B6B269-E5EC-4745-A7E5-84802F92A32B}.Debug.ActiveCfg = Debug|Win32
+		{78B6B269-E5EC-4745-A7E5-84802F92A32B}.Debug.Build.0 = Debug|Win32
+		{78B6B269-E5EC-4745-A7E5-84802F92A32B}.Release.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

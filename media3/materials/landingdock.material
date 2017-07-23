@@ -1,0 +1,85 @@
+
+material LandingDock1
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture metal07_door2_128.dds
+			}
+		}
+	}
+}
+material LandingDock2
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture metal_door_windws01.dds
+			}
+		}
+	}
+}
+material LandingDock3
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture metal_window_01.dds
+			}
+		}
+	}
+}
+material LandingDock4
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture metal07_door_128.dds
+			}
+		}
+	}
+}
+material LandingDock5
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture metal_Landing_sign.dds
+			}
+		}
+	}
+}
+material LandingDock6
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture warn_stripe_128.dds
+			}
+		}
+	}
+}

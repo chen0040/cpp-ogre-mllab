@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_layout_file>
+<CodeBlocks_layout_file>
+	<File name="..\include\OgrePagingLandScapeOctreeSceneManager.h" open="0" top="0">
+		<Cursor position="1858" topLine="41"/>
+	</File>
+	<File name="..\src\OgrePagingLandScapeCamera.cpp" open="0" top="0">
+		<Cursor position="2405" topLine="49"/>
+	</File>
+	<File name="..\src\OgrePagingLandScapeData2DManager.cpp" open="0" top="0">
+		<Cursor position="5351" topLine="128"/>
+	</File>
+	<File name="..\src\OgrePagingLandScapeData2D_HeightField.cpp" open="0" top="0">
+		<Cursor position="11778" topLine="294"/>
+	</File>
+	<File name="..\src\OgrePagingLandScapeData2D_HeightFieldBlendNeighbor.cpp" open="0" top="0">
+		<Cursor position="7570" topLine="180"/>
+	</File>
+	<File name="..\src\OgrePagingLandScapeData2D_HeightFieldRaw.cpp" open="0" top="0">
+		<Cursor position="2451" topLine="51"/>
+	</File>
+	<File name="..\src\OgrePagingLandScapeOctree.cpp" open="0" top="0">
+		<Cursor position="2139" topLine="45"/>
+	</File>
+	<File name="..\src\OgrePagingLandScapeOctreeNode.cpp" open="0" top="0">
+		<Cursor position="12206" topLine="309"/>
+	</File>
+	<File name="..\src\OgrePagingLandScapeOctreeSceneManager.cpp" open="0" top="0">
+		<Cursor position="11624" topLine="322"/>
+	</File>
+	<File name="..\src\OgrePagingLandScapeOptions.cpp" open="0" top="0">
+		<Cursor position="0" topLine="3"/>
+	</File>
+	<File name="..\src\OgrePagingLandScapePageRenderable.cpp" open="0" top="0">
+		<Cursor position="2561" topLine="52"/>
+	</File>
+	<File name="..\src\OgrePagingLandScapeRenderable.cpp" open="0" top="0">
+		<Cursor position="1398" topLine="27"/>
+	</File>
+	<File name="..\src\OgrePagingLandScapeRenderableManager.cpp" open="0" top="0">
+		<Cursor position="1779" topLine="32"/>
+	</File>
+	<File name="..\src\OgrePagingLandScapeSceneManager.cpp" open="0" top="0">
+		<Cursor position="910" topLine="6"/>
+	</File>
+	<Expand folder="/Sources/src"/>
+	<Expand folder="/Sources"/>
+	<Expand folder="/Headers/include"/>
+	<Expand folder="/Headers"/>
+</CodeBlocks_layout_file>

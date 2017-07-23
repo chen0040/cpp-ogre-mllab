@@ -1,0 +1,16 @@
+
+material Jetstream/PipeBlock_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture b8_5.dds
+			}
+		}
+
+	}
+
+}

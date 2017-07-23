@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<browser default_page="default" folder="..\media2\NaviLocal" >
+<page name="default" url="local://default.html" transparent_color="FF00FF" mask_file="" />
+<page name="gameboard" url="local://gameboard.html" transparent_color="FF00FF" mask_file="" />
+</browser>

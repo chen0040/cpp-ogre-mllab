@@ -1,0 +1,17 @@
+
+material Jetstream/trafficcone
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture traffic_cone_tex.dds
+			}
+		}
+
+	}
+
+}

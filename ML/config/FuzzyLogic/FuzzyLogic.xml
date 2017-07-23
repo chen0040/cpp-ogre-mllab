@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<method name="Fuzzy Logic">	
+	<packages>
+		<package name="ml" />
+		<package name="imagex" />
+	</packages>
+</method>

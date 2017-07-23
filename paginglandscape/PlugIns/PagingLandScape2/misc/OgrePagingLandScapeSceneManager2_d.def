@@ -1,0 +1,5 @@
+LIBRARY Plugin_PagingLandScapeSceneManager2_d
+EXPORTS	
+	dllStartPlugin
+	dllShutdownPlugin
+	dllStopPlugin

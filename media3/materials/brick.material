@@ -1,0 +1,16 @@
+
+material Jetstream/brick
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture brick.dds
+			}
+		}
+
+	}
+
+}

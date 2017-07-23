@@ -1,0 +1,120 @@
+13:38:13: Creating resource group General
+13:38:13: Creating resource group Internal
+13:38:13: Creating resource group Autodetect
+13:38:13: SceneManagerFactory for type 'DefaultSceneManager' registered.
+13:38:13: Registering ResourceManager for type Material
+13:38:13: Registering ResourceManager for type Mesh
+13:38:13: Registering ResourceManager for type Skeleton
+13:38:13: MovableObjectFactory for type 'ParticleSystem' registered.
+13:38:13: OverlayElementFactory for type Panel registered.
+13:38:13: OverlayElementFactory for type BorderPanel registered.
+13:38:13: OverlayElementFactory for type TextArea registered.
+13:38:13: Registering ResourceManager for type Font
+13:38:13: ArchiveFactory for archive type FileSystem registered.
+13:38:13: ArchiveFactory for archive type Zip registered.
+13:38:13: FreeImage version: 3.10.0
+13:38:13: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+13:38:13: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2
+13:38:13: DDS codec registering
+13:38:13: Registering ResourceManager for type HighLevelGpuProgram
+13:38:13: Registering ResourceManager for type Compositor
+13:38:13: MovableObjectFactory for type 'Entity' registered.
+13:38:13: MovableObjectFactory for type 'Light' registered.
+13:38:13: MovableObjectFactory for type 'BillboardSet' registered.
+13:38:13: MovableObjectFactory for type 'ManualObject' registered.
+13:38:13: MovableObjectFactory for type 'BillboardChain' registered.
+13:38:13: MovableObjectFactory for type 'RibbonTrail' registered.
+13:38:13: Loading library .\RenderSystem_Direct3D9
+13:38:13: Installing plugin: D3D9 RenderSystem
+13:38:13: D3D9 : Direct3D9 Rendering Subsystem created.
+13:38:13: D3D9: Driver Detection Starts
+13:38:13: D3D9: Driver Detection Ends
+13:38:13: Plugin successfully installed
+13:38:13: Loading library .\RenderSystem_GL
+13:38:13: Installing plugin: GL RenderSystem
+13:38:13: OpenGL Rendering Subsystem created.
+13:38:14: Plugin successfully installed
+13:38:14: Loading library .\Plugin_ParticleFX
+13:38:14: Installing plugin: ParticleFX
+13:38:14: Particle Emitter Type 'Point' registered
+13:38:14: Particle Emitter Type 'Box' registered
+13:38:14: Particle Emitter Type 'Ellipsoid' registered
+13:38:14: Particle Emitter Type 'Cylinder' registered
+13:38:14: Particle Emitter Type 'Ring' registered
+13:38:14: Particle Emitter Type 'HollowEllipsoid' registered
+13:38:14: Particle Affector Type 'LinearForce' registered
+13:38:14: Particle Affector Type 'ColourFader' registered
+13:38:14: Particle Affector Type 'ColourFader2' registered
+13:38:14: Particle Affector Type 'ColourImage' registered
+13:38:14: Particle Affector Type 'ColourInterpolator' registered
+13:38:14: Particle Affector Type 'Scaler' registered
+13:38:14: Particle Affector Type 'Rotator' registered
+13:38:14: Particle Affector Type 'DirectionRandomiser' registered
+13:38:14: Particle Affector Type 'DeflectorPlane' registered
+13:38:14: Plugin successfully installed
+13:38:14: Loading library .\Plugin_BSPSceneManager
+13:38:14: Installing plugin: BSP Scene Manager
+13:38:14: Plugin successfully installed
+13:38:14: Loading library .\Plugin_CgProgramManager
+13:38:14: Installing plugin: Cg Program Manager
+13:38:14: Plugin successfully installed
+13:38:14: Loading library .\Plugin_PCZSceneManager.dll
+13:38:14: Installing plugin: Portal Connected Zone Scene Manager
+13:38:14: PCZone Factory Type 'ZoneType_Default' registered
+13:38:14: Plugin successfully installed
+13:38:14: Loading library .\Plugin_OctreeZone.dll
+13:38:14: Installing plugin: Octree Zone Factory
+13:38:14: Plugin successfully installed
+13:38:14: Loading library .\Plugin_OctreeSceneManager
+13:38:14: Installing plugin: Octree & Terrain Scene Manager
+13:38:14: Plugin successfully installed
+13:38:14: *-*-* OGRE Initialising
+13:38:14: *-*-* Version 1.6.2 (Shoggoth)
+13:38:14: Creating resource group Bootstrap
+13:38:14: Added resource location '../../media/packs/OgreCore.zip' of type 'Zip' to resource group 'Bootstrap'
+13:38:14: Added resource location '../../media' of type 'FileSystem' to resource group 'General'
+13:38:14: Added resource location '../../media/fonts' of type 'FileSystem' to resource group 'General'
+13:38:14: Added resource location '../../media/materials/programs' of type 'FileSystem' to resource group 'General'
+13:38:14: Added resource location '../../media/materials/scripts' of type 'FileSystem' to resource group 'General'
+13:38:14: Added resource location '../../media/materials/textures' of type 'FileSystem' to resource group 'General'
+13:38:14: Added resource location '../../media/models' of type 'FileSystem' to resource group 'General'
+13:38:14: Added resource location '../../media/overlays' of type 'FileSystem' to resource group 'General'
+13:38:14: Added resource location '../../media/particle' of type 'FileSystem' to resource group 'General'
+13:38:14: Added resource location '../../media/gui' of type 'FileSystem' to resource group 'General'
+13:38:14: Added resource location '../../media/DeferredShadingMedia' of type 'FileSystem' to resource group 'General'
+13:38:14: Added resource location '../../media/PCZAppMedia' of type 'FileSystem' to resource group 'General'
+13:38:14: OGRE EXCEPTION(7:InternalErrorException): ../../media/packs/cubemap.zip - error whilst opening archive: Unable to read zip file. in ZipArchive::checkZzipError at ..\src\OgreZip.cpp (line 259)
+13:38:14: *-*-* OGRE Shutdown
+13:38:14: Unregistering ResourceManager for type Compositor
+13:38:14: Unregistering ResourceManager for type Font
+13:38:14: Unregistering ResourceManager for type Skeleton
+13:38:14: Unregistering ResourceManager for type Mesh
+13:38:14: Unregistering ResourceManager for type HighLevelGpuProgram
+13:38:14: Uninstalling plugin: Octree & Terrain Scene Manager
+13:38:14: Plugin successfully uninstalled
+13:38:14: Unloading library .\Plugin_OctreeSceneManager
+13:38:14: Uninstalling plugin: Octree Zone Factory
+13:38:14: Plugin successfully uninstalled
+13:38:14: Unloading library .\Plugin_OctreeZone.dll
+13:38:14: Uninstalling plugin: Portal Connected Zone Scene Manager
+13:38:14: Plugin successfully uninstalled
+13:38:14: Unloading library .\Plugin_PCZSceneManager.dll
+13:38:14: Uninstalling plugin: Cg Program Manager
+13:38:14: Plugin successfully uninstalled
+13:38:14: Unloading library .\Plugin_CgProgramManager
+13:38:14: Uninstalling plugin: BSP Scene Manager
+13:38:14: Plugin successfully uninstalled
+13:38:14: Unloading library .\Plugin_BSPSceneManager
+13:38:14: Uninstalling plugin: ParticleFX
+13:38:14: Plugin successfully uninstalled
+13:38:14: Unloading library .\Plugin_ParticleFX
+13:38:14: Uninstalling plugin: GL RenderSystem
+13:38:14: *** Stopping Win32GL Subsystem ***
+13:38:14: Plugin successfully uninstalled
+13:38:14: Unloading library .\RenderSystem_GL
+13:38:14: Uninstalling plugin: D3D9 RenderSystem
+13:38:14: D3D9 : Shutting down cleanly.
+13:38:14: D3D9 : Direct3D9 Rendering Subsystem destroyed.
+13:38:14: Plugin successfully uninstalled
+13:38:14: Unloading library .\RenderSystem_Direct3D9
+13:38:14: Unregistering ResourceManager for type Material

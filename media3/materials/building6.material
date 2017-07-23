@@ -1,0 +1,476 @@
+
+material Jetstream/b6_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_1.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_2.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_3.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_4.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_5
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_5.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_6
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_6.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_7
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_7.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_8
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_8.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_9
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_9.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_10
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_10.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_11
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_11.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_12
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_12.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_13
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_13.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_14
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_14.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_15
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_15.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_16
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_16.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_17
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_17.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_18
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_18.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_19
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_19.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_20
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_20.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_21
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_21.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_22
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_22.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_23
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_23.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_24
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_24.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_25
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_25.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_26
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_26.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_27
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_27.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/b6_28
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture b6_28.dds
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,253 @@
+
+material NUM8
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.27 0.27 0.27 40 0
+
+			texture_unit
+			{
+				texture NUM7.tif
+			}
+		}
+
+	}
+
+}
+
+
+
+material CHASSIS
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.658824 0.658824 0.658824 1
+			specular 0.411765 0.411765 0.411765 10 0
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture OLDMETAL.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material TRACKS
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.729412 0.729412 0.729412 1
+			specular 0.236471 0.236471 0.236471 1 0
+
+			texture_unit
+			{
+				texture OLDMETA1.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material UNCLES
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.498039 0.498039 0.498039 1
+			specular 0.378431 0.378431 0.378431 10 0
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture OLDMETAL.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material MESHES
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0117647 0 0 1
+			diffuse 0.0117647 0 0 1
+			specular 0.784314 0.784314 0.784314 20 0
+			cull_hardware none
+			cull_software none
+			polygon_mode wireframe
+		}
+
+	}
+
+}
+
+
+
+material WHELLS
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.729412 0.729412 0.729412 1
+			specular 0.236471 0.236471 0.236471 5 0
+
+			texture_unit
+			{
+				texture OLDMETA1.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.431373 0.278431 0.0980392 1
+			specular 1 1 1 60 0
+		}
+
+	}
+
+}
+
+
+
+material NUM9
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.27 0.27 0.27 40 0
+
+			texture_unit
+			{
+				texture NUM09.tif
+			}
+		}
+
+	}
+
+}
+
+
+
+material GLASSRED
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0.145098 0.145098 1
+			specular 0.980392 0.839216 0.827451 20 0
+		}
+
+	}
+
+}
+
+
+
+material GLASSGRE
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.0509804 0.196078 0.00392157 1
+			specular 1 1 1 20 0
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material NUM10
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.27 0.27 0.27 40 0
+
+			texture_unit
+			{
+				texture NUM10.tif
+			}
+		}
+
+	}
+
+}
+
+
+
+material NUM6
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.27 0.27 0.27 40 0
+
+			texture_unit
+			{
+				texture NUM6.tif
+			}
+		}
+
+	}
+
+}
+
+

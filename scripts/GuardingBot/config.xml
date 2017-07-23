@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<npc system="lua">
+<system name="lua">
+<aura r="0" g="255" b="0" />
+</system>
+</npc>

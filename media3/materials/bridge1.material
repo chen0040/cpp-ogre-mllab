@@ -1,0 +1,34 @@
+
+material Jetstream/bridge1_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture pole2.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/bridge1_2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture bar_pipe.dds
+			}
+		}
+
+	}
+
+}

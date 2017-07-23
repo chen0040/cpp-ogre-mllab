@@ -1,0 +1,40 @@
+
+material Jetstream/tree5_1
+{
+	technique
+	{
+		pass
+		{
+			emissive 1 0.3 1 1
+			
+			texture_unit
+			{
+				texture_alias 0
+				texture t_skin12.dds
+			}
+		}
+
+	}
+
+}
+
+material Jetstream/tree5_2
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend		
+			emissive 0.2 1 0.5 1	
+			
+	
+			texture_unit
+			{
+				texture_alias 0
+				texture chunk_24.dds
+			}
+		}
+
+	}
+
+}

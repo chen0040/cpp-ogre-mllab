@@ -1,0 +1,15 @@
+material Jetstream/mine_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Barrel.dds
+			}
+		}
+
+	}
+
+}

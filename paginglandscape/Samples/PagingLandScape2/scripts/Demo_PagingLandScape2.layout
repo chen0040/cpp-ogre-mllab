@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_layout_file>
+<CodeBlocks_layout_file>
+	<File name="..\include\PagingLandScape.h" open="0" top="0">
+		<Cursor position="1434" topLine="32"/>
+	</File>
+	<File name="..\src\PagingLandScape.cpp" open="0" top="0">
+		<Cursor position="2103" topLine="47"/>
+	</File>
+	<Expand folder="/Sources/src"/>
+	<Expand folder="/Sources"/>
+	<Expand folder="/Headers/include"/>
+	<Expand folder="/Headers"/>
+</CodeBlocks_layout_file>

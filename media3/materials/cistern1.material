@@ -1,0 +1,18 @@
+
+material Jetstream/cistern1_1
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture_alias 0
+				texture bar_pipe.dds
+			}
+		}
+
+	}
+
+}

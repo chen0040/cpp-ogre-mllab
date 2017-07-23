@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<resources>
+<!--Note: any game should not have the name that appear in the "group" attribute here-->
+<resource url="../media2/TerrainBrush" loc_type="FileSystem" group="TET" />
+<resource url="../media2/Caelum" loc_type="FileSystem" group="General" />
+<resource url="../media2/Hydrax" loc_type="FileSystem" group="Hydrax" />
+<resource url="../media2/grass" loc_type="FileSystem" group="General" />
+<resource url="../media2/trees" loc_type="FileSystem" group="General" />
+<resource url="../media2/trees2" loc_type="FileSystem" group="General" />
+<resource url="../media2/gui" loc_type="FileSystem" group="General" />
+<resource url="../media2/images" loc_type="FileSystem" group="XSIMG" />
+<resource url="../media2/models" loc_type="FileSystem" group="General" />
+<resource url="../media3/models" loc_type="FileSystem" group="General" />
+<resource url="../media3/textures" loc_type="FileSystem" group="General" />
+<resource url="../media3/materials" loc_type="FileSystem" group="General" />
+
+<!--
+<resource url="../media4/" loc_type="FileSystem" group="PLSM2" />
+<resource url="../media4/terrains" loc_type="FileSystem" group="PLSM2" />
+<resource url="../media4/materials\textures" loc_type="FileSystem" group="PLSM2" />
+<resource url="../media4/models" loc_type="FileSystem" group="PLSM2" />
+<resource url="../media4/overlays" loc_type="FileSystem" group="PLSM2" />
+<resource url="../media4/materials" loc_type="FileSystem" group="PLSM2" />
+<resource url="../media4/materials/scripts" loc_type="FileSystem" group="PLSM2" />
+<resource url="../media4/materials/programs" loc_type="FileSystem" group="PLSM2" />
+<resource url="../media4/datasrcs" loc_type="FileSystem" group="PLSM2" />
+-->
+
+</resources>

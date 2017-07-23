@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="4" />
+	<Project>
+		<Option title="Tool_MapSplitter" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output=".\..\bin\Release\MapSplitter.exe" />
+				<Option object_output="..\obj\Release" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option includeInTargetAll="1" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-D_MAPSPLITTER" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="OgreMain" />
+					<Add library="stlport.5.0" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="copy ..\bin\Release\MapSplitter.exe ..\..\Common\bin\Release" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-W" />
+			<Add option="-mthreads" />
+			<Add option="-fmessage-length=0" />
+			<Add option="-fexceptions" />
+			<Add option="-fident" />
+			<Add option="-D_STLP_NO_CUSTOM_IO" />
+			<Add option="-D_STLP_USE_DYNAMIC_LIB" />
+			<Add directory="..\include" />
+			<Add directory="$(OGRE_HOME)\stlport\stlport" />
+			<Add directory="$(OGRE_HOME)\include" />
+			<Add directory="..\..\..\plugins\paginglandscape2\include" />
+		</Compiler>
+		<Linker>
+			<Add option="-Wl -enable-runtime-pseudo-reloc" />
+			<Add option="-Wl,--enable-auto-image-base" />
+			<Add option="-Wl,--add-stdcall-alias" />
+			<Add directory="$(OGRE_HOME)\bin\release" />
+		</Linker>
+		<Unit filename="..\..\..\PlugIns\PagingLandScape2\include\DRGNURBSSurface.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\..\..\PlugIns\PagingLandScape2\include\OgrePagingLandScapeData2D.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\..\..\PlugIns\PagingLandScape2\include\OgrePagingLandScapeData2D_HeightField.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\..\..\PlugIns\PagingLandScape2\include\OgrePagingLandScapeData2D_HeightFieldRaw.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\..\..\PlugIns\PagingLandScape2\include\OgrePagingLandScapeData2D_HeightFieldRawTC.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\..\..\PlugIns\PagingLandScape2\include\OgrePagingLandScapeData2D_HeightFieldTC.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\..\..\PlugIns\PagingLandScape2\include\OgrePagingLandScapeData2D_Spline.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\..\..\PlugIns\PagingLandScape2\include\OgrePagingLandScapeOptions.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\..\..\PlugIns\PagingLandScape2\src\DRGNURBSSurface.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\..\..\PlugIns\PagingLandScape2\src\OgrePagingLandScapeData2D.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\..\..\PlugIns\PagingLandScape2\src\OgrePagingLandScapeData2DManager.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\..\..\PlugIns\PagingLandScape2\src\OgrePagingLandScapeData2D_HeightField.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\..\..\PlugIns\PagingLandScape2\src\OgrePagingLandScapeData2D_HeightFieldRaw.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\..\..\PlugIns\PagingLandScape2\src\OgrePagingLandScapeData2D_HeightFieldRawTC.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\..\..\PlugIns\PagingLandScape2\src\OgrePagingLandScapeData2D_HeightFieldTC.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\..\..\PlugIns\PagingLandScape2\src\OgrePagingLandScapeData2D_Spline.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\..\..\PlugIns\PagingLandScape2\src\OgrePagingLandScapeOptions.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\MapBlender.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\MapBlurrer.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\MapEqualizer.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\MapHorizon.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\MapHorizon2.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\MapHorizon3.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\MapInfinitizer.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\MapLighter.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\MapMergeModulater.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\MapNormaler.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\MapSplatter.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\MapSplatter2.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\MapSplatter3.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\MapSplitter.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\MapUtil.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\MapVis.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\include\fileutils.h">
+			<Option compilerVar="" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\MapBlender.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\MapBlurrer.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\MapEqualizer.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\MapHorizon.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\MapHorizon2.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\MapHorizon3.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\MapInfinitizer.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\MapLighter.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\MapMergeModulater.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\MapNormaler.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\MapSplatter.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\MapSplitter.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\MapTool.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\MapUtil.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\MapVis.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="..\src\filetutils.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

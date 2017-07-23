@@ -1,0 +1,17 @@
+
+material hydrant_001_tex
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture_alias 0
+				texture hydrant_001_tex.dds
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<method name="ExpertSystem">
+	<configuration>		
+		<section name="Rules">
+			<list_template name="Expert Rules" prefix="Rule" width="0.9" height="0.9" vgap="0.01" label="Expert Rules" label_height="0.1" button_width="0.25" button_height="0.1" detail_height="0.2" >
+				<param name="ConsequentSubject" label="Consequent Subject:" value="Actor" type="tet" lower_bound="1" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.52" />
+				<param name="ConsequentObject" label="Consequent Object:" value="Action" type="text" lower_bound="1" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.52" />
+				<list_template name="Antecedent Clause" prefix="Antecedent" width="0.9" height="0.9" vgap="0.01" label="Antecedent Clauses" label_height="0.1" button_width="0.25" button_height="0.1" detail_height="0.2" >
+					<param name="AntecedentSubject" label="Antecedent Subject:" value="Actor" type="text" lower_bound="1" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.52" />
+					<param name="AntecedentAction" label="Antecedent Operator:" value="is" type="text" lower_bound="1" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.52">
+					</param>
+					<param name="AntecedentObject" label="Antecedent Object:" value="Condition" type="text" lower_bound="1" upper_bound="INFINITE" width="0.7" height="0.1" vgap="0.01" label_width="0.52" />
+				</list_template>
+			
+			</list_template>
+		</section>
+	</configuration>
+	
+	<packages>
+		<package name="ml" />
+		<package name="imagex" />
+	</packages>
+	
+</method>
